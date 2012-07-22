@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 21 Jul 2012 10:58:51 PM EDT
+
+BeginCmp
+TimeStamp = /500B69F1/500B6AD0;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6ACF;
+Reference = C2;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6AD4;
+Reference = C3;
+ValeurCmp = 22n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6AD5;
+Reference = C4;
+ValeurCmp = 22u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6AD7;
+Reference = C5;
+ValeurCmp = 22u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6AD8;
+Reference = C6;
+ValeurCmp = 1u;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6ACE;
+Reference = D1;
+ValeurCmp = PMEG4030;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6ACD;
+Reference = J1;
+ValeurCmp = PJ-045;
+IdModule  = PJ-045;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6AD3;
+Reference = L1;
+ValeurCmp = NR6028T4R7M;
+IdModule  = EIA_6028;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B6AFA/500B6B19;
+Reference = U1;
+ValeurCmp = STM32F4-DISCOVERY;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/500B6AD1;
+Reference = U2;
+ValeurCmp = MCP16322;
+IdModule  = MCP_QFN16_3X3;
+EndCmp
+
+EndListe

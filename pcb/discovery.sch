@@ -35,7 +35,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 1 3
+Sheet 2 3
 Title ""
 Date "22 jul 2012"
 Rev ""
@@ -45,16 +45,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4050 1450 1700 1800
-U 500B6AFA
-F0 "discovery" 60
-F1 "discovery.sch" 60
-$EndSheet
-$Sheet
-S 6450 1450 1650 1800
-U 500B69F1
-F0 "power" 60
-F1 "power.sch" 60
-$EndSheet
+$Comp
+L STM32F4-DISCOVERY U1
+U 1 1 500B6B19
+P 3950 3850
+F 0 "U1" H 3950 3750 50  0000 C CNN
+F 1 "STM32F4-DISCOVERY" H 3950 3950 50  0000 C CNN
+	1    3950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F4-DISCOVERY U1
+U 2 1 500B6B18
+P 8600 3850
+F 0 "U1" H 8600 3750 50  0000 C CNN
+F 1 "STM32F4-DISCOVERY" H 8600 3950 50  0000 C CNN
+	2    8600 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
