@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 21 Jul 2012 11:00:35 PM EDT
+EESchema Schematic File Version 2  date Mon 23 Jul 2012 06:21:54 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
-Date "22 jul 2012"
+Date "23 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 6500 3650 1950 2150
+U 500DC44C
+F0 "rf" 60
+F1 "rf.sch" 60
+$EndSheet
 $Sheet
 S 4050 1450 1700 1800
 U 500B6AFA

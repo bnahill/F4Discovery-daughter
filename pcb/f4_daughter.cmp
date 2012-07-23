@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 21 Jul 2012 10:58:51 PM EDT
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Mon 23 Jul 2012 01:04:38 PM EDT
 
 BeginCmp
 TimeStamp = /500B69F1/500B6AD0;
@@ -43,6 +43,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /500B69F1/500D7475;
+Reference = C7;
+ValeurCmp = 100u;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /500B69F1/500B6ACE;
 Reference = D1;
 ValeurCmp = PMEG4030;
@@ -67,7 +74,7 @@ BeginCmp
 TimeStamp = /500B6AFA/500B6B19;
 Reference = U1;
 ValeurCmp = STM32F4-DISCOVERY;
-IdModule  = ;
+IdModule  = F4_DISCOVERY;
 EndCmp
 
 BeginCmp

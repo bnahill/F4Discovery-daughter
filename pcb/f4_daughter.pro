@@ -1,16 +1,6 @@
-update=Sat 21 Jul 2012 10:35:05 PM EDT
+update=Mon 23 Jul 2012 12:45:40 PM EDT
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetITyp=0
-NetIExt=.net
-PkgIExt=.pkg
-NetDir=
-LibDir=
-NetType=0
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -31,7 +21,6 @@ EdgeLar=150
 TxtLar=120
 MSegLar=79
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,6 +32,7 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=f4_daughter
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -106,3 +96,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=f4_daughter
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
