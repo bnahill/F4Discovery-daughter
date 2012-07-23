@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Jul 2012 06:21:54 PM EDT
+EESchema Schematic File Version 2  date Mon 23 Jul 2012 07:13:55 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
-LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -90,19 +89,19 @@ Wire Wire Line
 	8050 5650 8050 5600
 Connection ~ 8050 5600
 $Comp
-L GND #PWR7
+L GND #PWR9
 U 1 1 500D75A4
 P 3950 5550
-F 0 "#PWR7" H 3950 5550 30  0001 C CNN
+F 0 "#PWR9" H 3950 5550 30  0001 C CNN
 F 1 "GND" H 3950 5480 30  0001 C CNN
 	1    3950 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR10
 U 1 1 500D7599
 P 8050 5650
-F 0 "#PWR8" H 8050 5650 30  0001 C CNN
+F 0 "#PWR10" H 8050 5650 30  0001 C CNN
 F 1 "GND" H 8050 5580 30  0001 C CNN
 	1    8050 5650
 	1    0    0    -1  
