@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jul 2012 11:45:34 AM EDT
+EESchema Schematic File Version 2  date Wed 25 Jul 2012 06:59:20 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:f4_daughter
 LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "24 jul 2012"
+Date "25 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -180,10 +180,10 @@ F 1 "100u" H 3400 3000 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR18
+L GND #PWR017
 U 1 1 500B6AD9
 P 5200 3250
-F 0 "#PWR18" H 5200 3250 30  0001 C CNN
+F 0 "#PWR017" H 5200 3250 30  0001 C CNN
 F 1 "GND" H 5200 3180 30  0001 C CNN
 	1    5200 3250
 	1    0    0    -1  
@@ -215,10 +215,10 @@ Vplug
 Text GLabel 5250 3000 2    60   Input ~ 0
 Vplug
 $Comp
-L GND #PWR19
+L GND #PWR018
 U 1 1 500B6AD6
 P 6850 3000
-F 0 "#PWR19" H 6850 3000 30  0001 C CNN
+F 0 "#PWR018" H 6850 3000 30  0001 C CNN
 F 1 "GND" H 6850 2930 30  0001 C CNN
 	1    6850 3000
 	1    0    0    -1  
@@ -253,10 +253,10 @@ F 1 "NR6028T4R7M" V 5800 2100 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR17
+L GND #PWR019
 U 1 1 500B6AD2
 P 4750 2250
-F 0 "#PWR17" H 4750 2250 30  0001 C CNN
+F 0 "#PWR019" H 4750 2250 30  0001 C CNN
 F 1 "GND" H 4750 2180 30  0001 C CNN
 	1    4750 2250
 	1    0    0    -1  
@@ -311,10 +311,10 @@ F 1 "PJ-045" H 2820 2730 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR16
+L GND #PWR020
 U 1 1 500B6ACC
 P 2800 3500
-F 0 "#PWR16" H 2800 3500 30  0001 C CNN
+F 0 "#PWR020" H 2800 3500 30  0001 C CNN
 F 1 "GND" H 2800 3430 30  0001 C CNN
 	1    2800 3500
 	1    0    0    -1  

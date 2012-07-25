@@ -1,371 +1,365 @@
-# EESchema Netlist Version 1.1 created  Tue 24 Jul 2012 11:38:12 AM EDT
+# EESchema Netlist Version 1.1 created  Wed 25 Jul 2012 05:33:16 PM EDT
 (
- ( /500DC44C/500DD930 $noname  C25 100n {Lib=CAP}
-  (    1 Vreg )
-  (    2 GND )
+ ( /500B69F1/500B6AD0 SM0805 C1 10u
+  ( 1 Vplug )
+  ( 2 GND )
  )
- ( /500DC44C/500DD912 $noname  R5 10R {Lib=RES}
-  (    1 /rf/1V8 )
-  (    2 N-000124 )
+ ( /500B69F1/500B6ACF SM0805 C2 10u
+  ( 1 Vplug )
+  ( 2 GND )
  )
- ( /500DC44C/500DD879 $noname  C24 100n {Lib=CAP}
-  (    1 GND )
-  (    2 Vreg )
+ ( /500B69F1/500B6AD4 SM0603 C3 22n
+  ( 1 /power/SW )
+  ( 2 N-000001 )
  )
- ( /500DC44C/500DD7BD $noname  C19 10n {Lib=CAP}
-  (    1 GND )
-  (    2 /rf/1V8 )
+ ( /500B69F1/500B6AD5 SM1206 C4 22u
+  ( 1 Vreg )
+  ( 2 GND )
  )
- ( /500DC44C/500DD7BB $noname  C18 1n {Lib=CAP}
-  (    1 GND )
-  (    2 /rf/1V8 )
+ ( /500B69F1/500B6AD7 SM1206 C5 22u
+  ( 1 Vreg )
+  ( 2 GND )
  )
- ( /500DC44C/500DD74C $noname  C20 100n {Lib=CAP}
-  (    1 N-000125 )
-  (    2 N-000098 )
+ ( /500B69F1/500B6AD8 SM0603 C6 1u
+  ( 1 Vreg )
+  ( 2 GND )
  )
- ( /500DC44C/500DD703 $noname  C22 10n {Lib=CAP}
-  (    1 N-000125 )
-  (    2 /rf/1V2 )
+ ( /500B69F1/500D7475 $noname$ C7 100u
+  ( 1 Vplug )
+  ( 2 GND )
  )
- ( /500DC44C/500DD700 $noname  C21 100n {Lib=CAP}
-  (    1 N-000125 )
-  (    2 /rf/1V2 )
+ ( /500DC44C/500DD573 $noname$ C8 CAP
+  ( 1 GND )
+  ( 2 N-000117 )
  )
- ( /500DC44C/500DD6E3 $noname  C23 100n {Lib=CAP}
-  (    1 GND )
-  (    2 Vreg )
+ ( /500DC44C/500DD572 $noname$ C9 CAP
+  ( 1 GND )
+  ( 2 N-000119 )
  )
- ( /500DC44C/500DD58B $noname  C17 2.2u {Lib=CAP}
-  (    1 GND )
-  (    2 N-000122 )
+ ( /500DC44C/500DD56A $noname$ C10 CAP
+  ( 1 N-000119 )
+  ( 2 N-000120 )
  )
- ( /500DC44C/500DD585 $noname  C16 10n {Lib=CAP}
-  (    1 GND )
-  (    2 /rf/1V8 )
+ ( /500DC44C/500DD54D $noname$ C11 100n
+  ( 1 N-000132 )
+  ( 2 Vreg )
  )
- ( /500DC44C/500DD57A $noname  C15 10p {Lib=CAP}
-  (    1 GND )
-  (    2 /rf/1V8 )
+ ( /500DC44C/500DD54F $noname$ C12 2.2u
+  ( 1 N-000132 )
+  ( 2 Vreg )
  )
- ( /500DC44C/500DD573 $noname  C8 CAP {Lib=CAP}
-  (    1 GND )
-  (    2 N-000119 )
+ ( /500DC44C/500DD551 $noname$ C13 100n
+  ( 1 N-000132 )
+  ( 2 Vreg )
  )
- ( /500DC44C/500DD572 $noname  C9 CAP {Lib=CAP}
-  (    1 GND )
-  (    2 N-000120 )
+ ( /500DC44C/500DD552 $noname$ C14 10p
+  ( 1 N-000132 )
+  ( 2 Vreg )
  )
- ( /500DC44C/500DD56A $noname  C10 CAP {Lib=CAP}
-  (    1 N-000120 )
-  (    2 N-000121 )
+ ( /500DC44C/500DD57A $noname$ C15 10p
+  ( 1 GND )
+  ( 2 /rf/1V8 )
  )
- ( /500DC44C/500DD552 $noname  C14 10p {Lib=CAP}
-  (    1 N-000128 )
-  (    2 Vreg )
+ ( /500DC44C/500DD585 $noname$ C16 10n
+  ( 1 GND )
+  ( 2 /rf/1V8 )
  )
- ( /500DC44C/500DD551 $noname  C13 100n {Lib=CAP}
-  (    1 N-000128 )
-  (    2 Vreg )
+ ( /500DC44C/500DD58B $noname$ C17 2.2u
+  ( 1 GND )
+  ( 2 N-000118 )
  )
- ( /500DC44C/500DD54F $noname  C12 2.2u {Lib=CAP}
-  (    1 N-000128 )
-  (    2 Vreg )
+ ( /500DC44C/500DD7BB $noname$ C18 1n
+  ( 1 GND )
+  ( 2 /rf/1V8 )
  )
- ( /500DC44C/500DD54D $noname  C11 100n {Lib=CAP}
-  (    1 N-000128 )
-  (    2 Vreg )
+ ( /500DC44C/500DD7BD $noname$ C19 10n
+  ( 1 GND )
+  ( 2 /rf/1V8 )
  )
- ( /500DC44C/500DD1E1 $noname  R4 1R {Lib=RES}
-  (    1 N-000122 )
-  (    2 /rf/1V8 )
+ ( /500DC44C/500DD74C $noname$ C20 100n
+  ( 1 N-000127 )
+  ( 2 N-000128 )
  )
- ( /500DC44C/500DD199 $noname  R3 180k {Lib=RES}
-  (    1 GND )
-  (    2 N-000117 )
+ ( /500DC44C/500DD700 $noname$ C21 100n
+  ( 1 N-000127 )
+  ( 2 /rf/1V2 )
  )
- ( /500DC44C/500DD186 $noname  R2 1k2(1%) {Lib=RES}
-  (    1 N-000128 )
-  (    2 N-000118 )
+ ( /500DC44C/500DD703 $noname$ C22 10n
+  ( 1 N-000127 )
+  ( 2 /rf/1V2 )
  )
- ( /500DC44C/500DD174 $noname  R1 1k8(1%) {Lib=RES}
-  (    1 N-000128 )
-  (    2 N-000116 )
+ ( /500DC44C/500DD6E3 $noname$ C23 100n
+  ( 1 GND )
+  ( 2 Vreg )
  )
- ( /500DC44C/500DCA52 $noname  L2 7n5 {Lib=INDUCTOR}
-  (    1 N-000119 )
-  (    2 N-000120 )
+ ( /500DC44C/500DD879 $noname$ C24 100n
+  ( 1 GND )
+  ( 2 Vreg )
  )
- ( /500DC44C/500DCA1A $noname  E1 AH104F {Lib=AH104F}
-  (    1 N-000119 )
-  (    2 GND )
+ ( /500DC44C/500DD930 $noname$ C25 100n
+  ( 1 Vreg )
+  ( 2 GND )
  )
- ( /500DC44C/500DCA0F $noname  U4 SE2432L {Lib=SE2432L}
-  (    1 N-000116 )
-  (    2 N-000118 )
-  (    3 N-000114 )
-  (    4 N-000129 )
-  (    5 ? )
-  (    6 N-000123 )
-  (    7 N-000130 )
-  (    8 /rf/1V8 )
-  (    9 GND )
-  (   10 GND )
-  (   11 GND )
-  (   12 GND )
-  (   13 ? )
-  (   14 GND )
-  (   15 N-000121 )
-  (   16 GND )
-  (   17 ? )
-  (   18 ? )
-  (   19 Vreg )
-  (   20 /rf/PB6 )
-  (   21 /rf/PB7 )
-  (   22 Vreg )
-  (   23 N-000128 )
-  (   24 /rf/PC5 )
-  (   25 GND )
+ ( /500B69F1/500B6ACE $noname$ D1 PMEG4030
+  ( 1 GND )
+  ( 2 Vplug )
  )
- ( /500DC44C/500DC479 $noname  U3 STM32W108C8 {Lib=STM32W108C8}
-  (    1 /rf/1V8 )
-  (    2 /rf/1V8 )
-  (    3 N-000130 )
-  (    4 N-000123 )
-  (    5 /rf/1V8 )
-  (    6 N-000129 )
-  (    7 N-000114 )
-  (    8 /rf/1V8 )
-  (    9 N-000117 )
-  (   10 ? )
-  (   11 /rf/PC5 )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
-  (   15 /rf/1V8 )
-  (   16 N-000098 )
-  (   17 /rf/1V2 )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 ? )
-  (   23 Vreg )
-  (   24 ? )
-  (   25 ? )
-  (   26 ? )
-  (   27 ? )
-  (   28 Vreg )
-  (   29 ? )
-  (   30 ? )
-  (   31 ? )
-  (   32 ? )
-  (   33 ? )
-  (   34 ? )
-  (   35 ? )
-  (   36 ? )
-  (   37 Vreg )
-  (   38 ? )
-  (   39 N-000124 )
-  (   40 ? )
-  (   41 /rf/PB7 )
-  (   42 /rf/PB6 )
-  (   43 ? )
-  (   44 /rf/1V2 )
-  (   45 /rf/1V8 )
-  (   46 /rf/1V8 )
-  (   47 ? )
-  (   48 ? )
-  (   49 GND )
+ ( /500DC44C/500DCA1A $noname$ E1 AH104F
+  ( 1 N-000117 )
+  ( 2 GND )
  )
- ( /500B6AFA/500B6B19 $noname  U1 STM32F4-DISCOVERY {Lib=STM32F4-DISCOVERY}
-  (    1 GND )
-  (    2 GND )
-  (    3 Vreg )
-  (    4 Vreg )
-  (    5 GND )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (   10 ? )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
-  (   18 ? )
-  (   19 ? )
-  (   20 ? )
-  (   21 ? )
-  (   22 ? )
-  (   23 GND )
-  (   24 ? )
-  (   25 ? )
-  (   26 ? )
-  (   27 ? )
-  (   28 ? )
-  (   29 ? )
-  (   30 ? )
-  (   31 ? )
-  (   32 ? )
-  (   33 ? )
-  (   34 ? )
-  (   35 ? )
-  (   36 ? )
-  (   37 ? )
-  (   38 ? )
-  (   39 ? )
-  (   40 ? )
-  (   41 ? )
-  (   42 ? )
-  (   43 ? )
-  (   44 ? )
-  (   45 ? )
-  (   46 ? )
-  (   47 ? )
-  (   48 ? )
-  (   49 GND )
-  (   50 GND )
-  (   51 GND )
-  (   52 GND )
-  (   53 ? )
-  (   54 ? )
-  (   55 ? )
-  (   56 ? )
-  (   57 ? )
-  (   58 ? )
-  (   59 ? )
-  (   60 ? )
-  (   61 ? )
-  (   62 ? )
-  (   63 ? )
-  (   64 ? )
-  (   65 ? )
-  (   66 ? )
-  (   67 ? )
-  (   68 ? )
-  (   69 ? )
-  (   70 ? )
-  (   71 ? )
-  (   72 Vreg )
-  (   73 ? )
-  (   74 ? )
-  (   75 ? )
-  (   76 ? )
-  (   77 ? )
-  (   78 ? )
-  (   79 ? )
-  (   80 ? )
-  (   81 ? )
-  (   82 ? )
-  (   83 ? )
-  (   84 ? )
-  (   85 ? )
-  (   86 ? )
-  (   87 ? )
-  (   88 ? )
-  (   89 ? )
-  (   90 ? )
-  (   91 ? )
-  (   92 ? )
-  (   93 ? )
-  (   94 ? )
-  (   95 ? )
-  (   96 ? )
-  (   97 ? )
-  (   98 ? )
-  (   99 GND )
-  (  100 GND )
+ ( /500B69F1/500B6ACD PJ-045 J1 PJ-045
+  ( 1 Vplug )
+  ( 2 GND )
+  ( 3 GND )
  )
- ( /500B69F1/500D7475 $noname  C7 100u {Lib=CP1}
-  (    1 Vplug )
-  (    2 GND )
+ ( /500B69F1/500B6AD3 EIA_6028 L1 NR6028T4R7M
+  ( 1 /power/SW )
+  ( 2 Vreg )
  )
- ( /500B69F1/500B6AD8 $noname  C6 1u {Lib=C}
-  (    1 Vreg )
-  (    2 GND )
+ ( /500DC44C/500DCA52 $noname$ L2 7n5
+  ( 1 N-000117 )
+  ( 2 N-000119 )
  )
- ( /500B69F1/500B6AD7 $noname  C5 22u {Lib=C}
-  (    1 Vreg )
-  (    2 GND )
+ ( /500DC44C/500DD174 $noname$ R1 1k8(1%)
+  ( 1 N-000132 )
+  ( 2 N-000123 )
  )
- ( /500B69F1/500B6AD5 $noname  C4 22u {Lib=C}
-  (    1 Vreg )
-  (    2 GND )
+ ( /500DC44C/500DD186 $noname$ R2 1k2(1%)
+  ( 1 N-000132 )
+  ( 2 N-000116 )
  )
- ( /500B69F1/500B6AD4 $noname  C3 22n {Lib=C}
-  (    1 /power/SW )
-  (    2 N-000001 )
+ ( /500DC44C/500DD199 $noname$ R3 180k
+  ( 1 GND )
+  ( 2 N-000115 )
  )
- ( /500B69F1/500B6AD3 $noname  L1 NR6028T4R7M {Lib=INDUCTOR}
-  (    1 /power/SW )
-  (    2 Vreg )
+ ( /500DC44C/500DD1E1 $noname$ R4 1R
+  ( 1 N-000118 )
+  ( 2 /rf/1V8 )
  )
- ( /500B69F1/500B6AD1 $noname  U2 MCP16322 {Lib=MCP16322}
-  (    1 /power/SW )
-  (    2 Vplug )
-  (    3 Vplug )
-  (    4 GND )
-  (    5 Vreg )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 Vplug )
-  (   10 N-000001 )
-  (   11 Vplug )
-  (   12 /power/SW )
-  (   13 /power/SW )
-  (   14 GND )
-  (   15 GND )
-  (   16 /power/SW )
-  (   17 GND )
+ ( /500DC44C/500DD912 $noname$ R5 10R
+  ( 1 /rf/1V8 )
+  ( 2 N-000124 )
  )
- ( /500B69F1/500B6AD0 $noname  C1 10u {Lib=C}
-  (    1 Vplug )
-  (    2 GND )
+ ( /500B6AFA/500B6B19 F4_DISCOVERY U1 STM32F4-DISCOVERY
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 Vreg )
+  ( 4 Vreg )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 GND )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 ? )
+  ( 40 ? )
+  ( 41 ? )
+  ( 42 ? )
+  ( 43 ? )
+  ( 44 ? )
+  ( 45 ? )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 GND )
+  ( 50 GND )
+  ( 51 GND )
+  ( 52 GND )
+  ( 53 ? )
+  ( 54 ? )
+  ( 55 ? )
+  ( 56 ? )
+  ( 57 ? )
+  ( 58 ? )
+  ( 59 ? )
+  ( 60 ? )
+  ( 61 ? )
+  ( 62 ? )
+  ( 63 ? )
+  ( 64 ? )
+  ( 65 ? )
+  ( 66 ? )
+  ( 67 ? )
+  ( 68 ? )
+  ( 69 ? )
+  ( 70 ? )
+  ( 71 ? )
+  ( 72 Vreg )
+  ( 73 ? )
+  ( 74 ? )
+  ( 75 ? )
+  ( 76 ? )
+  ( 77 ? )
+  ( 78 ? )
+  ( 79 ? )
+  ( 80 ? )
+  ( 81 ? )
+  ( 82 ? )
+  ( 83 ? )
+  ( 84 ? )
+  ( 85 ? )
+  ( 86 ? )
+  ( 87 ? )
+  ( 88 ? )
+  ( 89 ? )
+  ( 90 ? )
+  ( 91 ? )
+  ( 92 ? )
+  ( 93 ? )
+  ( 94 ? )
+  ( 95 ? )
+  ( 96 ? )
+  ( 97 ? )
+  ( 98 ? )
+  ( 99 GND )
+  ( 100 GND )
  )
- ( /500B69F1/500B6ACF $noname  C2 10u {Lib=C}
-  (    1 Vplug )
-  (    2 GND )
+ ( /500B69F1/500B6AD1 MCP_QFN16_3X3 U2 MCP16322
+  ( 1 /power/SW )
+  ( 2 Vplug )
+  ( 3 Vplug )
+  ( 4 GND )
+  ( 5 Vreg )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 Vplug )
+  ( 10 N-000001 )
+  ( 11 Vplug )
+  ( 12 /power/SW )
+  ( 13 /power/SW )
+  ( 14 GND )
+  ( 15 GND )
+  ( 16 /power/SW )
+  ( 17 GND )
  )
- ( /500B69F1/500B6ACE $noname  D1 PMEG4030 {Lib=DIODESCH}
-  (    1 GND )
-  (    2 Vplug )
+ ( /500DC44C/500DC479 $noname$ U3 STM32W108C8
+  ( 1 /rf/1V8 )
+  ( 2 /rf/1V8 )
+  ( 3 N-000131 )
+  ( 4 N-000121 )
+  ( 5 /rf/1V8 )
+  ( 6 N-000130 )
+  ( 7 N-000122 )
+  ( 8 /rf/1V8 )
+  ( 9 N-000115 )
+  ( 10 ? )
+  ( 11 /rf/PC5 )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /rf/1V8 )
+  ( 16 N-000128 )
+  ( 17 /rf/1V2 )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 Vreg )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 Vreg )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 Vreg )
+  ( 38 ? )
+  ( 39 N-000124 )
+  ( 40 ? )
+  ( 41 /rf/PB7 )
+  ( 42 /rf/PB6 )
+  ( 43 ? )
+  ( 44 /rf/1V2 )
+  ( 45 /rf/1V8 )
+  ( 46 /rf/1V8 )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 GND )
  )
- ( /500B69F1/500B6ACD $noname  J1 PJ-045 {Lib=PJ-045}
-  (    1 Vplug )
-  (    2 GND )
-  (    3 GND )
+ ( /500DC44C/500DCA0F $noname$ U4 SE2432L
+  ( 1 N-000123 )
+  ( 2 N-000116 )
+  ( 3 N-000122 )
+  ( 4 N-000130 )
+  ( 5 ? )
+  ( 6 N-000121 )
+  ( 7 N-000131 )
+  ( 8 /rf/1V8 )
+  ( 9 GND )
+  ( 10 GND )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 ? )
+  ( 14 GND )
+  ( 15 N-000120 )
+  ( 16 GND )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 Vreg )
+  ( 20 /rf/PB6 )
+  ( 21 /rf/PB7 )
+  ( 22 Vreg )
+  ( 23 N-000132 )
+  ( 24 /rf/PC5 )
+  ( 25 GND )
+ )
+ ( /500B6AFA/50105FDD FT230_16SSOP U5 FT230X
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 Vreg )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 Vreg )
+  ( 13 GND )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
  )
 )
 *
 { Allowed footprints by component:
-$component C7
- CP*
- SM*
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
 $component C1
  SM*
  C?
@@ -376,179 +370,33 @@ $component C2
  C?
  C1-1
 $endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
 $component D1
  D?
  S*
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "" ""
- C3 2
- U2 10
-Net 2 "GND" "GND"
- U1 51
- U3 49
- U1 52
- U1 49
- U1 100
- U1 99
- U1 50
- U1 2
- U1 5
- U1 23
- U1 1
- U4 25
- U4 12
- U4 14
- R3 1
- U4 16
- C24 1
- C19 1
- C18 1
- C25 2
- C23 1
- C17 1
- C16 1
- C15 1
- C8 1
- C9 1
- E1 2
- U4 9
- U4 10
- U4 11
- C5 2
- C6 2
- C7 2
- U2 15
- U2 4
- U2 14
- J1 3
- J1 2
- U2 17
- C1 2
- C2 2
- D1 1
- C4 2
-Net 3 "/power/SW" "SW"
- U2 16
- U2 13
- U2 12
- U2 1
- C3 1
- L1 1
-Net 7 "Vplug" "Vplug"
- U2 2
- C7 1
- D1 2
- C2 1
- U2 3
- C1 1
- U2 9
- U2 11
- J1 1
-Net 8 "Vreg" "Vreg"
- C6 1
- U2 5
- C5 1
- C14 2
- U4 22
- U1 3
- U4 19
- U1 4
- C24 2
- C25 1
- C13 2
- C12 2
- C11 2
- C23 2
- L1 2
- C4 1
- U3 28
- U3 23
- U1 72
- U3 37
-Net 98 "" ""
- C20 2
- U3 16
-Net 99 "/rf/1V2" "1V2"
- C22 2
- U3 44
- U3 17
- C21 2
-Net 114 "" ""
- U4 3
- U3 7
-Net 115 "/rf/1V8" "1V8"
- U3 1
- C16 2
- C15 2
- U3 2
- U4 8
- R4 2
- U3 5
- R5 1
- C19 2
- C18 2
- U3 8
- U3 46
- U3 45
- U3 15
-Net 116 "" ""
- R1 2
- U4 1
-Net 117 "" ""
- R3 2
- U3 9
-Net 118 "" ""
- R2 2
- U4 2
-Net 119 "" ""
- E1 1
- C8 2
- L2 1
-Net 120 "" ""
- C10 1
- C9 2
- L2 2
-Net 121 "" ""
- C10 2
- U4 15
-Net 122 "" ""
- R4 1
- C17 2
-Net 123 "" ""
- U3 4
- U4 6
-Net 124 "" ""
- R5 2
- U3 39
-Net 125 "" ""
- C21 1
- C22 1
- C20 1
-Net 127 "/rf/PC5" "PC5"
- U3 11
- U4 24
-Net 128 "" ""
- C11 1
- C14 1
- C13 1
- C12 1
- R1 1
- R2 1
- U4 23
-Net 129 "" ""
- U4 4
- U3 6
-Net 130 "" ""
- U3 3
- U4 7
-Net 140 "/rf/PB6" "PB6"
- U4 20
- U3 42
-Net 144 "/rf/PB7" "PB7"
- U4 21
- U3 41
-}
-#End

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jul 2012 11:45:34 AM EDT
+EESchema Schematic File Version 2  date Wed 25 Jul 2012 06:59:20 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:f4_daughter
 LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "24 jul 2012"
+Date "25 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	9950 2550 10050 2550
+Connection ~ 10000 1150
+Wire Wire Line
+	10000 1050 10000 1150
+Connection ~ 9950 2550
 Connection ~ 3950 5500
 Wire Wire Line
 	3950 5550 3950 5500
@@ -89,20 +95,50 @@ Wire Wire Line
 Wire Wire Line
 	8050 5650 8050 5600
 Connection ~ 8050 5600
+Wire Wire Line
+	10050 2550 10050 2450
+Wire Wire Line
+	10050 1250 10050 1150
+Wire Wire Line
+	10050 1150 9950 1150
+Wire Wire Line
+	9950 1150 9950 1250
+Wire Wire Line
+	9950 2650 9950 2450
 $Comp
-L GND #PWR14
+L GND #PWR014
+U 1 1 5010608D
+P 9950 2650
+F 0 "#PWR014" H 9950 2650 30  0001 C CNN
+F 1 "GND" H 9950 2580 30  0001 C CNN
+	1    9950 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 10000 1050 1    60   Input ~ 0
+Vreg
+$Comp
+L FT230X U5
+U 1 1 50105FDD
+P 10000 1850
+F 0 "U5" H 10200 1300 60  0000 C CNN
+F 1 "FT230X" H 10300 2400 60  0000 C CNN
+	1    10000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
 U 1 1 500D75A4
 P 3950 5550
-F 0 "#PWR14" H 3950 5550 30  0001 C CNN
+F 0 "#PWR015" H 3950 5550 30  0001 C CNN
 F 1 "GND" H 3950 5480 30  0001 C CNN
 	1    3950 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR15
+L GND #PWR016
 U 1 1 500D7599
 P 8050 5650
-F 0 "#PWR15" H 8050 5650 30  0001 C CNN
+F 0 "#PWR016" H 8050 5650 30  0001 C CNN
 F 1 "GND" H 8050 5580 30  0001 C CNN
 	1    8050 5650
 	1    0    0    -1  

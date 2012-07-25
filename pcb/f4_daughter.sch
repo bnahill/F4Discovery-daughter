@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Jul 2012 11:45:34 AM EDT
+EESchema Schematic File Version 2  date Wed 25 Jul 2012 06:59:20 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:f4_daughter
 LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "24 jul 2012"
+Date "25 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
