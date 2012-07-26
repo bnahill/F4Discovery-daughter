@@ -1,0 +1,366 @@
+EESchema Schematic File Version 2  date Thu 26 Jul 2012 01:52:34 AM EDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:f4_daughter
+LIBS:f4_daughter-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date "26 jul 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP6409 U7
+U 1 1 5010D8C5
+P 3650 2750
+F 0 "U7" H 3750 2450 60  0000 C CNN
+F 1 "MCP6409" H 3900 2900 60  0000 C CNN
+	1    3650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP6409 U7
+U 2 1 5010D8D4
+P 3650 4100
+F 0 "U7" H 3750 3800 60  0000 C CNN
+F 1 "MCP6409" H 3900 4250 60  0000 C CNN
+	2    3650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP6409 U7
+U 3 1 5010D8E3
+P 3700 5200
+F 0 "U7" H 3800 4900 60  0000 C CNN
+F 1 "MCP6409" H 3950 5350 60  0000 C CNN
+	3    3700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP6409 U7
+U 5 1 5010D8F2
+P 3700 6000
+F 0 "U7" H 3800 5700 60  0000 C CNN
+F 1 "MCP6409" H 3950 6150 60  0000 C CNN
+	5    3700 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 5700 0    60   Input ~ 0
+Vreg
+Wire Wire Line
+	3650 5700 3700 5700
+Wire Wire Line
+	3700 5700 3700 5800
+$Comp
+L GND #PWR25
+U 1 1 5010D90D
+P 3700 6500
+F 0 "#PWR25" H 3700 6500 30  0001 C CNN
+F 1 "GND" H 3700 6430 30  0001 C CNN
+	1    3700 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6500 3700 6350
+$Comp
+L RES R10
+U 1 1 5010D91F
+P 2350 2650
+F 0 "R10" H 2420 2615 50  0000 L TNN
+F 1 "10k" H 2350 2705 30  0000 C BNN
+	1    2350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R12
+U 1 1 5010D92C
+P 2750 2650
+F 0 "R12" H 2820 2615 50  0000 L TNN
+F 1 "10k" H 2750 2705 30  0000 C BNN
+	1    2750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R6
+U 1 1 5010D932
+P 2050 2400
+F 0 "R6" H 2120 2365 50  0000 L TNN
+F 1 "100k(1%)" H 2050 2455 30  0000 C BNN
+	1    2050 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES R7
+U 1 1 5010D938
+P 2050 2900
+F 0 "R7" H 2120 2865 50  0000 L TNN
+F 1 "100k(1%)" H 2050 2955 30  0000 C BNN
+	1    2050 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAP C26
+U 1 1 5010D940
+P 3100 2900
+F 0 "C26" H 3120 2870 50  0000 L TNN
+F 1 "1n" H 3125 2920 30  0000 L BNN
+	1    3100 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAP C28
+U 1 1 5010D94D
+P 3250 2350
+F 0 "C28" H 3270 2320 50  0000 L TNN
+F 1 "1n" H 3275 2370 30  0000 L BNN
+	1    3250 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 2550 2050 2750
+Wire Wire Line
+	1800 2650 2200 2650
+Connection ~ 2050 2650
+Text GLabel 2050 2200 1    60   Input ~ 0
+Vreg
+Wire Wire Line
+	2050 2200 2050 2250
+Wire Wire Line
+	2550 2650 2550 2350
+Wire Wire Line
+	2550 2350 3150 2350
+Wire Wire Line
+	3350 2350 4150 2350
+Wire Wire Line
+	4150 2350 4150 3100
+Wire Wire Line
+	3950 2750 4350 2750
+Wire Wire Line
+	2900 2650 3450 2650
+Wire Wire Line
+	3100 2650 3100 2800
+Connection ~ 3100 2650
+Wire Wire Line
+	2500 2650 2600 2650
+Connection ~ 2550 2650
+$Comp
+L GND #PWR22
+U 1 1 5010D9BD
+P 2050 3100
+F 0 "#PWR22" H 2050 3100 30  0001 C CNN
+F 1 "GND" H 2050 3030 30  0001 C CNN
+	1    2050 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3100 2050 3050
+Wire Wire Line
+	3450 2850 3350 2850
+Wire Wire Line
+	3350 2850 3350 3100
+Wire Wire Line
+	3350 3100 4150 3100
+Connection ~ 4150 2750
+$Comp
+L RES R13
+U 1 1 5010D9FD
+P 2800 4000
+F 0 "R13" H 2870 3965 50  0000 L TNN
+F 1 "10k" H 2800 4055 30  0000 C BNN
+	1    2800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R14
+U 1 1 5010DA03
+P 2900 4850
+F 0 "R14" H 2970 4815 50  0000 L TNN
+F 1 "100k(1%)" H 2900 4905 30  0000 C BNN
+	1    2900 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES R15
+U 1 1 5010DA09
+P 2900 5350
+F 0 "R15" H 2970 5315 50  0000 L TNN
+F 1 "100k(1%)" H 2900 5405 30  0000 C BNN
+	1    2900 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAP C27
+U 1 1 5010DA0F
+P 3150 4250
+F 0 "C27" H 3170 4220 50  0000 L TNN
+F 1 "1n" H 3175 4270 30  0000 L BNN
+	1    3150 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAP C29
+U 1 1 5010DA15
+P 3300 3700
+F 0 "C29" H 3320 3670 50  0000 L TNN
+F 1 "1n" H 3325 3720 30  0000 L BNN
+	1    3300 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 5000 2900 5200
+Wire Wire Line
+	2900 5100 3500 5100
+Connection ~ 2900 5100
+Text GLabel 2900 4650 1    60   Input ~ 0
+Vreg
+Wire Wire Line
+	2600 4000 2600 3700
+Wire Wire Line
+	2600 3700 3200 3700
+Wire Wire Line
+	3400 3700 4200 3700
+Wire Wire Line
+	2950 4000 3500 4000
+Wire Wire Line
+	3150 4000 3150 4150
+Connection ~ 3150 4000
+Wire Wire Line
+	2500 4000 2650 4000
+Connection ~ 2600 4000
+$Comp
+L GND #PWR24
+U 1 1 5010DA28
+P 2900 5550
+F 0 "#PWR24" H 2900 5550 30  0001 C CNN
+F 1 "GND" H 2900 5480 30  0001 C CNN
+	1    2900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5550 2900 5500
+Wire Wire Line
+	3500 4200 3400 4200
+Wire Wire Line
+	3400 4200 3400 4450
+Wire Wire Line
+	3400 4450 4200 4450
+Wire Wire Line
+	4200 4450 4200 3700
+Wire Wire Line
+	3950 4100 4350 4100
+Connection ~ 4200 4100
+Wire Wire Line
+	2900 4650 2900 4700
+Wire Wire Line
+	3500 5300 3400 5300
+Wire Wire Line
+	3400 5300 3400 5550
+Wire Wire Line
+	3400 5550 4150 5550
+Wire Wire Line
+	4150 5550 4150 5200
+Wire Wire Line
+	4000 5200 4350 5200
+Connection ~ 4150 5200
+Text Label 4350 5200 0    60   ~ 0
+VGND
+Text Label 3150 4450 0    60   ~ 0
+VGND
+Text Label 3100 3100 0    60   ~ 0
+VGND
+Wire Wire Line
+	3100 3100 3100 3000
+Wire Wire Line
+	3150 4350 3150 4450
+$Comp
+L RES R8
+U 1 1 5010DC2F
+P 2050 3750
+F 0 "R8" H 2120 3715 50  0000 L TNN
+F 1 "100k(1%)" H 2050 3805 30  0000 C BNN
+	1    2050 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES R9
+U 1 1 5010DC35
+P 2050 4250
+F 0 "R9" H 2120 4215 50  0000 L TNN
+F 1 "100k(1%)" H 2050 4305 30  0000 C BNN
+	1    2050 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 3900 2050 4100
+Connection ~ 2050 4000
+Text GLabel 2050 3550 1    60   Input ~ 0
+Vreg
+$Comp
+L GND #PWR23
+U 1 1 5010DC3F
+P 2050 4450
+F 0 "#PWR23" H 2050 4450 30  0001 C CNN
+F 1 "GND" H 2050 4380 30  0001 C CNN
+	1    2050 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4450 2050 4400
+Wire Wire Line
+	2050 3550 2050 3600
+$Comp
+L RES R11
+U 1 1 5010DC47
+P 2350 4000
+F 0 "R11" H 2420 3965 50  0000 L TNN
+F 1 "10k" H 2350 4055 30  0000 C BNN
+	1    2350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4000 2200 4000
+Text GLabel 1800 2650 0    60   Input ~ 0
+AUDIO_IN_L
+Text GLabel 1800 4000 0    60   Input ~ 0
+AUDIO_IN_R
+Text GLabel 4350 4100 2    60   Input ~ 0
+AUDIO_IN_PRE_R
+Text GLabel 4350 2750 2    60   Input ~ 0
+AUDIO_IN_PRE_R
+$EndSCHEMATC

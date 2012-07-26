@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 7/25/2012 8:49:54 PM
+EESchema Schematic File Version 2  date Thu 26 Jul 2012 01:52:34 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
+LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date "26 jul 2012"
 Rev ""
@@ -61,5 +62,11 @@ S 6450 1450 1650 1800
 U 500B69F1
 F0 "power" 60
 F1 "power.sch" 60
+$EndSheet
+$Sheet
+S 2150 6250 1100 850 
+U 5010D8BD
+F0 "audio_in" 60
+F1 "audio_in.sch" 60
 $EndSheet
 $EndSCHEMATC
