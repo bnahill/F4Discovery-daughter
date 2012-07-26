@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jul 2012 01:52:34 AM EDT
+EESchema Schematic File Version 2  date Thu 26 Jul 2012 02:06:26 AM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -155,7 +155,7 @@ $EndComp
 Wire Wire Line
 	2050 2550 2050 2750
 Wire Wire Line
-	1800 2650 2200 2650
+	1900 2650 2200 2650
 Connection ~ 2050 2650
 Text GLabel 2050 2200 1    60   Input ~ 0
 Vreg
@@ -354,13 +354,35 @@ F 1 "10k" H 2350 4055 30  0000 C BNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 4000 2200 4000
-Text GLabel 1800 2650 0    60   Input ~ 0
+	1900 4000 2200 4000
+Text GLabel 1650 2650 0    60   Input ~ 0
 AUDIO_IN_L
-Text GLabel 1800 4000 0    60   Input ~ 0
+Text GLabel 1650 4000 0    60   Input ~ 0
 AUDIO_IN_R
 Text GLabel 4350 4100 2    60   Input ~ 0
 AUDIO_IN_PRE_R
 Text GLabel 4350 2750 2    60   Input ~ 0
 AUDIO_IN_PRE_R
+$Comp
+L CAP C30
+U 1 1 5010E008
+P 1800 2650
+F 0 "C30" H 1820 2620 50  0000 L TNN
+F 1 "0.47u" H 1825 2670 30  0000 L BNN
+	1    1800 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAP C31
+U 1 1 5010E015
+P 1800 4000
+F 0 "C31" H 1820 3970 50  0000 L TNN
+F 1 "0.47u" H 1825 4020 30  0000 L BNN
+	1    1800 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 2650 1700 2650
+Wire Wire Line
+	1700 4000 1650 4000
 $EndSCHEMATC
