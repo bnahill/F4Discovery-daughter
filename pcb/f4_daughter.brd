@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Mon 23 Jul 2012 01:19:00 PM EDT
+PCBNEW-BOARD Version 1 date 7/25/2012 8:49:58 PM
 
 # Created by Pcbnew(2012-01-19 BZR 3256)-stable
 
@@ -9,19 +9,19 @@ Ly 1FFF8001
 EnabledLayers 1FFF8001
 Links 39
 NoConn 39
-Di 6320 -7180 43451 31180
+Di -3440 -7180 43451 31180
 Ndraw 0
 Ntrack 0
 Nzone 0
 BoardThickness 620
-Nmodule 10
+Nmodule 11
 Nnets 6
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "23 jul 2012"
+Date "26 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -55,11 +55,11 @@ TextPcbSize 600 800
 EdgeModWidth 79
 TextModSize 600 600
 TextModWidth 120
-PadSize 118 295
-PadDrill 0
+PadSize 354 630
+PadDrill 197
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -102,6 +102,65 @@ AddNet "N-000001"
 AddNet "Vplug"
 AddNet "Vreg"
 $EndNCLASS
+$MODULE USBMICROCONN
+Po 0 0 0 15 50109358 50109376 ~~
+Li USBMICROCONN
+Sc 50109376
+AR 
+Op 0 0 0
+.SolderPasteRatio 9.84533e-317
+T0 0 -2000 492 492 0 120 N V 21 N "USBMICROCONN"
+T1 0 1000 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "1" R 157 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -500 -1000
+$EndPAD
+$PAD
+Sh "2" R 157 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -250 -1000
+$EndPAD
+$PAD
+Sh "3" R 157 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1000
+$EndPAD
+$PAD
+Sh "4" R 157 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 250 -1000
+$EndPAD
+$PAD
+Sh "5" R 157 591 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 500 -1000
+$EndPAD
+$PAD
+Sh "" O 354 630 0 0 0
+Dr 197 0 0 O 197 354
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1000 0
+$EndPAD
+$PAD
+Sh "1" O 354 630 0 0 0
+Dr 197 0 0 O 197 354
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1000 0
+$EndPAD
+$EndMODULE  USBMICROCONN
 $MODULE SM1206
 Po 40000 14000 0 15 42806E24 500D8440 ~~
 Li SM1206
