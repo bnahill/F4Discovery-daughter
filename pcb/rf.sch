@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jul 2012 02:06:26 AM EDT
+EESchema Schematic File Version 2  date Thu 26 Jul 2012 11:54:13 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title ""
-Date "26 jul 2012"
+Date "27 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -62,7 +62,7 @@ Wire Wire Line
 	7850 4300 8350 4300
 Connection ~ 6650 2850
 Wire Wire Line
-	6650 3100 6650 2600
+	6650 2600 6650 3100
 Wire Wire Line
 	6650 2600 6800 2600
 Wire Wire Line
@@ -82,7 +82,7 @@ Wire Wire Line
 	5750 3150 5900 3150
 Connection ~ 5550 3300
 Wire Wire Line
-	5650 3300 4650 3300
+	4650 3300 5650 3300
 Wire Wire Line
 	5650 3300 5650 3500
 Wire Wire Line
@@ -120,7 +120,7 @@ Wire Wire Line
 	4150 4950 4150 5000
 Connection ~ 3700 4950
 Wire Wire Line
-	3700 5000 3700 4400
+	3700 4400 3700 5000
 Wire Wire Line
 	3650 4400 3950 4400
 Connection ~ 6550 5300
@@ -146,7 +146,7 @@ Wire Wire Line
 	5050 4550 5050 4400
 Connection ~ 5050 5050
 Wire Wire Line
-	5300 5050 4550 5050
+	4550 5050 5300 5050
 Wire Wire Line
 	4950 4300 5300 4300
 Wire Wire Line
@@ -193,7 +193,7 @@ Connection ~ 4350 3450
 Wire Wire Line
 	3650 3450 4550 3450
 Wire Wire Line
-	3650 3950 3650 3450
+	3650 3450 3650 3950
 Connection ~ 3650 3650
 Connection ~ 4250 3450
 Wire Wire Line
@@ -235,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 5800 6150 5700
 Wire Wire Line
-	6150 5800 5850 5800
+	5850 5800 6150 5800
 Wire Wire Line
 	5850 5800 5850 5700
 Wire Wire Line
@@ -280,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2850 5550 3600
 Wire Wire Line
-	6650 2850 5550 2850
+	5550 2850 6650 2850
 Wire Wire Line
 	6750 3100 6750 2850
 Wire Wire Line
@@ -710,4 +710,38 @@ F 1 "TP" H 4800 4950 60  0001 C CNN
 	1    4850 4900
 	1    0    0    -1  
 $EndComp
+Text GLabel 7050 5350 3    40   Input ~ 0
+SPI1_CLK
+Wire Wire Line
+	7050 5350 7050 5150
+Wire Wire Line
+	7050 5150 6950 5150
+Wire Wire Line
+	6950 5150 6950 5000
+Text GLabel 7150 5750 3    40   Input ~ 0
+SPI1_nCS_RF
+Wire Wire Line
+	7150 5750 7150 5100
+Wire Wire Line
+	7150 5100 7050 5100
+Wire Wire Line
+	7050 5100 7050 5000
+Text GLabel 7200 5350 3    40   Input ~ 0
+SPI1_MOSI
+Wire Wire Line
+	7200 5350 7200 5050
+Wire Wire Line
+	7200 5050 7150 5050
+Wire Wire Line
+	7150 5050 7150 5000
+Text GLabel 7250 5750 3    40   Input ~ 0
+SPI1_MISO
+Wire Wire Line
+	7250 5750 7250 5000
+Text GLabel 8150 5700 3    40   Input ~ 0
+SPI1_IRQ_RF
+Wire Wire Line
+	8150 5700 8150 4600
+Wire Wire Line
+	8150 4600 7850 4600
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jul 2012 02:28:43 PM EDT
+EESchema Schematic File Version 2  date Thu 26 Jul 2012 11:54:13 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:f4_daughter
 LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title ""
-Date "26 jul 2012"
+Date "27 jul 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -172,28 +172,28 @@ Wire Wire Line
 Wire Wire Line
 	1550 2650 1700 2650
 $Comp
-L GND #PWR?
+L GND #PWR24
 U 1 1 50118BD6
 P 1050 3000
-F 0 "#PWR?" H 1050 3000 30  0001 C CNN
+F 0 "#PWR24" H 1050 3000 30  0001 C CNN
 F 1 "GND" H 1050 2930 30  0001 C CNN
 	1    1050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L TRS_CONN J?
+L TRS_CONN J2
 U 1 1 50118BBE
 P 800 3350
-F 0 "J?" H 1100 3100 60  0000 C CNN
+F 0 "J2" H 1100 3100 60  0000 C CNN
 F 1 "SJ1-3523N" H 750 3600 60  0000 C CNN
 	1    800  3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP C?
+L CAP C7
 U 1 1 50118878
 P 3950 6050
-F 0 "C?" H 3970 6020 50  0000 L TNN
+F 0 "C7" H 3970 6020 50  0000 L TNN
 F 1 "100n" H 3975 6070 30  0000 L BNN
 	1    3950 6050
 	0    -1   -1   0   
@@ -237,10 +237,10 @@ $EndComp
 Text GLabel 3650 5700 0    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR25
+L GND #PWR28
 U 1 1 5010D90D
 P 3700 6500
-F 0 "#PWR25" H 3700 6500 30  0001 C CNN
+F 0 "#PWR28" H 3700 6500 30  0001 C CNN
 F 1 "GND" H 3700 6430 30  0001 C CNN
 	1    3700 6500
 	1    0    0    -1  
@@ -302,10 +302,10 @@ $EndComp
 Text GLabel 2050 2200 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR22
+L GND #PWR25
 U 1 1 5010D9BD
 P 2050 3100
-F 0 "#PWR22" H 2050 3100 30  0001 C CNN
+F 0 "#PWR25" H 2050 3100 30  0001 C CNN
 F 1 "GND" H 2050 3030 30  0001 C CNN
 	1    2050 3100
 	1    0    0    -1  
@@ -358,10 +358,10 @@ $EndComp
 Text GLabel 2900 4650 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR24
+L GND #PWR27
 U 1 1 5010DA28
 P 2900 5550
-F 0 "#PWR24" H 2900 5550 30  0001 C CNN
+F 0 "#PWR27" H 2900 5550 30  0001 C CNN
 F 1 "GND" H 2900 5480 30  0001 C CNN
 	1    2900 5550
 	1    0    0    -1  
@@ -393,10 +393,10 @@ $EndComp
 Text GLabel 2050 3550 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR23
+L GND #PWR26
 U 1 1 5010DC3F
 P 2050 4450
-F 0 "#PWR23" H 2050 4450 30  0001 C CNN
+F 0 "#PWR26" H 2050 4450 30  0001 C CNN
 F 1 "GND" H 2050 4380 30  0001 C CNN
 	1    2050 4450
 	1    0    0    -1  
