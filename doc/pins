@@ -1,0 +1,85 @@
+SPI1 -- USED FOR LIS302 and STM32W:
+	NSS:  PA4
+	CLK:  PA5
+	MISO: PA6
+	MOSI: PA7
+SPI2 -- USED FOR SD CARD AND TOUCH SCREEN
+	NSS:  PB12
+	CLK:  PB13
+	MISO: PB14, PC2
+	MOSI: PB15
+SPI3 -- Lacking available CLK pin
+	NSS:  PA15
+	CLK:  
+	MISO: PB4,  PC11
+	MOSI: PB5
+USART1 -- Lacking available TX pin
+	CK: PA8
+	TX: 
+	RX: PB7
+USART2 -- TAKEN FOR FT230XS
+	CTS: PD3
+	RTS: PA1
+	CK:  PD7
+	TX:  PA2
+	RX:  PA3, PD6
+USART3 -- Lacking available TX pin
+	CTS: PB13, PD11
+	RTS: PB14
+	CK:  PB12, PD12
+	TX:  [PD8]
+	RX:  [PB11, PC11], PD9
+USART4: -- Lacking available TX pin
+	CTS: 
+	RTS: 
+	CK:  
+	TX:  
+	RX:  PA1, PC11
+USART5: -- Lacking available TX pin
+	CTS: 
+	RTS: 
+	CK:  
+	TX:  
+	RX:  PD2
+USART6: -- Lacking available RX pin
+	CTS: 
+	RTS: 
+	CK:  PC8
+	TX:  PC6
+	RX:  
+I2C1 -- USED BY CS43L22:
+	SCL: PB6
+	SDA: PB9
+I2C2:
+	SCL: 
+	SDA: PB11
+I2C3:
+	SCL: PA8
+	SDA: PC9
+FSMC:
+	CLK:   PD3
+	NWAIT: PD6
+	NE1:   PD7
+	NCE2:  PD7
+	NWE:   PD5 (shared with USB overcurrent fault [OD] - remove R50, don't have a fault, or keep PC0 high)
+	NOE:   Not available
+	D0:    PD14 (shared with red LED)
+	D1:    PD15 (shared with blue LED)
+	D2:    PD0
+	D3:    PD1
+	D4:    PE7
+	D5:    PE8
+	D6:    PE9
+	D7:    PE10
+	D8:    PE11
+	D9:    PE12
+	D10:   PE13
+	D11:   PE14
+	D12:   PE15
+	D13:   PD8
+	D14:   PD9
+	D15:   PD10
+	
+
+	
+	
