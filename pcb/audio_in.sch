@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jul 2012 11:54:13 PM EDT
+EESchema Schematic File Version 2  date Tue 31 Jul 2012 10:29:35 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:f4_daughter
 LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
-Sheet 5 5
+Sheet 6 6
 Title ""
-Date "27 jul 2012"
+Date "1 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 4350 4100 2    60   Output ~ 0
+AUDIO_IN_L
+Text HLabel 4350 2750 2    60   Output ~ 0
+AUDIO_IN_R
+Wire Wire Line
+	2050 4000 2050 4100
+Wire Wire Line
+	2050 3100 2050 3050
 Wire Wire Line
 	1700 4000 1550 4000
 Wire Wire Line
@@ -70,12 +78,8 @@ Wire Wire Line
 Wire Wire Line
 	1900 4000 2200 4000
 Wire Wire Line
-	2050 3550 2050 3600
-Wire Wire Line
 	2050 4450 2050 4400
 Connection ~ 2050 4000
-Wire Wire Line
-	2050 3900 2050 4100
 Wire Wire Line
 	3150 4350 3150 4450
 Wire Wire Line
@@ -132,8 +136,6 @@ Wire Wire Line
 	3350 3100 3350 2850
 Wire Wire Line
 	3350 2850 3450 2850
-Wire Wire Line
-	2050 3100 2050 3050
 Connection ~ 2550 2650
 Wire Wire Line
 	2500 2650 2600 2650
@@ -152,13 +154,9 @@ Wire Wire Line
 	3150 2350 2550 2350
 Wire Wire Line
 	2550 2350 2550 2650
-Wire Wire Line
-	2050 2200 2050 2250
 Connection ~ 2050 2650
 Wire Wire Line
 	1900 2650 2200 2650
-Wire Wire Line
-	2050 2550 2050 2750
 Wire Wire Line
 	3700 6500 3700 6350
 Wire Wire Line
@@ -171,11 +169,17 @@ Wire Wire Line
 	1550 3250 1550 2650
 Wire Wire Line
 	1550 2650 1700 2650
+Wire Wire Line
+	2050 2750 2050 2650
+Text Label 2050 4450 3    60   ~ 0
+VGND
+Text Label 2050 3100 3    60   ~ 0
+VGND
 $Comp
-L GND #PWR24
+L GND #PWR026
 U 1 1 50118BD6
 P 1050 3000
-F 0 "#PWR24" H 1050 3000 30  0001 C CNN
+F 0 "#PWR026" H 1050 3000 30  0001 C CNN
 F 1 "GND" H 1050 2930 30  0001 C CNN
 	1    1050 3000
 	1    0    0    -1  
@@ -237,10 +241,10 @@ $EndComp
 Text GLabel 3650 5700 0    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR28
+L GND #PWR027
 U 1 1 5010D90D
 P 3700 6500
-F 0 "#PWR28" H 3700 6500 30  0001 C CNN
+F 0 "#PWR027" H 3700 6500 30  0001 C CNN
 F 1 "GND" H 3700 6430 30  0001 C CNN
 	1    3700 6500
 	1    0    0    -1  
@@ -266,17 +270,8 @@ $EndComp
 $Comp
 L RES R6
 U 1 1 5010D932
-P 2050 2400
-F 0 "R6" H 2120 2365 50  0000 L TNN
-F 1 "100k(1%)" H 2050 2455 30  0000 C BNN
-	1    2050 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L RES R7
-U 1 1 5010D938
 P 2050 2900
-F 0 "R7" H 2120 2865 50  0000 L TNN
+F 0 "R6" H 2120 2865 50  0000 L TNN
 F 1 "100k(1%)" H 2050 2955 30  0000 C BNN
 	1    2050 2900
 	0    -1   -1   0   
@@ -298,17 +293,6 @@ F 0 "C28" H 3270 2320 50  0000 L TNN
 F 1 "4.7n(5%)" H 3275 2370 30  0000 L BNN
 	1    3250 2350
 	-1   0    0    1   
-$EndComp
-Text GLabel 2050 2200 1    60   Input ~ 0
-Vreg
-$Comp
-L GND #PWR25
-U 1 1 5010D9BD
-P 2050 3100
-F 0 "#PWR25" H 2050 3100 30  0001 C CNN
-F 1 "GND" H 2050 3030 30  0001 C CNN
-	1    2050 3100
-	1    0    0    -1  
 $EndComp
 $Comp
 L RES R13
@@ -358,10 +342,10 @@ $EndComp
 Text GLabel 2900 4650 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR27
+L GND #PWR028
 U 1 1 5010DA28
 P 2900 5550
-F 0 "#PWR27" H 2900 5550 30  0001 C CNN
+F 0 "#PWR028" H 2900 5550 30  0001 C CNN
 F 1 "GND" H 2900 5480 30  0001 C CNN
 	1    2900 5550
 	1    0    0    -1  
@@ -373,15 +357,6 @@ VGND
 Text Label 3100 3100 0    60   ~ 0
 VGND
 $Comp
-L RES R8
-U 1 1 5010DC2F
-P 2050 3750
-F 0 "R8" H 2120 3715 50  0000 L TNN
-F 1 "100k(1%)" H 2050 3805 30  0000 C BNN
-	1    2050 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L RES R9
 U 1 1 5010DC35
 P 2050 4250
@@ -389,17 +364,6 @@ F 0 "R9" H 2120 4215 50  0000 L TNN
 F 1 "100k(1%)" H 2050 4305 30  0000 C BNN
 	1    2050 4250
 	0    -1   -1   0   
-$EndComp
-Text GLabel 2050 3550 1    60   Input ~ 0
-Vreg
-$Comp
-L GND #PWR26
-U 1 1 5010DC3F
-P 2050 4450
-F 0 "#PWR26" H 2050 4450 30  0001 C CNN
-F 1 "GND" H 2050 4380 30  0001 C CNN
-	1    2050 4450
-	1    0    0    -1  
 $EndComp
 $Comp
 L RES R11
@@ -410,10 +374,6 @@ F 1 "2.8k(1%)" H 2350 4055 30  0000 C BNN
 	1    2350 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 4100 2    60   Input ~ 0
-AUDIO_IN_L
-Text GLabel 4350 2750 2    60   Input ~ 0
-AUDIO_IN_R
 $Comp
 L CAP C30
 U 1 1 5010E008

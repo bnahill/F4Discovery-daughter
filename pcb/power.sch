@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jul 2012 11:54:13 PM EDT
+EESchema Schematic File Version 2  date Tue 31 Jul 2012 10:29:35 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:f4_daughter
 LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
-Sheet 4 5
+Sheet 5 6
 Title ""
-Date "27 jul 2012"
+Date "1 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,17 +45,25 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 2650 2400 2    40   Output ~ 0
+USB_ID
+Text HLabel 2650 2300 2    40   Output ~ 0
+USB_D+
+Text HLabel 2650 2200 2    40   Output ~ 0
+USB_D-
+Text HLabel 3650 2650 0    60   Input ~ 0
+POW_MODE
+Text HLabel 5000 1750 0    60   Output ~ 0
+POW_nCHRG
+Text HLabel 6200 2450 2    60   Input ~ 0
+POW_HPWR
 Text Notes 3700 2200 0    60   ~ 0
 This cannot be LTC3559-1\nThat is for 4.1V
 Text Notes 6600 3650 0    60   ~ 0
 3.7V nom -- 4.2V charge\nUNPROTECTED
 Connection ~ 5900 4100
 Wire Wire Line
-	6300 4100 5900 4100
-Wire Wire Line
-	5900 4100 5800 4100
-Wire Wire Line
-	5800 4100 5650 4100
+	6300 4100 5650 4100
 Wire Wire Line
 	6300 4100 6300 4000
 Connection ~ 5650 3300
@@ -71,9 +79,7 @@ Wire Wire Line
 	6200 2450 5900 2450
 Connection ~ 3800 2650
 Wire Wire Line
-	4900 2650 3800 2650
-Wire Wire Line
-	3800 2650 3650 2650
+	4900 2650 3650 2650
 Wire Wire Line
 	3800 2650 3800 2950
 Connection ~ 2700 2100
@@ -83,9 +89,7 @@ Connection ~ 2700 2500
 Wire Wire Line
 	3150 2400 3150 2500
 Wire Wire Line
-	3150 2500 2700 2500
-Wire Wire Line
-	2700 2500 2400 2500
+	3150 2500 2400 2500
 Wire Wire Line
 	3150 2200 3150 2100
 Connection ~ 4450 4100
@@ -100,27 +104,19 @@ Connection ~ 6100 2050
 Wire Wire Line
 	5900 1850 6100 1850
 Wire Wire Line
-	6100 1850 6100 2050
-Wire Wire Line
-	6100 2050 6100 2100
+	6100 1850 6100 2100
 Wire Wire Line
 	5600 1850 5450 1850
 Wire Wire Line
 	5450 1850 5450 2100
 Wire Wire Line
-	4250 3800 4250 4100
-Wire Wire Line
-	4250 4100 4250 4150
+	4250 3800 4250 4150
 Wire Wire Line
 	4250 3100 4250 3050
 Wire Wire Line
-	4250 3050 4350 3050
+	4250 3050 4450 3050
 Wire Wire Line
-	4350 3050 4450 3050
-Wire Wire Line
-	4700 3350 4650 3350
-Wire Wire Line
-	4650 3350 4450 3350
+	4700 3350 4450 3350
 Wire Wire Line
 	5250 3100 5250 3150
 Wire Wire Line
@@ -147,18 +143,14 @@ Wire Wire Line
 Wire Wire Line
 	5350 3350 5350 3100
 Wire Wire Line
-	4250 3400 4250 3450
-Wire Wire Line
-	4250 3450 4250 3500
+	4250 3400 4250 3500
 Wire Wire Line
 	4250 3450 4050 3450
 Connection ~ 4250 3450
 Wire Wire Line
 	4050 3450 4050 2750
 Wire Wire Line
-	4050 2750 4350 2750
-Wire Wire Line
-	4350 2750 4900 2750
+	4050 2750 4900 2750
 Wire Wire Line
 	5550 2100 5550 2050
 Wire Wire Line
@@ -168,35 +160,23 @@ Wire Wire Line
 Wire Wire Line
 	5250 1950 5250 2100
 Wire Wire Line
-	4450 3050 4450 3350
-Wire Wire Line
-	4450 3350 4450 3500
+	4450 3050 4450 3500
 Connection ~ 4450 3350
 Wire Wire Line
 	4350 2800 4350 2750
 Connection ~ 4350 2750
 Wire Wire Line
-	4650 3150 4650 3350
+	4650 3150 4650 3500
 Wire Wire Line
-	4650 3350 4650 3500
-Wire Wire Line
-	5450 3100 5450 3300
-Wire Wire Line
-	5450 3300 5450 3400
+	5450 3100 5450 3400
 Wire Wire Line
 	2700 2650 2700 2500
 Wire Wire Line
-	3150 2100 2700 2100
-Wire Wire Line
-	2700 2100 2400 2100
+	3150 2100 2400 2100
 Wire Wire Line
 	3800 3250 3800 4100
 Wire Wire Line
-	3800 4100 4250 4100
-Wire Wire Line
-	4250 4100 4450 4100
-Wire Wire Line
-	4450 4100 4650 4100
+	3800 4100 4650 4100
 Wire Wire Line
 	5000 1750 5350 1750
 Wire Wire Line
@@ -204,11 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2550 6050 2550
 Wire Wire Line
-	6050 2550 6050 2750
-Wire Wire Line
-	6050 2750 6050 2900
-Wire Wire Line
-	6050 2900 6050 2950
+	6050 2550 6050 2950
 Connection ~ 6050 2750
 Wire Wire Line
 	4450 3700 4450 4100
@@ -221,11 +197,7 @@ Connection ~ 5450 3300
 Wire Wire Line
 	6300 3400 6300 3300
 Wire Wire Line
-	6300 3300 5900 3300
-Wire Wire Line
-	5900 3300 5650 3300
-Wire Wire Line
-	5650 3300 5450 3300
+	6300 3300 5450 3300
 Connection ~ 5900 3300
 $Comp
 L BATTERY BT1
@@ -237,10 +209,10 @@ F 1 "16340" H 6300 3510 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR21
+L GND #PWR020
 U 1 1 50117654
 P 5800 4150
-F 0 "#PWR21" H 5800 4150 30  0001 C CNN
+F 0 "#PWR020" H 5800 4150 30  0001 C CNN
 F 1 "GND" H 5800 4080 30  0001 C CNN
 	1    5800 4150
 	1    0    0    -1  
@@ -263,12 +235,6 @@ F 1 "2.2u" H 5925 3670 30  0000 L BNN
 	1    5900 3650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6200 2450 2    60   Input ~ 0
-POW_HPWR
-Text GLabel 5000 1750 0    60   Input ~ 0
-POW_nCHRG
-Text GLabel 3650 2650 0    60   Input ~ 0
-POW_MODE
 $Comp
 L RES R16
 U 1 1 501174F2
@@ -330,10 +296,10 @@ $EndComp
 Text GLabel 4850 1950 0    60   Input ~ 0
 Vbus
 $Comp
-L GND #PWR23
+L GND #PWR021
 U 1 1 50116DE1
 P 6100 2100
-F 0 "#PWR23" H 6100 2100 30  0001 C CNN
+F 0 "#PWR021" H 6100 2100 30  0001 C CNN
 F 1 "GND" H 6100 2030 30  0001 C CNN
 	1    6100 2100
 	1    0    0    -1  
@@ -350,10 +316,10 @@ $EndComp
 Text Label 4050 2850 0    60   ~ 0
 Vfb
 $Comp
-L GND #PWR20
+L GND #PWR022
 U 1 1 50116D88
 P 4250 4150
-F 0 "#PWR20" H 4250 4150 30  0001 C CNN
+F 0 "#PWR022" H 4250 4150 30  0001 C CNN
 F 1 "GND" H 4250 4080 30  0001 C CNN
 	1    4250 4150
 	1    0    0    -1  
@@ -379,19 +345,19 @@ $EndComp
 Text GLabel 5200 3150 0    60   Input ~ 0
 Vbat
 $Comp
-L GND #PWR22
+L GND #PWR023
 U 1 1 50116D38
 P 6050 2950
-F 0 "#PWR22" H 6050 2950 30  0001 C CNN
+F 0 "#PWR023" H 6050 2950 30  0001 C CNN
 F 1 "GND" H 6050 2880 30  0001 C CNN
 	1    6050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR19
+L GND #PWR024
 U 1 1 50116D32
 P 4250 2500
-F 0 "#PWR19" H 4250 2500 30  0001 C CNN
+F 0 "#PWR024" H 4250 2500 30  0001 C CNN
 F 1 "GND" H 4250 2430 30  0001 C CNN
 	1    4250 2500
 	1    0    0    -1  
@@ -407,19 +373,13 @@ F 1 "LTC3559" H 5600 3050 60  0000 L BNN
 	1    5400 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 2400 2    40   Input ~ 0
-USB_ID
-Text GLabel 2650 2300 2    40   Input ~ 0
-USB_D+
-Text GLabel 2650 2200 2    40   Input ~ 0
-USB_D-
 Text GLabel 2700 1950 1    40   Input ~ 0
 Vbus
 $Comp
-L GND #PWR18
+L GND #PWR025
 U 1 1 501093EE
 P 2700 2650
-F 0 "#PWR18" H 2700 2650 30  0001 C CNN
+F 0 "#PWR025" H 2700 2650 30  0001 C CNN
 F 1 "GND" H 2700 2580 30  0001 C CNN
 	1    2700 2650
 	1    0    0    -1  

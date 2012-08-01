@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 26 Jul 2012 11:54:13 PM EDT
+EESchema Schematic File Version 2  date Tue 31 Jul 2012 10:29:35 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:f4_daughter
 LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
-Date "27 jul 2012"
+Date "1 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,28 +45,118 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3950 2700 2100 2700
+Wire Wire Line
+	2100 2700 2100 4900
+Wire Wire Line
+	2100 4900 3950 4900
+Wire Wire Line
+	3950 3600 3400 3600
+Wire Bus Line
+	2250 1750 3100 1750
+Wire Bus Line
+	3100 1750 3100 2200
+Wire Bus Line
+	3100 2200 3950 2200
+Wire Wire Line
+	7950 2400 7200 2400
+Wire Wire Line
+	7200 2400 7200 3000
+Wire Wire Line
+	7200 3000 5650 3000
+Wire Wire Line
+	7950 2200 7000 2200
+Wire Wire Line
+	7000 2200 7000 2800
+Wire Wire Line
+	7000 2800 5650 2800
+Wire Wire Line
+	7950 2000 6800 2000
+Wire Wire Line
+	6800 2000 6800 2600
+Wire Wire Line
+	6800 2600 5650 2600
+Wire Wire Line
+	5650 2700 6900 2700
+Wire Wire Line
+	6900 2700 6900 2100
+Wire Wire Line
+	6900 2100 7950 2100
+Wire Wire Line
+	5650 2900 7100 2900
+Wire Wire Line
+	7100 2900 7100 2300
+Wire Wire Line
+	7100 2300 7950 2300
+Wire Wire Line
+	5650 3100 7300 3100
+Wire Wire Line
+	7300 3100 7300 2500
+Wire Wire Line
+	7300 2500 7950 2500
+Wire Wire Line
+	3400 3500 3950 3500
+Wire Wire Line
+	3950 4800 2200 4800
+Wire Wire Line
+	2200 4800 2200 2800
+Wire Wire Line
+	2200 2800 3950 2800
 $Sheet
-S 6500 3650 1950 2150
+S 7950 1150 1950 2150
 U 500DC44C
 F0 "rf" 60
 F1 "rf.sch" 60
+F2 "RESET" I L 7950 2200 60 
+F3 "SPI_IRQ" O L 7950 2000 60 
+F4 "SPI_MOSI" I L 7950 2400 60 
+F5 "SPI_MISO" O L 7950 2500 60 
+F6 "SPI_CLK" I L 7950 2300 60 
+F7 "SPI_nCS" I L 7950 2100 60 
 $EndSheet
 $Sheet
-S 4050 1450 1700 1800
+S 3950 2050 1700 1800
 U 500B6AFA
 F0 "discovery" 60
 F1 "discovery.sch" 60
+F2 "USB_D-" I L 3950 2700 60 
+F3 "USB_D+" I L 3950 2800 60 
+F4 "AUDIO_IN_L" I L 3950 3500 60 
+F5 "AUDIO_IN_R" I L 3950 3600 60 
+F6 "LCD_D[0..15]" B L 3950 2200 60 
+F7 "SPI1_IRQ_RF" I R 5650 2600 60 
+F8 "SPI1_nCS_RF" O R 5650 2700 60 
+F9 "RF_RESET" O R 5650 2800 60 
+F10 "SPI1_CLK" O R 5650 2900 60 
+F11 "SPI1_MOSI" O R 5650 3000 60 
+F12 "SPI1_MISO" I R 5650 3100 60 
 $EndSheet
 $Sheet
-S 6450 1450 1650 1800
+S 1350 700  900  1250
+U 50188B6E
+F0 "lcd" 60
+F1 "lcd.sch" 60
+F2 "LCD_D[0..15]" B R 2250 1750 60 
+$EndSheet
+$Sheet
+S 3950 4250 1650 1800
 U 500B69F1
 F0 "power" 60
 F1 "power.sch" 60
+F2 "USB_ID" O L 3950 4650 60 
+F3 "USB_D+" O L 3950 4800 60 
+F4 "USB_D-" O L 3950 4900 60 
+F5 "POW_MODE" I L 3950 5400 60 
+F6 "POW_nCHRG" O L 3950 5500 60 
+F7 "POW_HPWR" I L 3950 5300 60 
 $EndSheet
 $Sheet
-S 2150 6250 1100 850 
+S 2350 3200 1050 700 
 U 5010D8BD
 F0 "audio_in" 60
 F1 "audio_in.sch" 60
+F2 "AUDIO_IN_L" O R 3400 3500 60 
+F3 "AUDIO_IN_R" O R 3400 3600 60 
 $EndSheet
 $EndSCHEMATC
