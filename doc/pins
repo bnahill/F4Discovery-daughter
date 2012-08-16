@@ -79,7 +79,10 @@ FSMC:
 	D13:   PD8
 	D14:   PD9
 	D15:   PD10
-	
+POWER:
+	POW_HPWR: PC11
+	POW_MODE: PC13
+	POW_nCHRG: PC8
 
 	
 	
