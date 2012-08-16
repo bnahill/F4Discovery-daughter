@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 01 Aug 2012 12:18:18 PM EDT
+# EESchema Netlist Version 1.1 created  8/16/2012 12:01:32 PM
 (
  ( /500B69F1/501184C6 $noname$ BT1 16340
   ( 1 Vbat )
@@ -136,7 +136,7 @@
   ( 1 N-000119 )
   ( 2 GND )
  )
- ( /50188B6E/50188B83 ITDB_HEADER J1 ITDB_TFT
+ ( /50188B6E/50188B83 PJ-045 J1 ITDB_TFT
   ( 1 GND )
   ( 2 /lcd/LCD_D0 )
   ( 3 Vreg )
@@ -482,7 +482,7 @@
   ( 15 ? )
   ( 16 ? )
  )
- ( /500B69F1/50108741 $noname$ U6 USBMICROCONN
+ ( /500B69F1/50108741 USBMICROCONN U6 USBMICROCONN
   ( 1 Vbus )
   ( 2 /power/USB_D- )
   ( 3 /discovery/USB_D+ )
