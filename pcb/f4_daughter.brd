@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 7/25/2012 8:49:58 PM
+PCBNEW-BOARD Version 1 date 8/16/2012 2:47:06 PM
 
 # Created by Pcbnew(2012-01-19 BZR 3256)-stable
 
@@ -14,14 +14,14 @@ Ndraw 0
 Ntrack 0
 Nzone 0
 BoardThickness 620
-Nmodule 11
+Nmodule 12
 Nnets 6
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "26 jul 2012"
+Date "16 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -52,11 +52,11 @@ MicroViaMinSize 200
 MicroViaMinDrill 50
 TextPcbWidth 120
 TextPcbSize 600 800
-EdgeModWidth 79
+EdgeModWidth 8
 TextModSize 600 600
 TextModWidth 120
-PadSize 354 630
-PadDrill 197
+PadSize 138 98
+PadDrill 0
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
 PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
@@ -102,11 +102,221 @@ AddNet "N-000001"
 AddNet "Vplug"
 AddNet "Vreg"
 $EndNCLASS
+$MODULE LSM330DLC
+Po 0 0 0 15 502D3BAC 502D4028 ~~
+Li LSM330DLC
+Sc 502D4028
+AR 
+Op 0 0 0
+T0 0 2750 600 600 0 120 N V 21 N "LSM330DLC"
+T1 5000 2250 600 600 0 120 N I 21 N "VAL**"
+DC -866 -669 -827 -669 8 21
+DS -984 -787 -984 787 8 21
+DS -984 787 984 787 8 21
+DS 984 787 984 -787 8 21
+DS 984 -787 -984 -787 8 21
+$PAD
+Sh "1" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 -492
+$EndPAD
+$PAD
+Sh "2" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 -295
+$EndPAD
+$PAD
+Sh "3" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 -98
+$EndPAD
+$PAD
+Sh "4" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 98
+$EndPAD
+$PAD
+Sh "5" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 295
+$EndPAD
+$PAD
+Sh "6" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -886 492
+$EndPAD
+$PAD
+Sh "7" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -689 689
+$EndPAD
+$PAD
+Sh "8" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 689
+$EndPAD
+$PAD
+Sh "9" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 689
+$EndPAD
+$PAD
+Sh "10" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 689
+$EndPAD
+$PAD
+Sh "11" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 689
+$EndPAD
+$PAD
+Sh "12" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 689
+$EndPAD
+$PAD
+Sh "13" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 689
+$EndPAD
+$PAD
+Sh "14" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 689 689
+$EndPAD
+$PAD
+Sh "15" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 492
+$EndPAD
+$PAD
+Sh "16" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 295
+$EndPAD
+$PAD
+Sh "17" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 98
+$EndPAD
+$PAD
+Sh "18" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 -98
+$EndPAD
+$PAD
+Sh "19" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 -295
+$EndPAD
+$PAD
+Sh "20" R 138 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 886 -492
+$EndPAD
+$PAD
+Sh "21" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 689 -689
+$EndPAD
+$PAD
+Sh "22" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 492 -689
+$EndPAD
+$PAD
+Sh "23" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 -689
+$EndPAD
+$PAD
+Sh "24" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 -689
+$EndPAD
+$PAD
+Sh "25" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 -689
+$EndPAD
+$PAD
+Sh "26" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 -689
+$EndPAD
+$PAD
+Sh "27" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -492 -689
+$EndPAD
+$PAD
+Sh "28" R 138 98 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -689 -689
+$EndPAD
+$EndMODULE  LSM330DLC
 $MODULE USBMICROCONN
 Po 0 0 0 15 50109358 50109376 ~~
 Li USBMICROCONN
 Sc 50109376
-AR 
+AR USBMICROCONN
 Op 0 0 0
 .SolderPasteRatio 9.84533e-317
 T0 0 -2000 492 492 0 120 N V 21 N "USBMICROCONN"

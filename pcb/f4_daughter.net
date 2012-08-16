@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  8/16/2012 12:01:32 PM
+# EESchema Netlist Version 1.1 created  8/16/2012 2:48:45 PM
 (
  ( /500B69F1/501184C6 $noname$ BT1 16340
   ( 1 Vbat )
@@ -502,7 +502,7 @@
   ( 10 N-000162 )
   ( 11 GND )
  )
- ( /500B6AFA/501821DF $noname$ U8 LSM330DLC
+ ( /500B6AFA/501821DF LSM330DLC_LGA-28 U8 LSM330DLC
   ( 1 GND )
   ( 2 GND )
   ( 3 GND )
