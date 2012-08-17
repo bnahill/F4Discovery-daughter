@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 8/16/2012 2:48:45 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 8/17/2012 5:53:47 PM
 
 BeginCmp
 TimeStamp = /500B69F1/501184C6;
@@ -417,7 +417,7 @@ BeginCmp
 TimeStamp = /500DC44C/500DC479;
 Reference = U3;
 ValeurCmp = STM32W108C8;
-IdModule  = ;
+IdModule  = STM32W108C8_VFQFPN48;
 EndCmp
 
 BeginCmp

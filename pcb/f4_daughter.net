@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  8/16/2012 2:48:45 PM
+# EESchema Netlist Version 1.1 created  8/17/2012 5:53:47 PM
 (
  ( /500B69F1/501184C6 $noname$ BT1 16340
   ( 1 Vbat )
@@ -386,7 +386,7 @@
   ( 16 Vbus )
   ( 17 GND )
  )
- ( /500DC44C/500DC479 $noname$ U3 STM32W108C8
+ ( /500DC44C/500DC479 STM32W108C8_VFQFPN48 U3 STM32W108C8
   ( 1 /rf/1V8 )
   ( 2 /rf/1V8 )
   ( 3 N-000121 )
