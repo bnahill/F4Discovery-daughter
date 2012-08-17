@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/16/2012 11:22:19 AM
+EESchema Schematic File Version 2  date 8/17/2012 11:24:52 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
+LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 6
 Title ""
-Date "16 aug 2012"
+Date "17 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -250,10 +251,10 @@ Entry Wire Line
 Entry Wire Line
 	4950 2900 5050 3000
 $Comp
-L GND #PWR06
+L GND #PWR020
 U 1 1 50188B84
 P 3850 3500
-F 0 "#PWR06" H 3850 3500 30  0001 C CNN
+F 0 "#PWR020" H 3850 3500 30  0001 C CNN
 F 1 "GND" H 3850 3430 30  0001 C CNN
 	1    3850 3500
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/16/2012 11:22:19 AM
+EESchema Schematic File Version 2  date 8/17/2012 11:24:52 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
+LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "16 aug 2012"
+Date "17 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -175,10 +176,10 @@ VGND
 Text Label 2050 3100 3    60   ~ 0
 VGND
 $Comp
-L GND #PWR026
+L GND #PWR027
 U 1 1 50118BD6
 P 1050 3000
-F 0 "#PWR026" H 1050 3000 30  0001 C CNN
+F 0 "#PWR027" H 1050 3000 30  0001 C CNN
 F 1 "GND" H 1050 2930 30  0001 C CNN
 	1    1050 3000
 	1    0    0    -1  
@@ -240,10 +241,10 @@ $EndComp
 Text GLabel 3650 5700 0    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR027
+L GND #PWR028
 U 1 1 5010D90D
 P 3700 6500
-F 0 "#PWR027" H 3700 6500 30  0001 C CNN
+F 0 "#PWR028" H 3700 6500 30  0001 C CNN
 F 1 "GND" H 3700 6430 30  0001 C CNN
 	1    3700 6500
 	1    0    0    -1  
@@ -341,10 +342,10 @@ $EndComp
 Text GLabel 2900 4650 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR028
+L GND #PWR029
 U 1 1 5010DA28
 P 2900 5550
-F 0 "#PWR028" H 2900 5550 30  0001 C CNN
+F 0 "#PWR029" H 2900 5550 30  0001 C CNN
 F 1 "GND" H 2900 5480 30  0001 C CNN
 	1    2900 5550
 	1    0    0    -1  

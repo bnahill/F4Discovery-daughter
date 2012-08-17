@@ -80,9 +80,15 @@ FSMC:
 	D14:   PD9
 	D15:   PD10
 POWER:
-	POW_HPWR: PC11
+	POW_HPWR: PC15
 	POW_MODE: PC13
-	POW_nCHRG: PC8
-
-	
-	
+	POW_nCHRG: PC14
+EXTI:
+	EXTI1:  PB1
+	EXTI2:  PB2
+	EXTI3:  PE3
+	EXTI4:  PE4
+	EXTI5:	PE5
+	EXTI6:  PE6
+TIM3:
+	CH1:    PB7 (used for DEN on the gyrocope)

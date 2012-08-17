@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/16/2012 11:22:19 AM
+EESchema Schematic File Version 2  date 8/17/2012 11:24:52 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
+LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "16 aug 2012"
+Date "17 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -208,10 +209,10 @@ F 1 "16340" H 6300 3510 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR020
+L GND #PWR021
 U 1 1 50117654
 P 5800 4150
-F 0 "#PWR020" H 5800 4150 30  0001 C CNN
+F 0 "#PWR021" H 5800 4150 30  0001 C CNN
 F 1 "GND" H 5800 4080 30  0001 C CNN
 	1    5800 4150
 	1    0    0    -1  
@@ -295,10 +296,10 @@ $EndComp
 Text GLabel 4850 1950 0    60   Input ~ 0
 Vbus
 $Comp
-L GND #PWR021
+L GND #PWR022
 U 1 1 50116DE1
 P 6100 2100
-F 0 "#PWR021" H 6100 2100 30  0001 C CNN
+F 0 "#PWR022" H 6100 2100 30  0001 C CNN
 F 1 "GND" H 6100 2030 30  0001 C CNN
 	1    6100 2100
 	1    0    0    -1  
@@ -315,10 +316,10 @@ $EndComp
 Text Label 4050 2850 0    60   ~ 0
 Vfb
 $Comp
-L GND #PWR022
+L GND #PWR023
 U 1 1 50116D88
 P 4250 4150
-F 0 "#PWR022" H 4250 4150 30  0001 C CNN
+F 0 "#PWR023" H 4250 4150 30  0001 C CNN
 F 1 "GND" H 4250 4080 30  0001 C CNN
 	1    4250 4150
 	1    0    0    -1  
@@ -344,19 +345,19 @@ $EndComp
 Text GLabel 5200 3150 0    60   Input ~ 0
 Vbat
 $Comp
-L GND #PWR023
+L GND #PWR024
 U 1 1 50116D38
 P 6050 2950
-F 0 "#PWR023" H 6050 2950 30  0001 C CNN
+F 0 "#PWR024" H 6050 2950 30  0001 C CNN
 F 1 "GND" H 6050 2880 30  0001 C CNN
 	1    6050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND #PWR025
 U 1 1 50116D32
 P 4250 2500
-F 0 "#PWR024" H 4250 2500 30  0001 C CNN
+F 0 "#PWR025" H 4250 2500 30  0001 C CNN
 F 1 "GND" H 4250 2430 30  0001 C CNN
 	1    4250 2500
 	1    0    0    -1  
@@ -375,10 +376,10 @@ $EndComp
 Text GLabel 2700 1950 1    40   Input ~ 0
 Vbus
 $Comp
-L GND #PWR025
+L GND #PWR026
 U 1 1 501093EE
 P 2700 2650
-F 0 "#PWR025" H 2700 2650 30  0001 C CNN
+F 0 "#PWR026" H 2700 2650 30  0001 C CNN
 F 1 "GND" H 2700 2580 30  0001 C CNN
 	1    2700 2650
 	1    0    0    -1  
