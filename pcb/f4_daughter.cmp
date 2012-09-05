@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 9/3/2012 4:38:30 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 9/5/2012 8:56:53 AM
 
 BeginCmp
 TimeStamp = /500B69F1/501184C6;
@@ -424,7 +424,7 @@ BeginCmp
 TimeStamp = /500DC44C/500DCA0F;
 Reference = U4;
 ValeurCmp = SE2432L;
-IdModule  = ;
+IdModule  = SE2432L;
 EndCmp
 
 BeginCmp
