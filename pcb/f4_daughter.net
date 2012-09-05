@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  8/17/2012 5:53:47 PM
+# EESchema Netlist Version 1.1 created  9/5/2012 8:56:53 AM
 (
  ( /500B69F1/501184C6 $noname$ BT1 16340
   ( 1 Vbat )
@@ -132,7 +132,7 @@
   ( 1 N-000086 )
   ( 2 GND )
  )
- ( /500DC44C/500DCA1A $noname$ E1 AH104F
+ ( /500DC44C/500DCA1A AH104F E1 AH104F
   ( 1 N-000119 )
   ( 2 GND )
  )
@@ -437,7 +437,7 @@
   ( 48 ? )
   ( 49 GND )
  )
- ( /500DC44C/500DCA0F $noname$ U4 SE2432L
+ ( /500DC44C/500DCA0F SE2432L U4 SE2432L
   ( 1 N-000126 )
   ( 2 N-000127 )
   ( 3 N-000129 )
