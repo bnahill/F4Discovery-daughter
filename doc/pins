@@ -44,8 +44,8 @@ USART5: -- Lacking available TX pin
 USART6: -- Lacking available RX pin
 	CTS: 
 	RTS: 
-	CK:  PC8
-	TX:  PC6
+	CK:  
+	TX:  
 	RX:  
 I2C1 -- USED BY CS43L22:
 	SCL: PB6
@@ -53,7 +53,7 @@ I2C1 -- USED BY CS43L22:
 I2C2:
 	SCL: 
 	SDA: PB11
-I2C3:
+I2C3: -- Put external headers for this. We could possibly interact with NXT sensors
 	SCL: PA8
 	SDA: PC9
 FSMC:
@@ -89,7 +89,9 @@ EXTI:
 	EXTI2:  PB2 (LSM330DLC DRDYg/INT2_G)
 	EXTI3:  PE3 (LSM330DLC INT1_A)
 	EXTI4:  PE4 (LSM330DLC INT2_A)
-	EXTI5:	PE5 
-	EXTI6:  PE6 
+	EXTI5:	PC5 (S1)
+	EXTI6:  PC6 (S2)
+	EXTI7:  PB7 (S3)
+	EXTI8:  PC8 (S4)
 TIM3:
-	CH1:    PB7 (used for DEN on the gyrocope)
+	CH1:    PB4 (used for DEN on the gyrocope)

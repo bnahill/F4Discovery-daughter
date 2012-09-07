@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/7/2012 11:59:32 AM
+EESchema Schematic File Version 2  date 9/7/2012 2:41:25 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	8875 4075 8550 4075
+Connection ~ 8700 4075
+Wire Wire Line
+	8550 5225 8700 5225
+Wire Wire Line
+	8700 5225 8700 2925
+Wire Wire Line
+	8700 2925 8550 2925
+Wire Wire Line
+	8250 4825 8400 4825
+Wire Wire Line
+	8250 4275 8400 4275
 Wire Wire Line
 	1350 3750 1200 3750
 Wire Wire Line
@@ -424,6 +437,155 @@ Wire Wire Line
 	7000 4050 7200 4050
 Wire Wire Line
 	3450 3950 3600 3950
+Wire Wire Line
+	8250 3125 8400 3125
+Wire Wire Line
+	8250 3725 8400 3725
+Wire Wire Line
+	8400 5425 8250 5425
+Wire Wire Line
+	8550 4625 8700 4625
+Connection ~ 8700 4625
+Wire Wire Line
+	8550 3525 8700 3525
+Connection ~ 8700 3525
+Text GLabel 8875 4075 2    60   Input ~ 0
+Vreg
+$Comp
+L RES R25
+U 1 1 504A3CA8
+P 8400 5225
+F 0 "R25" H 8470 5190 50  0000 L TNN
+F 1 "10k" H 8400 5280 30  0000 C BNN
+	1    8400 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R24
+U 1 1 504A3CA3
+P 8400 4625
+F 0 "R24" H 8470 4590 50  0000 L TNN
+F 1 "10k" H 8400 4680 30  0000 C BNN
+	1    8400 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R23
+U 1 1 504A3CA0
+P 8400 4075
+F 0 "R23" H 8470 4040 50  0000 L TNN
+F 1 "10k" H 8400 4130 30  0000 C BNN
+	1    8400 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R22
+U 1 1 504A3C9C
+P 8400 3525
+F 0 "R22" H 8470 3490 50  0000 L TNN
+F 1 "10k" H 8400 3580 30  0000 C BNN
+	1    8400 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R21
+U 1 1 504A3C92
+P 8400 2925
+F 0 "R21" H 8470 2890 50  0000 L TNN
+F 1 "10k" H 8400 2980 30  0000 C BNN
+	1    8400 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504A3C7D
+P 8400 5425
+F 0 "#PWR?" H 8400 5425 30  0001 C CNN
+F 1 "GND" H 8400 5355 30  0001 C CNN
+	1    8400 5425
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504A3C49
+P 8400 4825
+F 0 "#PWR?" H 8400 4825 30  0001 C CNN
+F 1 "GND" H 8400 4755 30  0001 C CNN
+	1    8400 4825
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504A3C3E
+P 8400 3725
+F 0 "#PWR?" H 8400 3725 30  0001 C CNN
+F 1 "GND" H 8400 3655 30  0001 C CNN
+	1    8400 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504A3BFE
+P 8400 4275
+F 0 "#PWR?" H 8400 4275 30  0001 C CNN
+F 1 "GND" H 8400 4205 30  0001 C CNN
+	1    8400 4275
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504A3BF9
+P 8400 3125
+F 0 "#PWR?" H 8400 3125 30  0001 C CNN
+F 1 "GND" H 8400 3055 30  0001 C CNN
+	1    8400 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L EVQ-Q2S03W S5
+U 1 1 504A3774
+P 8075 5325
+F 0 "S5" H 8075 5150 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 8075 5525 60  0000 C CNN
+	1    8075 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L EVQ-Q2S03W S4
+U 1 1 504A376D
+P 8075 4725
+F 0 "S4" H 8075 4550 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 8075 4950 60  0000 C CNN
+	1    8075 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L EVQ-Q2S03W S3
+U 1 1 504A3765
+P 8075 4175
+F 0 "S3" H 8075 4000 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 8075 4375 60  0000 C CNN
+	1    8075 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L EVQ-Q2S03W S2
+U 1 1 504A375D
+P 8075 3625
+F 0 "S2" H 8075 3450 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 8075 3825 60  0000 C CNN
+	1    8075 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L EVQ-Q2S03W S1
+U 1 1 504A3753
+P 8075 3025
+F 0 "S1" H 8075 2850 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 8075 3250 60  0000 C CNN
+	1    8075 3025
+	1    0    0    -1  
+$EndComp
 Text Label 3600 3950 0    40   ~ 0
 SPI_IRQ_RF
 Text Label 7200 4050 0    40   ~ 0
