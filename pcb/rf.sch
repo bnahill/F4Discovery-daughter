@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 04 Sep 2012 02:38:27 PM EDT
+EESchema Schematic File Version 2  date 9/7/2012 11:59:32 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "4 sep 2012"
+Date "7 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -377,7 +377,7 @@ $EndComp
 Text HLabel 9800 3200 2    60   Input ~ 0
 RESET
 Text Label 9400 3100 2    60   ~ 0
-SPI_IRQ
+SPI_IRQ_RF
 Text Label 9400 3000 2    60   ~ 0
 SPI_MOSI
 Text Label 9400 2900 2    60   ~ 0

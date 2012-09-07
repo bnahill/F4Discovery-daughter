@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Sep 2012 03:52:35 PM EDT
+EESchema Schematic File Version 2  date 9/7/2012 11:59:32 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "6 sep 2012"
+Date "7 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,11 +45,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4850 3550 5100 3550
+	1350 3750 1200 3750
+Wire Wire Line
+	3600 4050 3450 4050
 Wire Wire Line
 	7700 1600 8000 1600
-Wire Wire Line
-	7000 3650 7200 3650
 Wire Wire Line
 	7000 3750 7200 3750
 Wire Wire Line
@@ -423,16 +423,16 @@ Wire Wire Line
 Wire Wire Line
 	7000 4050 7200 4050
 Wire Wire Line
-	1350 3750 1200 3750
-Text Label 1200 3750 2    40   ~ 0
-SPI1_IRQ_RF
+	3450 3950 3600 3950
+Text Label 3600 3950 0    40   ~ 0
+SPI_IRQ_RF
 Text Label 7200 4050 0    40   ~ 0
 DEN_G
 Text Label 8000 1600 0    40   ~ 0
 DEN_G
 Text Label 8000 1500 0    40   ~ 0
 DRDYg/INT2_G
-Text Label 4850 3550 2    40   ~ 0
+Text Label 3600 4050 0    40   ~ 0
 DRDYg/INT2_G
 Text Label 8000 1400 0    40   ~ 0
 INT1_G
@@ -444,7 +444,7 @@ Text Label 7200 3750 0    40   ~ 0
 INT1_A
 Text Label 4850 3650 2    40   ~ 0
 INT2_A
-Text Label 7200 3650 0    40   ~ 0
+Text Label 1200 3750 2    40   ~ 0
 INT1_G
 Text HLabel 10150 2350 2    60   Input ~ 0
 POW_nCHRG
@@ -501,7 +501,7 @@ AUDIO_IN_L
 Text HLabel 10150 1350 2    60   BiDi ~ 0
 LCD_D[0..15]
 Text HLabel 10150 1250 2    60   Input ~ 0
-SPI1_IRQ_RF
+SPI_IRQ_RF
 Text HLabel 10150 1150 2    60   Output ~ 0
 SPI1_nCS_RF
 Text HLabel 10150 1050 2    60   Output ~ 0
@@ -513,7 +513,7 @@ SPI1_MOSI
 Text HLabel 10150 750  2    60   Input ~ 0
 SPI1_MISO
 Text Label 9350 1250 2    60   ~ 0
-SPI1_IRQ_RF
+SPI_IRQ_RF
 Text Label 9350 1150 2    60   ~ 0
 SPI1_nCS_RF
 Text Label 9350 1050 2    60   ~ 0
