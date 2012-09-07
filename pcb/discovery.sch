@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 07 Sep 2012 05:49:39 PM EDT
+EESchema Schematic File Version 2  date Fri 07 Sep 2012 06:23:43 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,8 +46,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	8700 4625 8700 2925
-Wire Wire Line
 	5100 5350 4850 5350
 Wire Wire Line
 	7775 3525 7900 3525
@@ -71,12 +69,6 @@ Wire Wire Line
 	8250 3250 8250 3125
 Wire Wire Line
 	5100 4250 4850 4250
-Connection ~ 8700 3525
-Wire Wire Line
-	8550 3525 8700 3525
-Connection ~ 8700 4625
-Wire Wire Line
-	8700 4625 8550 4625
 Wire Wire Line
 	8400 3725 8250 3725
 Wire Wire Line
@@ -464,11 +456,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 4825 8400 4825
 Wire Wire Line
-	8700 2925 8550 2925
-Connection ~ 8700 4075
-Wire Wire Line
-	8550 4075 8875 4075
-Wire Wire Line
 	7900 2925 7800 2925
 Wire Wire Line
 	8250 3725 8250 3850
@@ -498,46 +485,6 @@ Text Label 7775 3525 2    60   ~ 0
 S2
 Text Label 7800 2925 2    60   ~ 0
 S1
-Text GLabel 8875 4075 2    60   Input ~ 0
-Vreg
-$Comp
-L RES R24
-U 1 1 504A3CA3
-P 8400 4625
-F 0 "R24" H 8470 4590 50  0000 L TNN
-F 1 "2.8k(1%)" H 8500 4700 30  0000 C BNN
-	1    8400 4625
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R23
-U 1 1 504A3CA0
-P 8400 4075
-F 0 "R23" H 8470 4040 50  0000 L TNN
-F 1 "2.8k(1%)" H 8500 4150 30  0000 C BNN
-	1    8400 4075
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R22
-U 1 1 504A3C9C
-P 8400 3525
-F 0 "R22" H 8470 3490 50  0000 L TNN
-F 1 "2.8k(1%)" H 8500 3600 30  0000 C BNN
-	1    8400 3525
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R21
-U 1 1 504A3C92
-P 8400 2925
-AR Path="/500B6AFA/504A3C92" Ref="R21"  Part="1" 
-AR Path="/500B69F1/504A3C92" Ref="R21"  Part="1" 
-F 0 "R21" H 8470 2890 50  0000 L TNN
-F 1 "2.8k(1%)" H 8400 2980 30  0000 C BNN
-	1    8400 2925
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR?
 U 1 1 504A3C49
