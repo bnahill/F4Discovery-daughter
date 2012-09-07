@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/7/2012 4:03:21 PM
+EESchema Schematic File Version 2  date Fri 07 Sep 2012 05:49:39 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -611,8 +611,8 @@ F 1 "EVQ-Q2S03W" H 8075 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3600 3950 0    40   ~ 0
-SPI_IRQ_RF
-Text Label 4850 4250 2    40   ~ 0
+SPI1_IRQ_RF
+Text Label 7200 4050 0    40   ~ 0
 DEN_G
 Text Label 8000 1600 0    40   ~ 0
 DEN_G
@@ -699,7 +699,7 @@ SPI1_MOSI
 Text HLabel 10150 750  2    60   Input ~ 0
 SPI1_MISO
 Text Label 9350 1250 2    60   ~ 0
-SPI_IRQ_RF
+SPI1_IRQ_RF
 Text Label 9350 1150 2    60   ~ 0
 SPI1_nCS_RF
 Text Label 9350 1050 2    60   ~ 0

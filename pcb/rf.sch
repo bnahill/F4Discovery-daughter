@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/7/2012 11:59:32 AM
+EESchema Schematic File Version 2  date Fri 07 Sep 2012 05:49:39 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
+LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -377,7 +378,7 @@ $EndComp
 Text HLabel 9800 3200 2    60   Input ~ 0
 RESET
 Text Label 9400 3100 2    60   ~ 0
-SPI_IRQ_RF
+SPI_IRQ
 Text Label 9400 3000 2    60   ~ 0
 SPI_MOSI
 Text Label 9400 2900 2    60   ~ 0
@@ -391,13 +392,13 @@ RESET
 Text Label 5700 4700 3    60   ~ 0
 RF_RESET
 Text Label 8150 5700 3    40   ~ 0
-SPI1_IRQ_RF
+SPI_IRQ
 Text Label 8050 6450 0    40   ~ 0
 SPI1_MISO
 Text Label 7200 5350 3    40   ~ 0
 SPI1_MOSI
 Text Label 7100 5750 3    40   ~ 0
-SPI1_nCS_RF
+SPI_nCS
 Text Label 7050 5350 3    40   ~ 0
 SPI1_CLK
 Text HLabel 9800 3100 2    60   Output ~ 0
