@@ -53,7 +53,7 @@ I2C1 -- USED BY CS43L22:
 I2C2:
 	SCL: 
 	SDA: PB11
-I2C3: -- Put external headers for this. We could possibly interact with NXT sensors
+I2C3: -- NXT sensors
 	SCL: PA8
 	SDA: PC9
 FSMC:

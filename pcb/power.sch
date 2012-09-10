@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/10/2012 2:20:57 PM
+EESchema Schematic File Version 2  date 9/10/2012 3:24:02 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
+LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -546,7 +547,7 @@ $EndComp
 Text HLabel 8100 1900 0    60   Input ~ 0
 POW_NXT
 Text GLabel 10250 1600 2    60   Output ~ 0
-Vnxt
+Vnxt4.3v
 Text GLabel 7200 1100 0    60   Input ~ 0
 Vbat
 $Comp
