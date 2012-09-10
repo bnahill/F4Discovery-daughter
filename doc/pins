@@ -34,7 +34,7 @@ USART4: -- Lacking available TX pin
 	RTS: 
 	CK:  
 	TX:  
-	RX:  PA1, PC11
+	RX:  PC11
 USART5: -- Lacking available TX pin
 	CTS: 
 	RTS: 
@@ -83,6 +83,7 @@ POWER:
 	POW_HPWR: PC15
 	POW_MODE: PC13
 	POW_nCHRG: PC14
+	POW_NXT: PE6
 EXTI:
 	EXTI0:	PB0 (SPI_IRQ_RF)
 	EXTI1:  PB1 (LSM330DLC INT1_G)
@@ -95,3 +96,5 @@ EXTI:
 	EXTI8:  PC8 (S4)
 TIM3:
 	CH1:    PB4 (used for DEN on the gyrocope)
+
+	

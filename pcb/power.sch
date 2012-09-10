@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 07 Sep 2012 05:49:39 PM EDT
+EESchema Schematic File Version 2  date 9/9/2012 8:55:02 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "7 sep 2012"
+Date "10 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,25 +45,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2650 2400 2    40   Output ~ 0
-USB_ID
-Text HLabel 2650 2300 2    40   Output ~ 0
-USB_D+
-Text HLabel 2650 2200 2    40   Output ~ 0
-USB_D-
-Text HLabel 3650 2650 0    60   Input ~ 0
-POW_MODE
-Text HLabel 5000 1750 0    60   Output ~ 0
-POW_nCHRG
-Text HLabel 6200 2450 2    60   Input ~ 0
-POW_HPWR
-Text Notes 3700 2200 0    60   ~ 0
-This cannot be LTC3559-1\nThat is for 4.1V
-Text Notes 6600 3650 0    60   ~ 0
-3.7V nom -- 4.2V charge\nUNPROTECTED
+Wire Wire Line
+	8400 2900 8700 2900
+Wire Wire Line
+	8700 2600 7700 2600
+Connection ~ 10100 2600
+Wire Wire Line
+	9900 2900 10100 2900
+Wire Wire Line
+	10000 2300 10000 2100
+Wire Wire Line
+	10000 2300 9900 2300
 Connection ~ 5900 4100
 Wire Wire Line
-	6300 4100 5650 4100
+	6300 4100 5900 4100
+Wire Wire Line
+	5900 4100 5800 4100
+Wire Wire Line
+	5800 4100 5650 4100
 Wire Wire Line
 	6300 4100 6300 4000
 Connection ~ 5650 3300
@@ -79,7 +78,9 @@ Wire Wire Line
 	6200 2450 5900 2450
 Connection ~ 3800 2650
 Wire Wire Line
-	4900 2650 3650 2650
+	4900 2650 3800 2650
+Wire Wire Line
+	3800 2650 3650 2650
 Wire Wire Line
 	3800 2650 3800 2950
 Connection ~ 2700 2100
@@ -89,7 +90,9 @@ Connection ~ 2700 2500
 Wire Wire Line
 	3150 2400 3150 2500
 Wire Wire Line
-	3150 2500 2400 2500
+	3150 2500 2700 2500
+Wire Wire Line
+	2700 2500 2400 2500
 Wire Wire Line
 	3150 2200 3150 2100
 Connection ~ 4450 4100
@@ -104,19 +107,27 @@ Connection ~ 6100 2050
 Wire Wire Line
 	5900 1850 6100 1850
 Wire Wire Line
-	6100 1850 6100 2100
+	6100 1850 6100 2050
+Wire Wire Line
+	6100 2050 6100 2100
 Wire Wire Line
 	5600 1850 5450 1850
 Wire Wire Line
 	5450 1850 5450 2100
 Wire Wire Line
-	4250 3800 4250 4150
+	4250 3800 4250 4100
+Wire Wire Line
+	4250 4100 4250 4150
 Wire Wire Line
 	4250 3100 4250 3050
 Wire Wire Line
-	4250 3050 4450 3050
+	4250 3050 4350 3050
 Wire Wire Line
-	4700 3350 4450 3350
+	4350 3050 4450 3050
+Wire Wire Line
+	4700 3350 4650 3350
+Wire Wire Line
+	4650 3350 4450 3350
 Wire Wire Line
 	5250 3100 5250 3150
 Wire Wire Line
@@ -143,14 +154,18 @@ Wire Wire Line
 Wire Wire Line
 	5350 3350 5350 3100
 Wire Wire Line
-	4250 3400 4250 3500
+	4250 3400 4250 3450
+Wire Wire Line
+	4250 3450 4250 3500
 Wire Wire Line
 	4250 3450 4050 3450
 Connection ~ 4250 3450
 Wire Wire Line
 	4050 3450 4050 2750
 Wire Wire Line
-	4050 2750 4900 2750
+	4050 2750 4350 2750
+Wire Wire Line
+	4350 2750 4900 2750
 Wire Wire Line
 	5550 2100 5550 2050
 Wire Wire Line
@@ -160,23 +175,35 @@ Wire Wire Line
 Wire Wire Line
 	5250 1950 5250 2100
 Wire Wire Line
-	4450 3050 4450 3500
+	4450 3050 4450 3350
+Wire Wire Line
+	4450 3350 4450 3500
 Connection ~ 4450 3350
 Wire Wire Line
 	4350 2800 4350 2750
 Connection ~ 4350 2750
 Wire Wire Line
-	4650 3150 4650 3500
+	4650 3150 4650 3350
 Wire Wire Line
-	5450 3100 5450 3400
+	4650 3350 4650 3500
+Wire Wire Line
+	5450 3100 5450 3300
+Wire Wire Line
+	5450 3300 5450 3400
 Wire Wire Line
 	2700 2650 2700 2500
 Wire Wire Line
-	3150 2100 2400 2100
+	3150 2100 2700 2100
+Wire Wire Line
+	2700 2100 2400 2100
 Wire Wire Line
 	3800 3250 3800 4100
 Wire Wire Line
-	3800 4100 4650 4100
+	3800 4100 4250 4100
+Wire Wire Line
+	4250 4100 4450 4100
+Wire Wire Line
+	4450 4100 4650 4100
 Wire Wire Line
 	5000 1750 5350 1750
 Wire Wire Line
@@ -184,7 +211,11 @@ Wire Wire Line
 Wire Wire Line
 	5900 2550 6050 2550
 Wire Wire Line
-	6050 2550 6050 2950
+	6050 2550 6050 2750
+Wire Wire Line
+	6050 2750 6050 2900
+Wire Wire Line
+	6050 2900 6050 2950
 Connection ~ 6050 2750
 Wire Wire Line
 	4450 3700 4450 4100
@@ -197,8 +228,149 @@ Connection ~ 5450 3300
 Wire Wire Line
 	6300 3400 6300 3300
 Wire Wire Line
-	6300 3300 5450 3300
+	6300 3300 5900 3300
+Wire Wire Line
+	5900 3300 5650 3300
+Wire Wire Line
+	5650 3300 5450 3300
 Connection ~ 5900 3300
+Wire Wire Line
+	8700 2300 8400 2300
+Wire Wire Line
+	7800 2300 7700 2300
+Wire Wire Line
+	7700 2300 7600 2300
+Wire Wire Line
+	7600 2300 7600 2100
+Wire Wire Line
+	7700 2300 7700 2400
+Connection ~ 7700 2300
+Connection ~ 7700 2600
+Wire Wire Line
+	10100 2900 10100 3000
+Wire Wire Line
+	10100 3450 10100 3300
+Wire Wire Line
+	10350 2600 10350 2650
+Wire Wire Line
+	10350 3000 10350 2850
+Wire Wire Line
+	10550 2600 10350 2600
+Wire Wire Line
+	10350 2600 10100 2600
+Wire Wire Line
+	10100 2600 9900 2600
+Connection ~ 10350 2600
+Wire Wire Line
+	7700 2600 7700 2800
+Wire Wire Line
+	10000 2100 7600 2100
+Wire Wire Line
+	7600 2100 7500 2100
+Connection ~ 7600 2100
+Text HLabel 8400 2900 0    60   Input ~ 0
+POW_NXT
+Text GLabel 10550 2600 2    60   Output ~ 0
+Vnxt
+Text GLabel 7500 2100 0    60   Input ~ 0
+Vreg
+$Comp
+L GND #PWR?
+U 1 1 504D34F8
+P 10350 3000
+F 0 "#PWR?" H 10350 3000 30  0001 C CNN
+F 1 "GND" H 10350 2930 30  0001 C CNN
+	1    10350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C?
+U 1 1 504D34CB
+P 10350 2750
+F 0 "C?" H 10370 2720 50  0000 L TNN
+F 1 "10u" H 10375 2770 30  0000 L BNN
+	1    10350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504D341F
+P 10100 3450
+F 0 "#PWR?" H 10100 3450 30  0001 C CNN
+F 1 "GND" H 10100 3380 30  0001 C CNN
+	1    10100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES R?
+U 1 1 504D340B
+P 10100 3150
+F 0 "R?" H 10170 3115 50  0000 L TNN
+F 1 "131k" H 10100 3205 30  0000 C BNN
+	1    10100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES R?
+U 1 1 504D33DF
+P 10100 2750
+F 0 "R?" H 10170 2715 50  0000 L TNN
+F 1 "1M" H 10100 2805 30  0000 C BNN
+	1    10100 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504D3361
+P 7700 2800
+F 0 "#PWR?" H 7700 2800 30  0001 C CNN
+F 1 "GND" H 7700 2730 30  0001 C CNN
+	1    7700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C?
+U 1 1 504D3316
+P 7700 2500
+F 0 "C?" H 7720 2470 50  0000 L TNN
+F 1 "10u" H 7725 2520 30  0000 L BNN
+	1    7700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 504D325B
+P 8100 2300
+F 0 "L2" V 8050 2300 40  0000 C CNN
+F 1 "CVH252009-4R7MCT-ND" V 8200 2300 30  0000 C CNN
+	1    8100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TLV61220 U?
+U 1 1 504D3229
+P 9300 2600
+F 0 "U?" H 9250 2200 60  0000 C CNN
+F 1 "TLV61220" H 9300 2450 60  0000 C CNN
+	1    9300 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 2400 2    40   Output ~ 0
+USB_ID
+Text HLabel 2650 2300 2    40   Output ~ 0
+USB_D+
+Text HLabel 2650 2200 2    40   Output ~ 0
+USB_D-
+Text HLabel 3650 2650 0    60   Input ~ 0
+POW_MODE
+Text HLabel 5000 1750 0    60   Output ~ 0
+POW_nCHRG
+Text HLabel 6200 2450 2    60   Input ~ 0
+POW_HPWR
+Text Notes 3700 2200 0    60   ~ 0
+This cannot be LTC3559-1\nThat is for 4.1V
+Text Notes 6600 3650 0    60   ~ 0
+3.7V nom -- 4.2V charge\nUNPROTECTED
 $Comp
 L BATTERY BT1
 U 1 1 501184C6
