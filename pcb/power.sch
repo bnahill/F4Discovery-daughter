@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/10/2012 3:24:02 PM
+EESchema Schematic File Version 2  date 9/10/2012 5:54:09 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -412,7 +412,7 @@ L RES R?
 U 1 1 504E265B
 P 1950 5850
 F 0 "R?" H 2020 5815 30  0000 L TNN
-F 1 "10k" H 1950 5905 30  0000 C BNN
+F 1 "110k" H 1950 5905 30  0000 C BNN
 	1    1950 5850
 	0    -1   -1   0   
 $EndComp
@@ -540,7 +540,7 @@ L RES R?
 U 1 1 504E1CAF
 P 8250 2100
 F 0 "R?" H 8320 2065 50  0000 L TNN
-F 1 "10k" H 8250 2155 30  0000 C BNN
+F 1 "110k" H 8250 2155 30  0000 C BNN
 	1    8250 2100
 	0    -1   -1   0   
 $EndComp
