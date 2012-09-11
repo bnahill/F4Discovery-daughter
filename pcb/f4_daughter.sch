@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/10/2012 3:24:02 PM
+EESchema Schematic File Version 2  date 9/11/2012 11:18:24 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	6500 3600 5650 3600
 Wire Bus Line
 	3050 1750 5800 1750
 Wire Bus Line
@@ -73,8 +75,6 @@ Wire Wire Line
 	2100 2800 2100 4900
 Wire Wire Line
 	2100 4900 3950 4900
-Wire Wire Line
-	3950 3600 3400 3600
 Wire Bus Line
 	3100 1750 2250 1750
 Wire Wire Line
@@ -114,8 +114,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 2500 7950 2500
 Wire Wire Line
-	3400 3500 3950 3500
-Wire Wire Line
 	3950 4800 2200 4800
 Wire Wire Line
 	2200 4800 2200 2900
@@ -135,6 +133,8 @@ Wire Wire Line
 	1900 5300 3950 5300
 Wire Wire Line
 	1600 2250 3950 2250
+Wire Wire Line
+	5650 3500 6500 3500
 $Sheet
 S 7950 1150 1950 2150
 U 500DC44C
@@ -154,8 +154,8 @@ F0 "discovery" 60
 F1 "discovery.sch" 60
 F2 "USB_D-" I L 3950 2800 60 
 F3 "USB_D+" I L 3950 2900 60 
-F4 "AUDIO_IN_L" I L 3950 3500 60 
-F5 "AUDIO_IN_R" I L 3950 3600 60 
+F4 "AUDIO_IN_L" I R 5650 3500 60 
+F5 "AUDIO_IN_R" I R 5650 3600 60 
 F6 "LCD_D[0..15]" B R 5650 2250 60 
 F7 "SPI1_IRQ_RF" I R 5650 2600 60 
 F8 "SPI1_nCS_RF" O R 5650 2700 60 
@@ -191,11 +191,11 @@ F8 "POW_NXT" I L 3950 5200 60
 F9 "POW_9V" I L 3950 5600 60 
 $EndSheet
 $Sheet
-S 2350 3200 1050 700 
+S 6500 3200 1050 700 
 U 5010D8BD
 F0 "audio_in" 60
 F1 "audio_in.sch" 60
-F2 "AUDIO_IN_L" O R 3400 3500 60 
-F3 "AUDIO_IN_R" O R 3400 3600 60 
+F2 "AUDIO_IN_L" O L 6500 3500 60 
+F3 "AUDIO_IN_R" O L 6500 3600 60 
 $EndSheet
 $EndSCHEMATC
