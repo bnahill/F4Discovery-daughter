@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/10/2012 3:24:02 PM
+EESchema Schematic File Version 2  date 9/11/2012 11:18:24 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,12 +45,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 10150 5550 1    40   ~ 0
-NXT_SDA
-Text Label 10050 5550 1    40   ~ 0
-NXT_SCL
-Text Label 7150 5150 0    40   ~ 0
-NXT_SDA
+Text Label 1200 3150 2    40   ~ 0
+STM32_ADC
+Text Label 10600 3700 0    40   ~ 0
+STM32_ADC
+Connection ~ 10500 3700
+Wire Wire Line
+	10600 3700 9750 3700
+Wire Wire Line
+	9750 4450 9750 4150
+Connection ~ 9750 3250
+Wire Wire Line
+	9750 3350 9750 3250
+Connection ~ 10100 3700
+Wire Wire Line
+	10100 3900 10100 3700
+Connection ~ 9750 4350
+Wire Wire Line
+	10100 4350 9250 4350
+Wire Wire Line
+	10100 4350 10100 4200
+Wire Wire Line
+	9250 4350 9250 4300
 Wire Wire Line
 	7000 5150 7150 5150
 Wire Wire Line
@@ -60,9 +76,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 5650 9850 5550
 Wire Wire Line
-	9850 5550 9800 5550
-Wire Wire Line
-	9800 5550 9750 5550
+	9850 5550 9750 5550
 Wire Wire Line
 	9750 5550 9750 5650
 Wire Wire Line
@@ -137,17 +151,13 @@ Wire Wire Line
 Wire Wire Line
 	8050 1700 8050 1800
 Wire Wire Line
-	6950 850  6950 550 
-Wire Wire Line
-	6950 550  6950 500 
+	6950 850  6950 500 
 Wire Wire Line
 	6950 500  7350 500 
 Wire Wire Line
 	7350 500  7350 850 
 Wire Wire Line
-	6750 2050 6750 2100
-Wire Wire Line
-	6750 2100 6750 2200
+	6750 2050 6750 2200
 Wire Wire Line
 	6750 2200 6650 2200
 Connection ~ 6250 1600
@@ -157,15 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 1200 6250 1200
 Wire Wire Line
-	6250 1200 6250 1300
-Wire Wire Line
-	6250 1300 6250 1400
-Wire Wire Line
-	6250 1400 6250 1500
-Wire Wire Line
-	6250 1500 6250 1600
-Wire Wire Line
-	6250 1600 6250 1700
+	6250 1200 6250 1700
 Wire Wire Line
 	6250 1700 6300 1700
 Connection ~ 6750 2100
@@ -187,9 +189,7 @@ Connection ~ 2400 5850
 Wire Wire Line
 	2400 5850 2400 5900
 Wire Wire Line
-	2650 2500 2600 2500
-Wire Wire Line
-	2600 2500 2550 2500
+	2650 2500 2550 2500
 Wire Wire Line
 	2650 2500 2650 2650
 Connection ~ 6000 5950
@@ -198,13 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 5850 6200 5950
 Wire Wire Line
-	6200 5950 6100 5950
-Wire Wire Line
-	6100 5950 6050 5950
-Wire Wire Line
-	6050 5950 6000 5950
-Wire Wire Line
-	6000 5950 5900 5950
+	6200 5950 5900 5950
 Wire Wire Line
 	5900 5950 5900 5850
 Connection ~ 2350 5850
@@ -214,23 +208,11 @@ Connection ~ 2550 5850
 Wire Wire Line
 	2550 5850 2550 5750
 Wire Wire Line
-	6200 2550 6200 2600
-Wire Wire Line
-	6200 2600 6200 2650
+	6200 2550 6200 2650
 Wire Wire Line
 	2150 5750 2150 5850
 Wire Wire Line
-	2150 5850 2250 5850
-Wire Wire Line
-	2250 5850 2350 5850
-Wire Wire Line
-	2350 5850 2400 5850
-Wire Wire Line
-	2400 5850 2450 5850
-Wire Wire Line
-	2450 5850 2550 5850
-Wire Wire Line
-	2550 5850 2650 5850
+	2150 5850 2650 5850
 Wire Wire Line
 	2650 5850 2650 5750
 Wire Wire Line
@@ -252,19 +234,13 @@ Wire Wire Line
 Wire Wire Line
 	1850 950  1850 850 
 Wire Wire Line
-	1850 850  1800 850 
-Wire Wire Line
-	1800 850  1750 850 
+	1850 850  1750 850 
 Wire Wire Line
 	1750 850  1750 950 
 Wire Wire Line
-	1750 2150 1750 2250
+	1750 2150 1750 2350
 Wire Wire Line
-	1750 2250 1750 2350
-Wire Wire Line
-	4950 2600 6200 2600
-Wire Wire Line
-	6200 2600 7150 2600
+	4950 2600 7150 2600
 Wire Wire Line
 	4950 2600 4950 3250
 Wire Wire Line
@@ -311,37 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 4650 4550 6000
 Wire Bus Line
-	1600 6500 1650 6500
-Wire Bus Line
-	1650 6500 1700 6500
-Wire Bus Line
-	1700 6500 1750 6500
-Wire Bus Line
-	1750 6500 1800 6500
-Wire Bus Line
-	1800 6500 1850 6500
-Wire Bus Line
-	1850 6500 1900 6500
-Wire Bus Line
-	1900 6500 1950 6500
-Wire Bus Line
-	1950 6500 2000 6500
-Wire Bus Line
-	2000 6500 2050 6500
-Wire Bus Line
-	2050 6500 2100 6500
-Wire Bus Line
-	2100 6500 2150 6500
-Wire Bus Line
-	2150 6500 2200 6500
-Wire Bus Line
-	2200 6500 2250 6500
-Wire Bus Line
-	2250 6500 2300 6500
-Wire Bus Line
-	2300 6500 2350 6500
-Wire Bus Line
-	2350 6500 3550 6500
+	1600 6500 3550 6500
 Wire Wire Line
 	3700 5950 1500 5950
 Wire Wire Line
@@ -475,19 +421,7 @@ Wire Wire Line
 	7350 2050 7350 2100
 Connection ~ 7150 2100
 Wire Wire Line
-	7350 2100 7250 2100
-Wire Wire Line
-	7250 2100 7150 2100
-Wire Wire Line
-	7150 2100 7050 2100
-Wire Wire Line
-	7050 2100 6950 2100
-Wire Wire Line
-	6950 2100 6850 2100
-Wire Wire Line
-	6850 2100 6750 2100
-Wire Wire Line
-	6750 2100 6650 2100
+	7350 2100 6650 2100
 Wire Wire Line
 	6650 2100 6650 2050
 Connection ~ 6950 2100
@@ -503,15 +437,11 @@ Connection ~ 6250 1500
 Wire Wire Line
 	6150 1750 6150 1600
 Wire Wire Line
-	6150 1600 6250 1600
-Wire Wire Line
-	6250 1600 6300 1600
+	6150 1600 6300 1600
 Wire Wire Line
 	6750 850  6750 800 
 Wire Wire Line
-	6750 800  6800 800 
-Wire Wire Line
-	6800 800  6850 800 
+	6750 800  6850 800 
 Wire Wire Line
 	6850 800  6850 850 
 Wire Wire Line
@@ -586,12 +516,98 @@ Wire Wire Line
 Wire Wire Line
 	9650 5650 9650 5550
 Wire Wire Line
-	9800 5550 9800 5500
+	9800 5500 9800 5550
 Connection ~ 9800 5550
 Wire Wire Line
 	10050 5650 10050 5550
 Wire Wire Line
 	5100 5150 4850 5150
+Wire Wire Line
+	9250 3950 9250 4000
+Wire Wire Line
+	10500 4200 10500 4350
+Wire Wire Line
+	10500 3700 10500 3800
+Wire Wire Line
+	9750 3650 9750 3750
+Connection ~ 9750 3700
+Wire Wire Line
+	9900 3250 9550 3250
+Wire Wire Line
+	9150 3950 9450 3950
+Connection ~ 9250 3950
+Wire Wire Line
+	1350 3150 1200 3150
+Text Label 9150 3950 2    40   ~ 0
+POW_9V
+$Comp
+L GND #PWR?
+U 1 1 504E596F
+P 9750 4450
+F 0 "#PWR?" H 9750 4450 30  0001 C CNN
+F 1 "GND" H 9750 4380 30  0001 C CNN
+	1    9750 4450
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9900 3250 2    40   Input ~ 0
+Vnxt9v
+Text Label 9550 3250 2    40   ~ 0
+Analog_POW
+$Comp
+L RES R?
+U 1 1 504E58A7
+P 9750 3500
+F 0 "R?" H 9820 3465 50  0000 L TNN
+F 1 "12k" H 9750 3555 30  0000 C BNN
+	1    9750 3500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10500 4350 3    60   Input ~ 0
+Vreg
+$Comp
+L DIODESCH D?
+U 1 1 504E5806
+P 10500 4000
+F 0 "D?" H 10500 4100 40  0000 C CNN
+F 1 "DIODESCH" H 10500 3900 40  0000 C CNN
+	1    10500 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L RES R?
+U 1 1 504E57D1
+P 10100 4050
+F 0 "R?" H 10170 4015 50  0000 L TNN
+F 1 "5k" H 10050 4100 30  0000 C BNN
+	1    10100 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES R?
+U 1 1 504E57B0
+P 9250 4150
+F 0 "R?" H 9320 4115 50  0000 L TNN
+F 1 "100k" H 9250 4205 30  0000 C BNN
+	1    9250 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 504E571E
+P 9650 3950
+F 0 "Q?" H 9660 4120 60  0000 R CNN
+F 1 "MOS_N" H 9660 3800 60  0000 R CNN
+	1    9650 3950
+	1    0    0    -1  
+$EndComp
+Text Label 9650 5550 1    40   ~ 0
+Analog_POW
+Text Label 10150 5550 1    40   ~ 0
+NXT_SDA
+Text Label 10050 5550 1    40   ~ 0
+NXT_SCL
+Text Label 7150 5150 0    40   ~ 0
+NXT_SDA
 Text Label 4850 5150 2    40   ~ 0
 NXT_SCL
 Text GLabel 9950 5300 1    60   Input ~ 0
