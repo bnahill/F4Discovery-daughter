@@ -96,5 +96,6 @@ EXTI:
 	EXTI8:  PC8 (S4)
 TIM3:
 	CH1:    PB4 (used for DEN on the gyrocope)
-
+ADC123:
+	CH11: PC1
 	
