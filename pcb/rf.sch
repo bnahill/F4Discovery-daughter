@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 07 Sep 2012 05:49:39 PM EDT
+EESchema Schematic File Version 2  date Wed 26 Sep 2012 06:41:48 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "7 sep 2012"
+Date "26 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -367,10 +367,10 @@ $EndComp
 Text GLabel 8050 6250 2    60   Input ~ 0
 Vreg
 $Comp
-L SN74LVC1G125 U?
+L SN74LVC1G125 U9
 U 1 1 50196B6B
 P 7650 6350
-F 0 "U?" H 7750 6150 60  0000 C CNN
+F 0 "U9" H 7750 6150 60  0000 C CNN
 F 1 "SN74LVC1G125" H 7800 6550 60  0000 C CNN
 	1    7650 6350
 	1    0    0    -1  
@@ -750,10 +750,10 @@ F 1 "GND" H 3650 3880 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR L2
+L INDUCTOR L4
 U 1 1 500DCA52
 P 2600 4100
-F 0 "L2" V 2550 4100 40  0000 C CNN
+F 0 "L4" V 2550 4100 40  0000 C CNN
 F 1 "7n5" V 2700 4100 40  0000 C CNN
 	1    2600 4100
 	0    -1   -1   0   

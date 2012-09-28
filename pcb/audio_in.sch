@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 07 Sep 2012 05:49:39 PM EDT
+EESchema Schematic File Version 2  date Wed 26 Sep 2012 06:41:48 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "7 sep 2012"
+Date "26 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -74,9 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2900 2300 2900
 Wire Wire Line
-	2800 2800 3000 2800
-Wire Wire Line
-	3000 2800 3200 2800
+	2800 2800 3200 2800
 Wire Wire Line
 	1650 3800 1900 3800
 Wire Wire Line
@@ -111,9 +109,7 @@ Wire Wire Line
 	4100 3250 4100 3150
 Connection ~ 8950 5000
 Wire Wire Line
-	9150 5000 8950 5000
-Wire Wire Line
-	8950 5000 8800 5000
+	9150 5000 8800 5000
 Wire Wire Line
 	8950 5000 8950 5350
 Wire Wire Line
@@ -123,18 +119,12 @@ Wire Wire Line
 Wire Wire Line
 	8200 5100 8300 5100
 Wire Wire Line
-	7700 4500 7700 4450
-Wire Wire Line
-	7700 4450 7700 4400
+	7700 4500 7700 4400
 Connection ~ 5150 4200
 Wire Wire Line
-	5300 4200 5150 4200
+	5300 4200 4900 4200
 Wire Wire Line
-	5150 4200 4900 4200
-Wire Wire Line
-	5150 4550 5150 4200
-Wire Wire Line
-	5150 4200 5150 3800
+	5150 4550 5150 3800
 Wire Wire Line
 	5150 4550 4350 4550
 Wire Wire Line
@@ -142,21 +132,15 @@ Wire Wire Line
 Wire Wire Line
 	4350 4300 4450 4300
 Wire Wire Line
-	7700 5400 7700 5350
-Wire Wire Line
-	7700 5350 7700 5300
+	7700 5400 7700 5300
 Connection ~ 3550 4100
 Wire Wire Line
-	3600 4100 3550 4100
-Wire Wire Line
-	3550 4100 3450 4100
+	3600 4100 3450 4100
 Connection ~ 4100 4100
 Wire Wire Line
 	4100 4250 4100 4100
 Wire Wire Line
-	4450 4100 4100 4100
-Wire Wire Line
-	4100 4100 3900 4100
+	4450 4100 3900 4100
 Wire Wire Line
 	5150 3800 4350 3800
 Wire Wire Line
@@ -165,13 +149,9 @@ Wire Wire Line
 	3550 3800 3550 4100
 Connection ~ 7700 4900
 Wire Wire Line
-	8300 4900 7950 4900
+	8300 4900 7700 4900
 Wire Wire Line
-	7950 4900 7700 4900
-Wire Wire Line
-	7700 5000 7700 4900
-Wire Wire Line
-	7700 4900 7700 4800
+	7700 5000 7700 4800
 Connection ~ 5150 2900
 Wire Wire Line
 	4350 3250 5150 3250
@@ -181,24 +161,16 @@ Wire Wire Line
 	4350 3000 4450 3000
 Connection ~ 3550 2800
 Wire Wire Line
-	3600 2800 3550 2800
-Wire Wire Line
-	3550 2800 3500 2800
+	3600 2800 3500 2800
 Connection ~ 4100 2800
 Wire Wire Line
 	4100 2950 4100 2800
 Wire Wire Line
-	4450 2800 4100 2800
+	4450 2800 3900 2800
 Wire Wire Line
-	4100 2800 3900 2800
+	5350 2900 4950 2900
 Wire Wire Line
-	5350 2900 5150 2900
-Wire Wire Line
-	5150 2900 4950 2900
-Wire Wire Line
-	5150 3250 5150 2900
-Wire Wire Line
-	5150 2900 5150 2500
+	5150 3250 5150 2500
 Wire Wire Line
 	5150 2500 4350 2500
 Wire Wire Line
@@ -206,9 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2500 3550 2800
 Wire Wire Line
-	6750 6100 6750 6150
-Wire Wire Line
-	6750 6150 6750 6250
+	6750 6100 6750 6250
 Wire Wire Line
 	6750 5550 6750 5450
 Wire Wire Line
@@ -226,9 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 2850 1900 3050
 Wire Wire Line
-	2800 4100 3000 4100
-Wire Wire Line
-	3000 4100 3150 4100
+	2800 4100 3150 4100
 Wire Wire Line
 	2300 2700 2050 2700
 Wire Wire Line
@@ -239,28 +207,28 @@ Wire Wire Line
 	7950 5050 7950 4900
 Connection ~ 7950 4900
 $Comp
-L CAP C?
+L CAP C40
 U 1 1 504649FC
 P 7950 5150
-F 0 "C?" H 7970 5120 50  0000 L TNN
+F 0 "C40" H 7970 5120 50  0000 L TNN
 F 1 "100n" H 7975 5170 30  0000 L BNN
 	1    7950 5150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR040
 U 1 1 504649EC
 P 8550 5250
-F 0 "#PWR?" H 8550 5250 30  0001 C CNN
+F 0 "#PWR040" H 8550 5250 30  0001 C CNN
 F 1 "GND" H 8550 5180 30  0001 C CNN
 	1    8550 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPAMP U?
+L OPAMP U12
 U 1 1 504649E3
 P 8500 5000
-F 0 "U?" H 8650 4850 60  0000 C CNN
+F 0 "U12" H 8650 4850 60  0000 C CNN
 F 1 "MCP6241" H 8750 5150 60  0000 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21882d.pdf" H 8500 5000 60  0001 C CNN
 	1    8500 5000
@@ -276,19 +244,19 @@ F 1 "MCP6409" H 2750 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TRIM_R R?
+L TRIM_R R28
 U 1 1 504632BD
 P 1900 4000
-F 0 "R?" H 1970 3965 50  0000 L TNN
+F 0 "R28" H 1970 3965 50  0000 L TNN
 F 1 "100k" H 1900 4055 30  0000 C BNN
 	1    1900 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TRIM_R R?
+L TRIM_R R27
 U 1 1 5046327E
 P 1900 2700
-F 0 "R?" H 1970 2665 50  0000 L TNN
+F 0 "R27" H 1970 2665 50  0000 L TNN
 F 1 "100k" H 1900 2755 30  0000 C BNN
 	1    1900 2700
 	0    -1   -1   0   
@@ -302,10 +270,10 @@ VGND
 Text Label 1900 3000 3    60   ~ 0
 VGND
 $Comp
-L GND #PWR027
+L GND #PWR041
 U 1 1 50118BD6
 P 1050 3000
-F 0 "#PWR027" H 1050 3000 30  0001 C CNN
+F 0 "#PWR041" H 1050 3000 30  0001 C CNN
 F 1 "GND" H 1050 2930 30  0001 C CNN
 	1    1050 3000
 	1    0    0    -1  
@@ -367,10 +335,10 @@ $EndComp
 Text GLabel 6700 5450 0    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR028
+L GND #PWR042
 U 1 1 5010D90D
 P 6750 6250
-F 0 "#PWR028" H 6750 6250 30  0001 C CNN
+F 0 "#PWR042" H 6750 6250 30  0001 C CNN
 F 1 "GND" H 6750 6180 30  0001 C CNN
 	1    6750 6250
 	1    0    0    -1  
@@ -459,10 +427,10 @@ $EndComp
 Text GLabel 7700 4400 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR029
+L GND #PWR043
 U 1 1 5010DA28
 P 7700 5400
-F 0 "#PWR029" H 7700 5400 30  0001 C CNN
+F 0 "#PWR043" H 7700 5400 30  0001 C CNN
 F 1 "GND" H 7700 5330 30  0001 C CNN
 	1    7700 5400
 	1    0    0    -1  
