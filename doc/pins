@@ -6,7 +6,7 @@ SPI1 -- USED FOR LIS302 and STM32W:
 SPI2 -- USED FOR SD CARD AND TOUCH SCREEN
 	NSS:  PB12
 	CLK:  PB13
-	MISO: PB14, PC2
+	MISO: PB14
 	MOSI: PB15
 SPI3 -- Lacking available CLK pin
 	NSS:  PA15
@@ -98,4 +98,5 @@ TIM3:
 	CH1:    PB4 (used for DEN on the gyrocope)
 ADC123:
 	CH11: PC1
+	CH12: PC2 (Battery voltage level)
 	
