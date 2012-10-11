@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/10/2012 1:41:54 PM
+EESchema Schematic File Version 2  date 10/11/2012 11:52:24 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 7
 Title ""
-Date "10 oct 2012"
+Date "11 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -251,10 +251,10 @@ Entry Wire Line
 Entry Wire Line
 	4950 2900 5050 3000
 $Comp
-L GND #PWR28
+L GND #PWR30
 U 1 1 50188B84
 P 3850 3500
-F 0 "#PWR28" H 3850 3500 30  0001 C CNN
+F 0 "#PWR30" H 3850 3500 30  0001 C CNN
 F 1 "GND" H 3850 3430 30  0001 C CNN
 	1    3850 3500
 	1    0    0    -1  
@@ -262,10 +262,10 @@ $EndComp
 Text GLabel 4200 3500 0    40   Input ~ 0
 Vreg
 $Comp
-L ITDB_TFT J1
+L ITDB_TFT J4
 U 1 1 50188B83
 P 4850 4300
-F 0 "J1" H 5000 3200 60  0000 C CNN
+F 0 "J4" H 5000 3200 60  0000 C CNN
 F 1 "ITDB_TFT" H 4850 5300 60  0000 C CNN
 	1    4850 4300
 	1    0    0    -1  
