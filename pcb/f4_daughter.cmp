@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 26 Sep 2012 06:05:56 PM EDT
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 10/12/2012 1:44:15 PM
 
 BeginCmp
 TimeStamp = /500B69F1/501184C6;
@@ -319,7 +319,7 @@ BeginCmp
 TimeStamp = /500B6AFA/504E3BFA;
 Reference = J3;
 ValeurCmp = NXT_RJ12;
-IdModule  = ;
+IdModule  = nxt_conn;
 EndCmp
 
 BeginCmp
@@ -353,7 +353,7 @@ EndCmp
 BeginCmp
 TimeStamp = /500B6AFA/504E571E;
 Reference = Q1;
-ValeurCmp = MOS_N;
+ValeurCmp = 2N7002P;
 IdModule  = SOT23;
 EndCmp
 
@@ -557,28 +557,28 @@ BeginCmp
 TimeStamp = /500B6AFA/504A3753;
 Reference = S1;
 ValeurCmp = EVQ-Q2S03W;
-IdModule  = ;
+IdModule  = EVQQ2;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B6AFA/504A375D;
 Reference = S2;
 ValeurCmp = EVQ-Q2S03W;
-IdModule  = ;
+IdModule  = EVQQ2;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B6AFA/504A3765;
 Reference = S3;
 ValeurCmp = EVQ-Q2S03W;
-IdModule  = ;
+IdModule  = EVQQ2;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B6AFA/504A376D;
 Reference = S4;
 ValeurCmp = EVQ-Q2S03W;
-IdModule  = ;
+IdModule  = EVQQ2;
 EndCmp
 
 BeginCmp
@@ -634,7 +634,7 @@ BeginCmp
 TimeStamp = /5010D8BD/50464816;
 Reference = U7;
 ValeurCmp = MCP6409;
-IdModule  = MCP6409_SOIC;
+IdModule  = MCP6409-TSSOP;
 EndCmp
 
 BeginCmp
@@ -648,28 +648,28 @@ BeginCmp
 TimeStamp = /500DC44C/50196B6B;
 Reference = U9;
 ValeurCmp = SN74LVC1G125;
-IdModule  = ;
+IdModule  = SN74LVC1G125;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B69F1/504E2240;
 Reference = U10;
 ValeurCmp = LM4510;
-IdModule  = ;
+IdModule  = LM4510_LLP-10;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B69F1/504D3229;
 Reference = U11;
 ValeurCmp = TLV61220;
-IdModule  = ;
+IdModule  = SOT23_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /5010D8BD/504649E3;
 Reference = U12;
 ValeurCmp = MCP6241;
-IdModule  = ;
+IdModule  = SOT23-5;
 EndCmp
 
 EndListe
