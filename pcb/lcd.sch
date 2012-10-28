@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 27 Oct 2012 09:22:30 PM EDT
+EESchema Schematic File Version 2  date Sun 28 Oct 2012 01:53:13 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -267,10 +267,10 @@ Entry Wire Line
 Entry Wire Line
 	4950 2900 5050 3000
 $Comp
-L GND #PWR30
+L GND #PWR1
 U 1 1 50188B84
 P 3850 3500
-F 0 "#PWR30" H 3850 3500 30  0001 C CNN
+F 0 "#PWR1" H 3850 3500 30  0001 C CNN
 F 1 "GND" H 3850 3430 30  0001 C CNN
 	1    3850 3500
 	1    0    0    -1  

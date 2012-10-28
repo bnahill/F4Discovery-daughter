@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/11/2012 11:52:24 AM
+EESchema Schematic File Version 2  date Sun 28 Oct 2012 01:53:13 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 7
 Title ""
-Date "11 oct 2012"
+Date "28 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -216,10 +216,10 @@ F 1 "100n" H 7975 5170 30  0000 L BNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR47
+L GND #PWR49
 U 1 1 504649EC
 P 8550 5250
-F 0 "#PWR47" H 8550 5250 30  0001 C CNN
+F 0 "#PWR49" H 8550 5250 30  0001 C CNN
 F 1 "GND" H 8550 5180 30  0001 C CNN
 	1    8550 5250
 	1    0    0    -1  
@@ -270,10 +270,10 @@ VGND
 Text Label 1900 3000 3    60   ~ 0
 VGND
 $Comp
-L GND #PWR44
+L GND #PWR46
 U 1 1 50118BD6
 P 1050 3000
-F 0 "#PWR44" H 1050 3000 30  0001 C CNN
+F 0 "#PWR46" H 1050 3000 30  0001 C CNN
 F 1 "GND" H 1050 2930 30  0001 C CNN
 	1    1050 3000
 	1    0    0    -1  
@@ -335,10 +335,10 @@ $EndComp
 Text GLabel 6700 5450 0    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR45
+L GND #PWR47
 U 1 1 5010D90D
 P 6750 6250
-F 0 "#PWR45" H 6750 6250 30  0001 C CNN
+F 0 "#PWR47" H 6750 6250 30  0001 C CNN
 F 1 "GND" H 6750 6180 30  0001 C CNN
 	1    6750 6250
 	1    0    0    -1  
@@ -427,10 +427,10 @@ $EndComp
 Text GLabel 7700 4400 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR46
+L GND #PWR48
 U 1 1 5010DA28
 P 7700 5400
-F 0 "#PWR46" H 7700 5400 30  0001 C CNN
+F 0 "#PWR48" H 7700 5400 30  0001 C CNN
 F 1 "GND" H 7700 5330 30  0001 C CNN
 	1    7700 5400
 	1    0    0    -1  
