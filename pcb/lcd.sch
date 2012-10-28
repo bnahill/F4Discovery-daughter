@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Oct 2012 01:53:13 PM EDT
+EESchema Schematic File Version 2  date Sun 28 Oct 2012 06:31:28 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 3900 5200 0    60   Input ~ 0
+LCD_BKLIGHT
+Text Notes 7850 3150 0    60   ~ 0
+SSD1289\nSelect direction\nActive-high latch\nEnable interface\nnC/nRS   Select area to read/write (data/cmd) --  address\nD[15:0]  Bi-directional data\n
+Text Notes 7350 3150 0    60   ~ 0
+FSMC\nNWE\nNOT(NE1)\nNE1\nA16\nD[15:0]\n
 Wire Wire Line
 	6400 5100 5300 5100
 Wire Wire Line
@@ -176,19 +182,55 @@ Wire Wire Line
 Wire Wire Line
 	2700 2250 4850 2250
 Wire Wire Line
-	6050 4900 6050 4200
+	6050 4900 6050 4600
+Wire Wire Line
+	6050 4600 6050 4200
 Connection ~ 6050 4600
 Wire Wire Line
 	5750 4600 5750 4800
 Wire Wire Line
-	6300 5000 6300 4400
+	6300 5000 6300 4500
+Wire Wire Line
+	6300 4500 6300 4400
 Connection ~ 6300 4500
 Wire Bus Line
-	4950 2900 4950 1200
+	4950 2900 4950 2850
+Wire Bus Line
+	4950 2850 4950 2800
+Wire Bus Line
+	4950 2800 4950 2750
+Wire Bus Line
+	4950 2750 4950 2700
+Wire Bus Line
+	4950 2700 4950 2650
+Wire Bus Line
+	4950 2650 4950 2600
+Wire Bus Line
+	4950 2600 4950 2550
+Wire Bus Line
+	4950 2550 4950 2500
+Wire Bus Line
+	4950 2500 4950 2450
+Wire Bus Line
+	4950 2450 4950 2400
+Wire Bus Line
+	4950 2400 4950 2350
+Wire Bus Line
+	4950 2350 4950 2300
+Wire Bus Line
+	4950 2300 4950 2250
+Wire Bus Line
+	4950 2250 4950 2200
+Wire Bus Line
+	4950 2200 4950 2150
+Wire Bus Line
+	4950 2150 4950 1200
 Wire Wire Line
 	6400 4500 6300 4500
 Wire Wire Line
-	5300 4800 6400 4800
+	5300 4800 5750 4800
+Wire Wire Line
+	5750 4800 6400 4800
 Connection ~ 5750 4800
 Wire Wire Line
 	6400 4300 5300 4300

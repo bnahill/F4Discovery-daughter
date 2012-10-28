@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Oct 2012 01:53:13 PM EDT
+EESchema Schematic File Version 2  date Sun 28 Oct 2012 06:31:28 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -211,7 +211,7 @@ L CAP C43
 U 1 1 504649FC
 P 7950 5150
 F 0 "C43" H 7970 5120 50  0000 L TNN
-F 1 "100n" H 7975 5170 30  0000 L BNN
+F 1 "0.1u" H 7975 5170 30  0000 L BNN
 	1    7950 5150
 	0    -1   -1   0   
 $EndComp
@@ -292,7 +292,7 @@ L CAP C42
 U 1 1 50118878
 P 7000 5800
 F 0 "C42" H 7020 5770 50  0000 L TNN
-F 1 "100n" H 7025 5820 30  0000 L BNN
+F 1 "0.1u" H 7025 5820 30  0000 L BNN
 	1    7000 5800
 	0    -1   -1   0   
 $EndComp
