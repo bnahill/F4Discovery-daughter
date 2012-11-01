@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Oct 2012 06:31:28 PM EDT
+EESchema Schematic File Version 2  date Thu 01 Nov 2012 03:50:31 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 6 7
 Title ""
-Date "28 oct 2012"
+Date "1 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -745,7 +745,7 @@ L RES R20
 U 1 1 50116D7E
 P 4250 3650
 F 0 "R20" H 4320 3615 50  0000 L TNN
-F 1 "680k(1%)" H 4250 3705 30  0000 C BNN
+F 1 "220k(1%)" H 4250 3705 30  0000 C BNN
 	1    4250 3650
 	0    -1   -1   0   
 $EndComp
@@ -754,7 +754,7 @@ L RES R19
 U 1 1 50116D75
 P 4250 3250
 F 0 "R19" H 4320 3215 50  0000 L TNN
-F 1 "220k(1%)" H 4250 3305 30  0000 C BNN
+F 1 "604k(1%)" H 4250 3305 30  0000 C BNN
 	1    4250 3250
 	0    -1   -1   0   
 $EndComp
