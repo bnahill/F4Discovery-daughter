@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Oct 2012 06:31:28 PM EDT
+EESchema Schematic File Version 2  date Thu 06 Dec 2012 03:45:08 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 7
 Title ""
-Date "28 oct 2012"
+Date "6 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -151,7 +151,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 3700 3950 3700
 Wire Wire Line
-	3600 3900 3950 3900
+	3600 3900 3700 3900
+Wire Wire Line
+	3700 3900 3950 3900
 Wire Wire Line
 	2200 6150 2200 3200
 Wire Wire Line
