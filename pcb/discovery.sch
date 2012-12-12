@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Dec 2012 06:44:11 PM EST
+EESchema Schematic File Version 2  date 12/12/2012 5:26:02 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 8
+Sheet 3 10
 Title ""
-Date "6 dec 2012"
+Date "12 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,8 +45,134 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S -4250 4450 1800 5750
+U 50C90435
+F0 "disc" 60
+F1 "disc.sch" 60
+$EndSheet
+Text Notes 9000 2800 0    50   ~ 0
+CS43L22 RESET
 Wire Wire Line
-	5850 7600 5850 7500
+	8850 5975 8750 5975
+Wire Wire Line
+	9200 6175 9200 6300
+Wire Wire Line
+	8850 5625 8850 5750
+Wire Wire Line
+	8850 5750 9200 5750
+Wire Wire Line
+	9200 5750 9200 5625
+Wire Wire Line
+	8850 4825 8750 4825
+Wire Wire Line
+	9350 6725 9200 6725
+Wire Wire Line
+	9200 6175 9350 6175
+Wire Wire Line
+	9350 5025 9200 5025
+Wire Wire Line
+	9200 5625 9350 5625
+Wire Wire Line
+	9200 5025 9200 5150
+Wire Wire Line
+	9200 5150 8850 5150
+Wire Wire Line
+	8850 5150 8850 5025
+Wire Wire Line
+	9200 6300 8850 6300
+Wire Wire Line
+	8850 6300 8850 6175
+Wire Wire Line
+	9200 6725 9200 6850
+Wire Wire Line
+	9200 6850 8850 6850
+Wire Wire Line
+	8850 6850 8850 6725
+Wire Wire Line
+	8850 6525 8750 6525
+Wire Wire Line
+	8725 5425 8850 5425
+$Comp
+L EVQ-Q2S03W S?
+U 1 1 50C8E84F
+P 9025 4925
+F 0 "S?" H 9025 4750 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 9025 5150 60  0000 C CNN
+	1    9025 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L EVQ-Q2S03W S?
+U 1 1 50C8E84E
+P 9025 5525
+F 0 "S?" H 9025 5350 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 9025 5725 60  0000 C CNN
+	1    9025 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L EVQ-Q2S03W S?
+U 1 1 50C8E84D
+P 9025 6075
+F 0 "S?" H 9025 5900 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 9025 6275 60  0000 C CNN
+	1    9025 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L EVQ-Q2S03W S?
+U 1 1 50C8E84C
+P 9025 6625
+F 0 "S?" H 9025 6450 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 9025 6850 60  0000 C CNN
+	1    9025 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50C8E84B
+P 9350 5025
+F 0 "#PWR?" H 9350 5025 30  0001 C CNN
+F 1 "GND" H 9350 4955 30  0001 C CNN
+	1    9350 5025
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50C8E84A
+P 9350 6175
+F 0 "#PWR?" H 9350 6175 30  0001 C CNN
+F 1 "GND" H 9350 6105 30  0001 C CNN
+	1    9350 6175
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50C8E849
+P 9350 5625
+F 0 "#PWR?" H 9350 5625 30  0001 C CNN
+F 1 "GND" H 9350 5555 30  0001 C CNN
+	1    9350 5625
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50C8E848
+P 9350 6725
+F 0 "#PWR?" H 9350 6725 30  0001 C CNN
+F 1 "GND" H 9350 6655 30  0001 C CNN
+	1    9350 6725
+	0    -1   1    0   
+$EndComp
+Text Label 8750 4825 2    60   ~ 0
+S1
+Text Label 8725 5425 2    60   ~ 0
+S2
+Text Label 8750 5975 2    60   ~ 0
+S3
+Text Label 8750 6525 2    60   ~ 0
+S4
 Wire Wire Line
 	6950 3500 7050 3500
 Wire Wire Line
@@ -473,12 +599,6 @@ Wire Wire Line
 	3150 1800 3300 1800
 Wire Wire Line
 	9050 3500 8950 3500
-Wire Wire Line
-	5850 5150 5850 5200
-Text GLabel 5850 7600 3    60   Input ~ 0
-Vreg
-Text GLabel 5850 5150 1    60   Input ~ 0
-Vreg
 Text HLabel 6950 3500 0    60   Output ~ 0
 NXT_SCL
 Text HLabel 9050 3500 2    60   Output ~ 0
@@ -513,15 +633,6 @@ P 4350 2550
 F 0 "U2" H 4350 2450 50  0000 C CNN
 F 1 "STM32F4-DISCOVERY" H 4350 2650 50  0000 C CNN
 	1    4350 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L XC2C64A-XQFG48 U?
-U 1 1 50C11989
-P 5800 6350
-F 0 "U?" H 6500 5200 60  0000 C CNN
-F 1 "XC2C64A-XQFG48" H 6850 7500 60  0000 C CNN
-	1    5800 6350
 	1    0    0    -1  
 $EndComp
 Text Label 6800 2900 2    40   ~ 0
