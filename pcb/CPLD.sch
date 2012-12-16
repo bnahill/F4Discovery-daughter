@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/12/2012 5:26:02 PM
+EESchema Schematic File Version 2  date 12/16/2012 4:31:25 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 10
+Sheet 2 9
 Title ""
-Date "12 dec 2012"
+Date "16 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -83,8 +83,6 @@ Wire Wire Line
 	9600 5250 9300 5250
 Wire Wire Line
 	9600 5450 9300 5450
-Wire Wire Line
-	1950 5600 2200 5600
 Wire Wire Line
 	1950 5300 2200 5300
 Wire Wire Line
@@ -159,8 +157,6 @@ Wire Wire Line
 	9600 4300 9300 4300
 Wire Wire Line
 	9600 4000 9300 4000
-Wire Wire Line
-	9600 3600 9300 3600
 Wire Wire Line
 	9600 3400 9300 3400
 Wire Wire Line
@@ -325,8 +321,6 @@ F 1 "GND" H 5450 4930 30  0001 C CNN
 	1    5450 5000
 	1    0    0    -1  
 $EndComp
-Text Label 7000 4200 0    60   ~ 0
-POW_MULT2
 Text Label 7000 4300 0    60   ~ 0
 POW_MULT1
 Text Label 6250 5000 3    60   ~ 0
@@ -359,14 +353,10 @@ Text HLabel 1950 5300 0    60   Input ~ 0
 POW_MULT0
 Text HLabel 1950 5450 0    60   Input ~ 0
 POW_MULT1
-Text HLabel 1950 5600 0    60   Input ~ 0
-POW_MULT2
 Text Label 2200 5300 0    60   ~ 0
 POW_MULT0
 Text Label 2200 5450 0    60   ~ 0
 POW_MULT1
-Text Label 2200 5600 0    60   ~ 0
-POW_MULT2
 Text Label 5350 2450 1    60   ~ 0
 nCS
 Text Label 5250 2450 1    60   ~ 0
@@ -415,8 +405,6 @@ Text Label 5550 5000 3    60   ~ 0
 TOUCH_IRQ
 Text Label 5650 5000 3    60   ~ 0
 RF_IRQ
-Text Label 7000 4100 0    60   ~ 0
-DEN_GYR
 Text Label 7000 4000 0    60   ~ 0
 INT2_GYR
 Text Label 5850 5000 3    60   ~ 0
@@ -521,8 +509,6 @@ Text Label 9300 4100 2    60   ~ 0
 TOUCH_IRQ
 Text Label 9300 4000 2    60   ~ 0
 RF_IRQ
-Text Label 9300 3600 2    60   ~ 0
-DEN_GYR
 Text Label 9300 3500 2    60   ~ 0
 INT2_GYR
 Text Label 9300 3400 2    60   ~ 0
@@ -543,8 +529,6 @@ Text HLabel 9600 4100 2    60   Input ~ 0
 TOUCH_IRQ
 Text HLabel 9600 4000 2    60   Input ~ 0
 RF_IRQ
-Text HLabel 9600 3600 2    60   Input ~ 0
-DEN_GYR
 Text HLabel 9600 3500 2    60   Input ~ 0
 INT2_GYR/DRDY
 Text HLabel 9600 3400 2    60   Input ~ 0
