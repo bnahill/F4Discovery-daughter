@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/16/2012 4:31:25 PM
+EESchema Schematic File Version 2  date 12/17/2012 11:02:29 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 5 9
+Sheet 2 9
 Title ""
-Date "16 dec 2012"
+Date "18 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -171,7 +171,7 @@ Wire Wire Line
 	6600 3700 6200 3700
 Wire Wire Line
 	6600 3900 6200 3900
-Text HLabel 6600 4000 2    60   Output ~ 0
+Text HLabel 6600 4000 2    60   Input ~ 0
 DEN_GYR
 Text HLabel 6600 3900 2    60   Output ~ 0
 INT2_GYR/DRDY

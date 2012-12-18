@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/16/2012 4:31:25 PM
+EESchema Schematic File Version 2  date 12/17/2012 11:02:29 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 3 9
+Sheet 2 9
 Title ""
-Date "16 dec 2012"
+Date "18 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,108 +45,108 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 9150 1900 0    40   ~ 0
+SPI_nCS_CPLD
+Text HLabel 2900 7500 2    60   Output ~ 0
+SPI_nCS_CPLD
 Wire Wire Line
-	10350 1700 10500 1700
+	2750 7500 2900 7500
 Wire Wire Line
-	10500 1600 10350 1600
-Text HLabel 10500 1700 2    60   Input ~ 0
-EXTI9
-Text Label 10350 1700 2    60   ~ 0
-EXTI9
-Text HLabel 10500 1600 2    60   Input ~ 0
-EXTI8
-Text Label 10350 1600 2    60   ~ 0
-EXTI8
-Text Label 10350 1400 2    60   ~ 0
-EXTI6
-Text HLabel 10500 1400 2    60   Input ~ 0
-EXTI6
-Text Label 10350 1500 2    60   ~ 0
-EXTI7
-Text HLabel 10500 1500 2    60   Input ~ 0
-EXTI7
-Text Label 10350 1300 2    60   ~ 0
-EXTI5
+	2750 7400 2900 7400
 Wire Wire Line
-	10350 1300 10500 1300
+	5400 3000 5550 3000
+Wire Notes Line
+	1800 5900 1000 5900
+Wire Notes Line
+	1800 5900 1800 7000
+Wire Notes Line
+	1800 7000 1000 7000
+Wire Notes Line
+	1000 7000 1000 5900
+Wire Notes Line
+	2000 6200 2000 5900
+Wire Notes Line
+	2000 6200 3300 6200
+Wire Notes Line
+	3300 6200 3300 5900
+Wire Notes Line
+	3300 5900 2000 5900
+Wire Notes Line
+	7000 6800 7000 5900
+Wire Notes Line
+	7000 6800 8700 6800
+Wire Notes Line
+	8700 6800 8700 5900
+Wire Notes Line
+	8700 5900 7000 5900
 Wire Wire Line
-	10500 1400 10350 1400
+	1300 6950 1450 6950
 Wire Wire Line
-	10350 1500 10500 1500
-Text HLabel 10500 1300 2    60   Input ~ 0
-EXTI5
-Text HLabel 10500 1200 2    60   Input ~ 0
-EXTI4
+	1450 6850 1300 6850
 Wire Wire Line
-	10350 1200 10500 1200
-Text Label 10350 1200 2    60   ~ 0
-EXTI4
-Text Label 10350 800  2    60   ~ 0
-EXTI0
+	1300 6550 1450 6550
 Wire Wire Line
-	10350 800  10500 800 
-Text HLabel 10500 800  2    60   Input ~ 0
-EXTI0
-Text HLabel 10500 900  2    60   Input ~ 0
-EXTI1
-Text HLabel 10550 4300 2    60   Output ~ 0
-DEN_G
-Text Label 10350 4300 2    60   ~ 0
-DEN_G
+	1450 6650 1300 6650
 Wire Wire Line
-	10350 4300 10550 4300
+	1300 6750 1450 6750
+Wire Wire Line
+	1300 6450 1450 6450
+Wire Wire Line
+	1300 6050 1450 6050
+Wire Wire Line
+	5300 7050 5500 7050
 Wire Wire Line
 	7050 2000 6800 2000
 Wire Wire Line
 	3300 2100 3150 2100
 Wire Wire Line
-	10500 4900 10350 4900
+	7900 6100 7750 6100
 Wire Wire Line
-	10350 5300 10500 5300
+	7750 6300 7900 6300
 Wire Wire Line
-	10500 5500 10350 5500
+	7900 6500 7750 6500
 Wire Wire Line
-	10350 1100 10500 1100
+	1300 6350 1450 6350
 Wire Wire Line
-	10550 4050 10300 4050
+	6200 6150 5950 6150
 Wire Wire Line
-	10350 3300 10500 3300
+	4050 6000 4200 6000
 Wire Wire Line
-	10350 3000 10500 3000
+	4100 7000 4250 7000
 Wire Wire Line
-	10500 2700 10350 2700
+	2700 6050 2550 6050
 Wire Wire Line
-	10500 1000 10350 1000
+	1450 6250 1300 6250
 Wire Wire Line
-	10350 2450 10500 2450
+	2750 7000 2900 7000
 Wire Wire Line
 	9650 3000 9650 4450
 Wire Wire Line
-	10350 2550 10500 2550
+	2750 7100 2900 7100
 Wire Bus Line
-	10500 5200 10350 5200
+	7900 6200 7750 6200
 Wire Wire Line
-	10500 2800 10350 2800
+	2700 6150 2550 6150
 Wire Wire Line
-	10500 3100 10350 3100
+	4250 7100 4100 7100
 Wire Wire Line
-	10350 3400 10500 3400
+	4050 6100 4200 6100
 Wire Wire Line
-	10350 3600 10500 3600
+	4050 6300 4200 6300
 Wire Wire Line
-	10500 3700 10350 3700
+	4200 6400 4050 6400
 Wire Wire Line
-	10550 4150 10300 4150
+	6200 6250 5950 6250
 Wire Wire Line
-	10550 3950 10300 3950
+	6200 6050 5950 6050
 Wire Wire Line
-	10500 4700 10350 4700
+	7900 6000 7750 6000
 Wire Wire Line
-	10350 5600 10500 5600
+	7750 6600 7900 6600
 Wire Wire Line
-	10350 5400 10500 5400
+	7750 6400 7900 6400
 Wire Wire Line
-	10350 5700 10500 5700
+	7750 6700 7900 6700
 Wire Wire Line
 	9050 3500 8950 3500
 Wire Wire Line
@@ -184,8 +184,6 @@ Wire Wire Line
 	9150 1900 8950 1900
 Wire Wire Line
 	9150 3100 8950 3100
-Wire Wire Line
-	5550 3000 5400 3000
 Wire Wire Line
 	7050 2500 6800 2500
 Wire Wire Line
@@ -438,8 +436,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 2700 8950 2700
 Wire Wire Line
-	9150 2900 8950 2900
-Wire Wire Line
 	6800 2300 7050 2300
 Wire Wire Line
 	6800 2800 7050 2800
@@ -462,144 +458,232 @@ Wire Wire Line
 Wire Wire Line
 	6950 3500 7050 3500
 Wire Wire Line
-	8725 5425 8850 5425
+	10025 5425 10150 5425
 Wire Wire Line
-	8850 6525 8750 6525
+	10150 6525 10050 6525
 Wire Wire Line
-	8850 6725 8850 6850
+	10150 6725 10150 6850
 Wire Wire Line
-	8850 6850 9200 6850
+	10150 6850 10500 6850
 Wire Wire Line
-	9200 6850 9200 6725
+	10500 6850 10500 6725
 Wire Wire Line
-	8850 6175 8850 6300
+	10150 6175 10150 6300
 Wire Wire Line
-	8850 6300 9200 6300
+	10150 6300 10500 6300
 Wire Wire Line
-	8850 5025 8850 5150
+	10150 5025 10150 5150
 Wire Wire Line
-	8850 5150 9200 5150
+	10150 5150 10500 5150
 Wire Wire Line
-	9200 5150 9200 5025
+	10500 5150 10500 5025
 Wire Wire Line
-	9350 5625 9200 5625
+	10650 5625 10500 5625
 Wire Wire Line
-	9200 5025 9350 5025
+	10500 5025 10650 5025
 Wire Wire Line
-	9350 6175 9200 6175
+	10650 6175 10500 6175
 Wire Wire Line
-	9200 6725 9350 6725
+	10500 6725 10650 6725
 Wire Wire Line
-	8850 4825 8750 4825
+	10150 4825 10050 4825
 Wire Wire Line
-	9200 5625 9200 5750
+	10500 5625 10500 5750
 Wire Wire Line
-	9200 5750 8850 5750
+	10500 5750 10150 5750
 Wire Wire Line
-	8850 5750 8850 5625
+	10150 5750 10150 5625
 Wire Wire Line
-	9200 6175 9200 6300
+	10500 6175 10500 6300
 Wire Wire Line
-	8850 5975 8750 5975
+	10150 5975 10050 5975
 Wire Wire Line
-	10350 3500 10500 3500
+	4050 6200 4200 6200
 Wire Wire Line
-	10350 900  10500 900 
+	1300 6150 1450 6150
 Wire Wire Line
 	5400 2300 5550 2300
+Wire Wire Line
+	7050 2600 6800 2600
+Wire Notes Line
+	6800 5900 5100 5900
+Wire Notes Line
+	6800 5900 6800 6300
+Wire Notes Line
+	6800 6300 5100 6300
+Wire Notes Line
+	5100 6300 5100 5900
+Wire Notes Line
+	3450 6500 3450 5900
+Wire Notes Line
+	3450 6500 4900 6500
+Wire Notes Line
+	4900 6500 4900 5900
+Wire Notes Line
+	4900 5900 3450 5900
+Wire Wire Line
+	3300 1600 3150 1600
+Wire Wire Line
+	2750 7300 2900 7300
+Wire Wire Line
+	3300 2700 3150 2700
+Text Label 2750 7500 2    60   ~ 0
+SPI_nCS_CPLD
+Text Label 3150 2700 2    40   ~ 0
+SPI_nCS_SD
+Text Label 5550 3000 0    40   ~ 0
+SPI_nCS_TOUCH
+Text Label 9150 3200 0    40   ~ 0
+SPI_nCS_GYR
+Text Label 3150 1600 2    40   ~ 0
+SPI_nCS_GYR
+Text HLabel 2900 7400 2    60   Output ~ 0
+SPI_nCS_ACC
+Text HLabel 2900 7300 2    60   Output ~ 0
+SPI_nCS_GYR
+Text Label 2750 7400 2    60   ~ 0
+SPI_nCS_ACC
+Text Label 2750 7300 2    60   ~ 0
+SPI_nCS_GYR
+Text Notes 1000 5900 0    60   ~ 0
+External Interrupts
+Text Notes 3500 5900 0    60   ~ 0
+Power Status and Enable
+Text Notes 2050 5900 0    60   ~ 0
+Audio
+Text Notes 5150 5900 0    60   ~ 0
+NXT I/O
+Text Notes 7050 5900 0    60   ~ 0
+LCD I/O
+Text Label 6800 2600 2    40   ~ 0
+DEN_G
+Text HLabel 1450 6950 2    60   Input ~ 0
+EXTI9
+Text Label 1300 6950 2    60   ~ 0
+EXTI9
+Text HLabel 1450 6850 2    60   Input ~ 0
+EXTI8
+Text Label 1300 6850 2    60   ~ 0
+EXTI8
+Text Label 1300 6650 2    60   ~ 0
+EXTI6
+Text HLabel 1450 6650 2    60   Input ~ 0
+EXTI6
+Text Label 1300 6750 2    60   ~ 0
+EXTI7
+Text HLabel 1450 6750 2    60   Input ~ 0
+EXTI7
+Text Label 1300 6550 2    60   ~ 0
+EXTI5
+Text HLabel 1450 6550 2    60   Input ~ 0
+EXTI5
+Text HLabel 1450 6450 2    60   Input ~ 0
+EXTI4
+Text Label 1300 6450 2    60   ~ 0
+EXTI4
+Text Label 1300 6050 2    60   ~ 0
+EXTI0
+Text HLabel 1450 6050 2    60   Input ~ 0
+EXTI0
+Text HLabel 1450 6150 2    60   Input ~ 0
+EXTI1
+Text HLabel 5500 7050 2    60   Output ~ 0
+DEN_G
+Text Label 5300 7050 2    60   ~ 0
+DEN_G
 Text Label 5550 2300 0    40   ~ 0
 EXTI0
 Text Label 6800 2000 2    40   ~ 0
 EXTI4
-Text Label 10350 900  2    60   ~ 0
+Text Label 1300 6150 2    60   ~ 0
 EXTI1
 Text Label 3150 2100 2    40   ~ 0
 EXTI1
-Text Label 10350 3500 2    60   ~ 0
+Text Label 4050 6200 2    60   ~ 0
 POW_nCHRG
-Text HLabel 10500 3500 2    60   Input ~ 0
+Text HLabel 4200 6200 2    60   Input ~ 0
 POW_nCHRG
 Text Notes 9000 2800 0    50   ~ 0
 CS43L22
 $Comp
 L EVQ-Q2S03W S?
 U 1 1 50C8E84F
-P 9025 4925
-F 0 "S?" H 9025 4750 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 9025 5150 60  0000 C CNN
-	1    9025 4925
+P 10325 4925
+F 0 "S?" H 10325 4750 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 10325 5150 60  0000 C CNN
+	1    10325 4925
 	1    0    0    -1  
 $EndComp
 $Comp
 L EVQ-Q2S03W S?
 U 1 1 50C8E84E
-P 9025 5525
-F 0 "S?" H 9025 5350 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 9025 5725 60  0000 C CNN
-	1    9025 5525
+P 10325 5525
+F 0 "S?" H 10325 5350 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 10325 5725 60  0000 C CNN
+	1    10325 5525
 	1    0    0    -1  
 $EndComp
 $Comp
 L EVQ-Q2S03W S?
 U 1 1 50C8E84D
-P 9025 6075
-F 0 "S?" H 9025 5900 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 9025 6275 60  0000 C CNN
-	1    9025 6075
+P 10325 6075
+F 0 "S?" H 10325 5900 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 10325 6275 60  0000 C CNN
+	1    10325 6075
 	1    0    0    -1  
 $EndComp
 $Comp
 L EVQ-Q2S03W S?
 U 1 1 50C8E84C
-P 9025 6625
-F 0 "S?" H 9025 6450 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 9025 6850 60  0000 C CNN
-	1    9025 6625
+P 10325 6625
+F 0 "S?" H 10325 6450 60  0000 C CNN
+F 1 "EVQ-Q2S03W" H 10325 6850 60  0000 C CNN
+	1    10325 6625
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 50C8E84B
-P 9350 5025
-F 0 "#PWR?" H 9350 5025 30  0001 C CNN
-F 1 "GND" H 9350 4955 30  0001 C CNN
-	1    9350 5025
+P 10650 5025
+F 0 "#PWR?" H 10650 5025 30  0001 C CNN
+F 1 "GND" H 10650 4955 30  0001 C CNN
+	1    10650 5025
 	0    -1   1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 50C8E84A
-P 9350 6175
-F 0 "#PWR?" H 9350 6175 30  0001 C CNN
-F 1 "GND" H 9350 6105 30  0001 C CNN
-	1    9350 6175
+P 10650 6175
+F 0 "#PWR?" H 10650 6175 30  0001 C CNN
+F 1 "GND" H 10650 6105 30  0001 C CNN
+	1    10650 6175
 	0    -1   1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 50C8E849
-P 9350 5625
-F 0 "#PWR?" H 9350 5625 30  0001 C CNN
-F 1 "GND" H 9350 5555 30  0001 C CNN
-	1    9350 5625
+P 10650 5625
+F 0 "#PWR?" H 10650 5625 30  0001 C CNN
+F 1 "GND" H 10650 5555 30  0001 C CNN
+	1    10650 5625
 	0    -1   1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 50C8E848
-P 9350 6725
-F 0 "#PWR?" H 9350 6725 30  0001 C CNN
-F 1 "GND" H 9350 6655 30  0001 C CNN
-	1    9350 6725
+P 10650 6725
+F 0 "#PWR?" H 10650 6725 30  0001 C CNN
+F 1 "GND" H 10650 6655 30  0001 C CNN
+	1    10650 6725
 	0    -1   1    0   
 $EndComp
-Text Label 8750 4825 2    60   ~ 0
+Text Label 10050 4825 2    60   ~ 0
 S1
-Text Label 8725 5425 2    60   ~ 0
+Text Label 10025 5425 2    60   ~ 0
 S2
-Text Label 8750 5975 2    60   ~ 0
+Text Label 10050 5975 2    60   ~ 0
 S3
-Text Label 8750 6525 2    60   ~ 0
+Text Label 10050 6525 2    60   ~ 0
 S4
 Text HLabel 6950 3500 0    60   Output ~ 0
 NXT_SCL
@@ -647,8 +731,6 @@ Text Label 6800 2700 2    40   ~ 0
 LCD_nCS
 Text Notes 1100 4150 0    50   ~ 0
 Battery monitoring
-Text Label 5550 3000 0    40   ~ 0
-INT1_G
 Text Label 9150 2100 0    40   ~ 0
 EXTI3
 Text Notes 5450 2900 0    50   ~ 0
@@ -773,14 +855,6 @@ Text Label 6800 3600 2    40   ~ 0
 EXTI8
 Text Label 5550 2400 0    40   ~ 0
 EXTI2
-Text Label 9150 2900 0    40   ~ 0
-DEN_G
-Text Label 9150 3200 0    40   ~ 0
-DRDYg/INT2_G
-Text Label 9150 3100 0    40   ~ 0
-INT1_A
-Text Label 9150 1900 0    40   ~ 0
-INT2_A
 Text Label 9150 2500 0    40   ~ 0
 POW_nCHARG
 Text Label 9150 2700 0    40   ~ 0
@@ -899,98 +973,98 @@ Entry Wire Line
 	4200 4750 4300 4850
 Entry Wire Line
 	4150 4950 4250 4850
-Text Label 10350 4900 2    60   ~ 0
+Text Label 7750 6100 2    60   ~ 0
 SPI_nCS_SD
-Text HLabel 10500 4900 2    60   Output ~ 0
+Text HLabel 7900 6100 2    60   Output ~ 0
 SPI_nCS_SD
-Text Label 10350 5700 2    60   ~ 0
+Text Label 7750 6700 2    60   ~ 0
 LCD_nRESET
-Text HLabel 10500 5700 2    60   Output ~ 0
+Text HLabel 7900 6700 2    60   Output ~ 0
 LCD_nRESET
-Text Label 10350 5600 2    60   ~ 0
+Text Label 7750 6600 2    60   ~ 0
 LCD_nCS
-Text Label 10350 5500 2    60   ~ 0
+Text Label 7750 6500 2    60   ~ 0
 LCD_nWR
-Text Label 10350 5400 2    60   ~ 0
+Text Label 7750 6400 2    60   ~ 0
 LCD_nRD
-Text Label 10350 5300 2    60   ~ 0
+Text Label 7750 6300 2    60   ~ 0
 LCD_nRS
-Text HLabel 10500 5600 2    60   Output ~ 0
+Text HLabel 7900 6600 2    60   Output ~ 0
 LCD_nCS
-Text HLabel 10500 5500 2    60   Output ~ 0
+Text HLabel 7900 6500 2    60   Output ~ 0
 LCD_nWR
-Text HLabel 10500 5400 2    60   Output ~ 0
+Text HLabel 7900 6400 2    60   Output ~ 0
 LCD_nRD
-Text HLabel 10500 5300 2    60   Output ~ 0
+Text HLabel 7900 6300 2    60   Output ~ 0
 LCD_nRS
-Text HLabel 10500 1100 2    60   Input ~ 0
+Text HLabel 1450 6350 2    60   Input ~ 0
 EXTI3
-Text HLabel 10500 4700 2    60   Output ~ 0
+Text HLabel 7900 6000 2    60   Output ~ 0
 SPI_nCS_TOUCH
-Text Label 10350 1100 2    60   ~ 0
+Text Label 1300 6350 2    60   ~ 0
 EXTI3
-Text Label 10350 4700 2    60   ~ 0
+Text Label 7750 6000 2    60   ~ 0
 SPI_nCS_TOUCH
-Text Notes 12500 4850 0    60   ~ 0
-Interrupts:\nIndependent Vectors:\n   EXTI0: LIS302_INT1\n   EXTI1: LIS302_INT2\n   EXTI2: SPI_IRQ_RF\n   EXTI3: SPI_IRQ_TOUCH\n   EXTI4:\n\nEXTI9_5:\n   EXTI5: S1\n   EXTI6: S2\n   EXTI7: S3\n   EXTI8: S4\n   EXTI9:\n\nEXTI15_10:\n   EXTI10: \n   EXTI11: INT1_A\n   EXTI12: INT1_G\n   EXTI13: INT2_A\n   EXTI14: \n   EXTI15: DRDYg/INT2_G
-Text HLabel 10550 4150 2    60   Output ~ 0
-STM32_ADC
-Text HLabel 10550 4050 2    60   Output ~ 0
+Text Notes -1600 5400 0    60   ~ 0
+Suggested Interrupt Setup:\nIndependent Vectors:\n   EXTI0: LIS302_INT1\n   EXTI1: LIS302_INT2\n   EXTI2: SPI_IRQ_RF\n   EXTI3: SPI_IRQ_TOUCH\n   EXTI4:\n\nEXTI9_5:\n   EXTI5: S1\n   EXTI6: S2\n   EXTI7: S3\n   EXTI8: S4\n   EXTI9:\n\nEXTI15_10:\n   EXTI10: \n   EXTI11: INT1_A\n   EXTI12: INT1_G\n   EXTI13: INT2_A\n   EXTI14: \n   EXTI15: DRDYg/INT2_G
+Text HLabel 6200 6250 2    60   Output ~ 0
+NXT_ADC
+Text HLabel 6200 6150 2    60   Output ~ 0
 NXT_SCL
-Text HLabel 10550 3950 2    60   Output ~ 0
+Text HLabel 6200 6050 2    60   Output ~ 0
 NXT_SDA
-Text Label 10300 4150 2    60   ~ 0
+Text Label 5950 6250 2    60   ~ 0
 STM32_ADC_CH11
-Text Label 10300 4050 2    60   ~ 0
+Text Label 5950 6150 2    60   ~ 0
 NXT_SCL
-Text Label 10300 3950 2    60   ~ 0
+Text Label 5950 6050 2    60   ~ 0
 NXT_SDA
-Text Label 10350 3700 2    60   ~ 0
+Text Label 4050 6400 2    60   ~ 0
 EN_POW_9V
-Text HLabel 10500 3700 2    60   Output ~ 0
+Text HLabel 4200 6400 2    60   Output ~ 0
 EN_POW_9V
-Text HLabel 10500 3600 2    60   Output ~ 0
+Text HLabel 4200 6300 2    60   Output ~ 0
 EN_POW_NXT
-Text Label 10350 3600 2    60   ~ 0
+Text Label 4050 6300 2    60   ~ 0
 EN_POW_NXT
-Text HLabel 10500 3400 2    60   Output ~ 0
+Text HLabel 4200 6100 2    60   Output ~ 0
 POW_MODE
-Text HLabel 10500 3300 2    60   Output ~ 0
+Text HLabel 4200 6000 2    60   Output ~ 0
 POW_HPWR
-Text Label 10350 3400 2    60   ~ 0
+Text Label 4050 6100 2    60   ~ 0
 POW_MODE
-Text Label 10350 3300 2    60   ~ 0
+Text Label 4050 6000 2    60   ~ 0
 POW_HPWR
-Text Label 10350 5200 2    60   ~ 0
+Text Label 7750 6200 2    60   ~ 0
 LCD_D[0..15]
-Text Label 10350 3000 2    60   ~ 0
+Text Label 4100 7000 2    60   ~ 0
 USB_D+
-Text Label 10350 3100 2    60   ~ 0
+Text Label 4100 7100 2    60   ~ 0
 USB_D-
-Text HLabel 10500 3100 2    60   Input ~ 0
+Text HLabel 4250 7100 2    60   Input ~ 0
 USB_D-
-Text HLabel 10500 3000 2    60   Input ~ 0
+Text HLabel 4250 7000 2    60   Input ~ 0
 USB_D+
-Text HLabel 10500 2700 2    60   Input ~ 0
+Text HLabel 2700 6050 2    60   Input ~ 0
 AUDIO_IN_L
-Text HLabel 10500 2800 2    60   Input ~ 0
+Text HLabel 2700 6150 2    60   Input ~ 0
 AUDIO_IN_R
-Text Label 10350 2800 2    60   ~ 0
+Text Label 2550 6150 2    60   ~ 0
 AUDIO_IN_R
-Text Label 10350 2700 2    60   ~ 0
+Text Label 2550 6050 2    60   ~ 0
 AUDIO_IN_L
-Text HLabel 10500 5200 2    60   BiDi ~ 0
+Text HLabel 7900 6200 2    60   BiDi ~ 0
 LCD_D[0..15]
-Text HLabel 10500 1000 2    60   Input ~ 0
+Text HLabel 1450 6250 2    60   Input ~ 0
 EXTI2
-Text HLabel 10500 2550 2    60   Output ~ 0
+Text HLabel 2900 7100 2    60   Output ~ 0
 SPI_nCS_RF
-Text HLabel 10500 2450 2    60   Output ~ 0
+Text HLabel 2900 7000 2    60   Output ~ 0
 RF_RESET
-Text Label 10350 1000 2    60   ~ 0
+Text Label 1300 6250 2    60   ~ 0
 EXTI2
-Text Label 10350 2550 2    60   ~ 0
+Text Label 2750 7100 2    60   ~ 0
 SPI_nCS_RF
-Text Label 10350 2450 2    60   ~ 0
+Text Label 2750 7000 2    60   ~ 0
 RF_RESET
 $EndSCHEMATC
