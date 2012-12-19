@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/19/2012 4:02:29 PM
+EESchema Schematic File Version 2  date 12/19/2012 4:17:57 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 2450 2000 0    40   ~ 0
+ADC12_IN15
 Text Notes 9000 2600 0    50   ~ 0
 SWO
 Text Label 1300 7150 2    60   ~ 0
@@ -473,46 +475,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 3500 7050 3500
 Wire Wire Line
-	10025 5425 10150 5425
-Wire Wire Line
-	10150 6525 10050 6525
-Wire Wire Line
-	10150 6725 10150 6850
-Wire Wire Line
-	10150 6850 10500 6850
-Wire Wire Line
-	10500 6850 10500 6725
-Wire Wire Line
-	10150 6175 10150 6300
-Wire Wire Line
-	10150 6300 10500 6300
-Wire Wire Line
-	10150 5025 10150 5150
-Wire Wire Line
-	10150 5150 10500 5150
-Wire Wire Line
-	10500 5150 10500 5025
-Wire Wire Line
-	10650 5625 10500 5625
-Wire Wire Line
-	10500 5025 10650 5025
-Wire Wire Line
-	10650 6175 10500 6175
-Wire Wire Line
-	10500 6725 10650 6725
-Wire Wire Line
-	10150 4825 10050 4825
-Wire Wire Line
-	10500 5625 10500 5750
-Wire Wire Line
-	10500 5750 10150 5750
-Wire Wire Line
-	10150 5750 10150 5625
-Wire Wire Line
-	10500 6175 10500 6300
-Wire Wire Line
-	10150 5975 10050 5975
-Wire Wire Line
 	4050 6150 4200 6150
 Wire Wire Line
 	1300 6150 1450 6150
@@ -628,86 +590,6 @@ Text HLabel 4200 6150 2    60   Input ~ 0
 POW_nCHRG
 Text Notes 9000 2800 0    50   ~ 0
 CS43L22
-$Comp
-L EVQ-Q2S03W S?
-U 1 1 50C8E84F
-P 10325 4925
-F 0 "S?" H 10325 4750 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 10325 5150 60  0000 C CNN
-	1    10325 4925
-	1    0    0    -1  
-$EndComp
-$Comp
-L EVQ-Q2S03W S?
-U 1 1 50C8E84E
-P 10325 5525
-F 0 "S?" H 10325 5350 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 10325 5725 60  0000 C CNN
-	1    10325 5525
-	1    0    0    -1  
-$EndComp
-$Comp
-L EVQ-Q2S03W S?
-U 1 1 50C8E84D
-P 10325 6075
-F 0 "S?" H 10325 5900 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 10325 6275 60  0000 C CNN
-	1    10325 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L EVQ-Q2S03W S?
-U 1 1 50C8E84C
-P 10325 6625
-F 0 "S?" H 10325 6450 60  0000 C CNN
-F 1 "EVQ-Q2S03W" H 10325 6850 60  0000 C CNN
-	1    10325 6625
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 50C8E84B
-P 10650 5025
-F 0 "#PWR?" H 10650 5025 30  0001 C CNN
-F 1 "GND" H 10650 4955 30  0001 C CNN
-	1    10650 5025
-	0    -1   1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 50C8E84A
-P 10650 6175
-F 0 "#PWR?" H 10650 6175 30  0001 C CNN
-F 1 "GND" H 10650 6105 30  0001 C CNN
-	1    10650 6175
-	0    -1   1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 50C8E849
-P 10650 5625
-F 0 "#PWR?" H 10650 5625 30  0001 C CNN
-F 1 "GND" H 10650 5555 30  0001 C CNN
-	1    10650 5625
-	0    -1   1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 50C8E848
-P 10650 6725
-F 0 "#PWR?" H 10650 6725 30  0001 C CNN
-F 1 "GND" H 10650 6655 30  0001 C CNN
-	1    10650 6725
-	0    -1   1    0   
-$EndComp
-Text Label 10050 4825 2    60   ~ 0
-S1
-Text Label 10025 5425 2    60   ~ 0
-S2
-Text Label 10050 5975 2    60   ~ 0
-S3
-Text Label 10050 6525 2    60   ~ 0
-S4
 Text HLabel 6950 3500 0    60   Output ~ 0
 NXT_SCL
 Text HLabel 9050 3500 2    60   Output ~ 0
@@ -866,9 +748,9 @@ Text GLabel 1650 3050 1    60   Input ~ 0
 Vbat
 Text Label 3150 1500 2    40   ~ 0
 STM32_ADC_CH11
-Text Label 9150 2000 0    40   ~ 0
+Text Label 6800 2300 2    40   ~ 0
 EN_POW_9V
-Text Label 3150 2000 2    40   ~ 0
+Text Label 9150 2000 0    40   ~ 0
 EXTI5
 Text Label 6800 3700 2    40   ~ 0
 EXTI6
@@ -1056,7 +938,7 @@ Text HLabel 2700 6150 2    60   Input ~ 0
 AUDIO_IN_R
 Text Label 2550 6150 2    60   ~ 0
 AUDIO_IN_R
-Text Label 2550 6050 2    60   ~ 0
+Text Label 3150 2000 2    40   ~ 0
 AUDIO_IN_L
 Text HLabel 7900 6200 2    60   BiDi ~ 0
 LCD_D[0..15]

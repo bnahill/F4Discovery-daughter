@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/19/2012 4:02:29 PM
+EESchema Schematic File Version 2  date 12/19/2012 4:17:57 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,26 +45,32 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	1900 3400 2150 3400
+Text Label 2150 3400 0    60   ~ 0
+EXTI12
+Text HLabel 1900 3400 0    60   Output ~ 0
+EXTI12
 Text Label 7350 2800 0    60   ~ 0
 EXTI15
 Wire Wire Line
-	1900 3200 2150 3200
-Text Label 2150 3200 0    60   ~ 0
+	1900 3150 2150 3150
+Text Label 2150 3150 0    60   ~ 0
 EXTI15
-Text HLabel 1900 3200 0    60   Output ~ 0
+Text HLabel 1900 3150 0    60   Output ~ 0
 EXTI15
 Text HLabel 1900 3500 0    60   Output ~ 0
 EXTI11
-Text HLabel 1900 3350 0    60   Output ~ 0
+Text HLabel 1900 3300 0    60   Output ~ 0
 EXTI13
-Text Label 2150 3350 0    60   ~ 0
+Text Label 2150 3300 0    60   ~ 0
 EXTI13
 Text Label 2150 3500 0    60   ~ 0
 EXTI11
 Wire Wire Line
 	1900 3500 2150 3500
 Wire Wire Line
-	1900 3350 2150 3350
+	1900 3300 2150 3300
 Text Label 4750 3000 2    60   ~ 0
 EXTI13
 Text Label 4750 2900 2    60   ~ 0
