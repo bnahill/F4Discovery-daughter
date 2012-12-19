@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/17/2012 11:02:29 PM
+EESchema Schematic File Version 2  date 12/19/2012 4:02:29 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "18 dec 2012"
+Date "19 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,10 +45,39 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 9000 2600 0    50   ~ 0
+SWO
+Text Label 1300 7150 2    60   ~ 0
+EXTI12
+Wire Wire Line
+	1450 7150 1300 7150
+Text HLabel 1450 7150 2    60   Input ~ 0
+EXTI12
+Text Label 5550 3000 0    40   ~ 0
+EXTI12
+NoConn ~ 7050 1500
+NoConn ~ 8950 1500
+NoConn ~ 5400 3600
+NoConn ~ 5400 1500
+NoConn ~ 7050 2400
+Text Label 1300 7350 2    60   ~ 0
+EXTI15
+Wire Wire Line
+	1450 7350 1300 7350
+Text HLabel 1450 7350 2    60   Input ~ 0
+EXTI15
+Text Label 9150 3200 0    40   ~ 0
+EXTI15
+Text HLabel 1450 7250 2    60   Input ~ 0
+EXTI13
+Wire Wire Line
+	1450 7250 1300 7250
+Text Label 1300 7250 2    60   ~ 0
+EXTI13
 Text Label 9150 1900 0    40   ~ 0
-SPI_nCS_CPLD
-Text HLabel 2900 7500 2    60   Output ~ 0
-SPI_nCS_CPLD
+EXTI13
+Wire Wire Line
+	9150 2900 8950 2900
 Wire Wire Line
 	2750 7500 2900 7500
 Wire Wire Line
@@ -57,12 +86,6 @@ Wire Wire Line
 	5400 3000 5550 3000
 Wire Notes Line
 	1800 5900 1000 5900
-Wire Notes Line
-	1800 5900 1800 7000
-Wire Notes Line
-	1800 7000 1000 7000
-Wire Notes Line
-	1000 7000 1000 5900
 Wire Notes Line
 	2000 6200 2000 5900
 Wire Notes Line
@@ -79,8 +102,6 @@ Wire Notes Line
 	8700 6800 8700 5900
 Wire Notes Line
 	8700 5900 7000 5900
-Wire Wire Line
-	1300 6950 1450 6950
 Wire Wire Line
 	1450 6850 1300 6850
 Wire Wire Line
@@ -110,8 +131,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 6150 5950 6150
 Wire Wire Line
-	4050 6000 4200 6000
-Wire Wire Line
 	4100 7000 4250 7000
 Wire Wire Line
 	2700 6050 2550 6050
@@ -130,11 +149,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 7100 4100 7100
 Wire Wire Line
-	4050 6100 4200 6100
-Wire Wire Line
-	4050 6300 4200 6300
-Wire Wire Line
-	4200 6400 4050 6400
+	4200 6300 4050 6300
 Wire Wire Line
 	6200 6250 5950 6250
 Wire Wire Line
@@ -498,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 5975 10050 5975
 Wire Wire Line
-	4050 6200 4200 6200
+	4050 6150 4200 6150
 Wire Wire Line
 	1300 6150 1450 6150
 Wire Wire Line
@@ -527,13 +542,25 @@ Wire Wire Line
 	2750 7300 2900 7300
 Wire Wire Line
 	3300 2700 3150 2700
+Wire Wire Line
+	1450 7050 1300 7050
+Text HLabel 1450 7050 2    60   Input ~ 0
+EXTI11
+Text Label 1300 7050 2    60   ~ 0
+EXTI11
+Text Label 9150 3100 0    40   ~ 0
+EXTI11
+Text Label 9150 2900 0    40   ~ 0
+SPI_nCS_CPLD
+Text HLabel 2900 7500 2    60   Output ~ 0
+SPI_nCS_CPLD
 Text Label 2750 7500 2    60   ~ 0
 SPI_nCS_CPLD
 Text Label 3150 2700 2    40   ~ 0
 SPI_nCS_SD
-Text Label 5550 3000 0    40   ~ 0
+Text Label 6800 1900 2    40   ~ 0
 SPI_nCS_TOUCH
-Text Label 9150 3200 0    40   ~ 0
+Text Label 9150 2700 0    40   ~ 0
 SPI_nCS_GYR
 Text Label 3150 1600 2    40   ~ 0
 SPI_nCS_GYR
@@ -557,10 +584,6 @@ Text Notes 7050 5900 0    60   ~ 0
 LCD I/O
 Text Label 6800 2600 2    40   ~ 0
 DEN_G
-Text HLabel 1450 6950 2    60   Input ~ 0
-EXTI9
-Text Label 1300 6950 2    60   ~ 0
-EXTI9
 Text HLabel 1450 6850 2    60   Input ~ 0
 EXTI8
 Text Label 1300 6850 2    60   ~ 0
@@ -599,9 +622,9 @@ Text Label 1300 6150 2    60   ~ 0
 EXTI1
 Text Label 3150 2100 2    40   ~ 0
 EXTI1
-Text Label 4050 6200 2    60   ~ 0
+Text Label 4050 6150 2    60   ~ 0
 POW_nCHRG
-Text HLabel 4200 6200 2    60   Input ~ 0
+Text HLabel 4200 6150 2    60   Input ~ 0
 POW_nCHRG
 Text Notes 9000 2800 0    50   ~ 0
 CS43L22
@@ -845,8 +868,6 @@ Text Label 3150 1500 2    40   ~ 0
 STM32_ADC_CH11
 Text Label 9150 2000 0    40   ~ 0
 EN_POW_9V
-Text Label 6800 1900 2    40   ~ 0
-EN_POW_NXT
 Text Label 3150 2000 2    40   ~ 0
 EXTI5
 Text Label 6800 3700 2    40   ~ 0
@@ -857,10 +878,6 @@ Text Label 5550 2400 0    40   ~ 0
 EXTI2
 Text Label 9150 2500 0    40   ~ 0
 POW_nCHARG
-Text Label 9150 2700 0    40   ~ 0
-POW_MODE
-Text Label 6800 2300 2    40   ~ 0
-POW_HPWR
 Text Label 900  1800 2    40   ~ 0
 USB_D+
 Text Label 900  1700 2    40   ~ 0
@@ -1019,22 +1036,10 @@ Text Label 5950 6150 2    60   ~ 0
 NXT_SCL
 Text Label 5950 6050 2    60   ~ 0
 NXT_SDA
-Text Label 4050 6400 2    60   ~ 0
-EN_POW_9V
-Text HLabel 4200 6400 2    60   Output ~ 0
+Text Label 4050 6300 2    60   ~ 0
 EN_POW_9V
 Text HLabel 4200 6300 2    60   Output ~ 0
-EN_POW_NXT
-Text Label 4050 6300 2    60   ~ 0
-EN_POW_NXT
-Text HLabel 4200 6100 2    60   Output ~ 0
-POW_MODE
-Text HLabel 4200 6000 2    60   Output ~ 0
-POW_HPWR
-Text Label 4050 6100 2    60   ~ 0
-POW_MODE
-Text Label 4050 6000 2    60   ~ 0
-POW_HPWR
+EN_POW_9V
 Text Label 7750 6200 2    60   ~ 0
 LCD_D[0..15]
 Text Label 4100 7000 2    60   ~ 0
