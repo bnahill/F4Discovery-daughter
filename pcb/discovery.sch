@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/19/2012 4:17:57 PM
+EESchema Schematic File Version 2  date Fri 28 Dec 2012 12:18:10 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "19 dec 2012"
+Date "28 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,39 +45,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2450 2000 0    40   ~ 0
-ADC12_IN15
-Text Notes 9000 2600 0    50   ~ 0
-SWO
-Text Label 1300 7150 2    60   ~ 0
-EXTI12
+Wire Notes Line
+	8850 6200 8850 5900
+Wire Notes Line
+	8850 6200 10000 6200
+Wire Notes Line
+	10000 6200 10000 5900
+Wire Notes Line
+	10000 5900 8850 5900
+Wire Wire Line
+	9300 6100 9450 6100
 Wire Wire Line
 	1450 7150 1300 7150
-Text HLabel 1450 7150 2    60   Input ~ 0
-EXTI12
-Text Label 5550 3000 0    40   ~ 0
-EXTI12
-NoConn ~ 7050 1500
-NoConn ~ 8950 1500
-NoConn ~ 5400 3600
-NoConn ~ 5400 1500
-NoConn ~ 7050 2400
-Text Label 1300 7350 2    60   ~ 0
-EXTI15
 Wire Wire Line
 	1450 7350 1300 7350
-Text HLabel 1450 7350 2    60   Input ~ 0
-EXTI15
-Text Label 9150 3200 0    40   ~ 0
-EXTI15
-Text HLabel 1450 7250 2    60   Input ~ 0
-EXTI13
 Wire Wire Line
 	1450 7250 1300 7250
-Text Label 1300 7250 2    60   ~ 0
-EXTI13
-Text Label 9150 1900 0    40   ~ 0
-EXTI13
 Wire Wire Line
 	9150 2900 8950 2900
 Wire Wire Line
@@ -97,11 +80,11 @@ Wire Notes Line
 Wire Notes Line
 	3300 5900 2000 5900
 Wire Notes Line
-	7000 6800 7000 5900
+	7000 6900 7000 5900
 Wire Notes Line
-	7000 6800 8700 6800
+	7000 6900 8700 6900
 Wire Notes Line
-	8700 6800 8700 5900
+	8700 6900 8700 5900
 Wire Notes Line
 	8700 5900 7000 5900
 Wire Wire Line
@@ -239,7 +222,7 @@ Connection ~ 4500 4200
 Wire Wire Line
 	4500 4200 4500 4100
 Wire Wire Line
-	8150 900  8150 1000
+	8150 1000 8150 900 
 Wire Wire Line
 	4100 4100 4100 4200
 Wire Wire Line
@@ -298,7 +281,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 3000 6450 4400
 Wire Bus Line
-	3550 4850 5500 4850
+	5500 4850 3550 4850
 Wire Wire Line
 	5650 4350 3450 4350
 Wire Wire Line
@@ -435,9 +418,9 @@ Wire Wire Line
 Wire Wire Line
 	1850 3500 1450 3500
 Wire Wire Line
-	1850 3950 1850 3800
+	1850 3800 1850 3950
 Wire Wire Line
-	1650 3550 1650 3450
+	1650 3450 1650 3550
 Connection ~ 1650 3500
 Wire Wire Line
 	1650 3900 1850 3900
@@ -506,6 +489,51 @@ Wire Wire Line
 	3300 2700 3150 2700
 Wire Wire Line
 	1450 7050 1300 7050
+Wire Wire Line
+	7900 6800 7750 6800
+Wire Wire Line
+	9450 6000 9300 6000
+Text Label 9300 6100 2    60   ~ 0
+I2C1_SCL
+Text Label 9300 6000 2    60   ~ 0
+I2C1_SDA
+Text Notes 9000 5900 0    60   ~ 0
+I2C1
+Text Label 7750 6800 2    60   ~ 0
+BKLT_EN
+Text HLabel 7900 6800 2    60   Output ~ 0
+BKLT_EN
+Text HLabel 9450 6100 2    60   BiDi ~ 0
+I2C1_SCL
+Text HLabel 9450 6000 2    60   BiDi ~ 0
+I2C1_SDA
+Text Notes 2450 2000 0    40   ~ 0
+ADC12_IN15
+Text Notes 9000 2600 0    50   ~ 0
+SWO
+Text Label 1300 7150 2    60   ~ 0
+EXTI12
+Text HLabel 1450 7150 2    60   Input ~ 0
+EXTI12
+Text Label 5550 3000 0    40   ~ 0
+EXTI12
+NoConn ~ 7050 1500
+NoConn ~ 8950 1500
+NoConn ~ 5400 3600
+NoConn ~ 5400 1500
+NoConn ~ 7050 2400
+Text Label 1300 7350 2    60   ~ 0
+EXTI15
+Text HLabel 1450 7350 2    60   Input ~ 0
+EXTI15
+Text Label 9150 3200 0    40   ~ 0
+EXTI15
+Text HLabel 1450 7250 2    60   Input ~ 0
+EXTI13
+Text Label 1300 7250 2    60   ~ 0
+EXTI13
+Text Label 9150 1900 0    40   ~ 0
+EXTI13
 Text HLabel 1450 7050 2    60   Input ~ 0
 EXTI11
 Text Label 1300 7050 2    60   ~ 0
@@ -609,10 +637,10 @@ RF_RESET
 Text HLabel 5550 2100 2    60   Input ~ 0
 SPI1_MISO
 $Comp
-L GND #PWR?
+L GND #PWR1
 U 1 1 50C11AB7
 P 1500 2500
-F 0 "#PWR?" H 1500 2500 30  0001 C CNN
+F 0 "#PWR1" H 1500 2500 30  0001 C CNN
 F 1 "GND" H 1500 2430 30  0001 C CNN
 	1    1500 2500
 	1    0    0    -1  
@@ -672,7 +700,7 @@ Text Notes 7000 3300 2    50   ~ 0
 SWCLK
 NoConn ~ 7050 3300
 Text Label 9150 2300 0    40   ~ 0
-I2C1_SCL
+I2C1_SDA
 Text Notes 7000 3100 2    50   ~ 0
 CODEC_SD
 NoConn ~ 7050 3100
@@ -736,10 +764,10 @@ F 1 "0.1u" H 1875 3720 30  0000 L BNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR2
 U 1 1 5075B2D5
 P 1850 3950
-F 0 "#PWR4" H 1850 3950 30  0001 C CNN
+F 0 "#PWR2" H 1850 3950 30  0001 C CNN
 F 1 "GND" H 1850 3880 30  0001 C CNN
 	1    1850 3950
 	1    0    0    -1  
@@ -821,10 +849,10 @@ F 1 "GND" H 4350 4180 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR4
 U 1 1 500D7599
 P 8000 4300
-F 0 "#PWR5" H 8000 4300 30  0001 C CNN
+F 0 "#PWR4" H 8000 4300 30  0001 C CNN
 F 1 "GND" H 8000 4230 30  0001 C CNN
 	1    8000 4300
 	1    0    0    -1  
@@ -906,11 +934,11 @@ Text Label 7750 6000 2    60   ~ 0
 SPI_nCS_TOUCH
 Text Notes -1600 5400 0    60   ~ 0
 Suggested Interrupt Setup:\nIndependent Vectors:\n   EXTI0: LIS302_INT1\n   EXTI1: LIS302_INT2\n   EXTI2: SPI_IRQ_RF\n   EXTI3: SPI_IRQ_TOUCH\n   EXTI4:\n\nEXTI9_5:\n   EXTI5: S1\n   EXTI6: S2\n   EXTI7: S3\n   EXTI8: S4\n   EXTI9:\n\nEXTI15_10:\n   EXTI10: \n   EXTI11: INT1_A\n   EXTI12: INT1_G\n   EXTI13: INT2_A\n   EXTI14: \n   EXTI15: DRDYg/INT2_G
-Text HLabel 6200 6250 2    60   Output ~ 0
+Text HLabel 6200 6250 2    60   Input ~ 0
 NXT_ADC
-Text HLabel 6200 6150 2    60   Output ~ 0
+Text HLabel 6200 6150 2    60   BiDi ~ 0
 NXT_SCL
-Text HLabel 6200 6050 2    60   Output ~ 0
+Text HLabel 6200 6050 2    60   BiDi ~ 0
 NXT_SDA
 Text Label 5950 6250 2    60   ~ 0
 STM32_ADC_CH11

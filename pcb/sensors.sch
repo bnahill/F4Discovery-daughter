@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/19/2012 4:02:29 PM
+EESchema Schematic File Version 2  date Fri 28 Dec 2012 12:18:10 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "19 dec 2012"
+Date "28 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -192,19 +192,19 @@ SPI_MOSI
 Text HLabel 4700 3100 0    60   Output ~ 0
 SPI_MISO
 $Comp
-L LSM330DLC U?
+L LSM330DLC U3
 U 1 1 50C11357
 P 5500 3850
-F 0 "U?" H 5900 3325 60  0000 L TNN
+F 0 "U3" H 5900 3325 60  0000 L TNN
 F 1 "LSM330DLC" H 5900 4375 60  0000 L BNN
 	1    5500 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR5
 U 1 1 50C11356
 P 4650 4150
-F 0 "#PWR?" H 4650 4150 30  0001 C CNN
+F 0 "#PWR5" H 4650 4150 30  0001 C CNN
 F 1 "GND" H 4650 4080 30  0001 C CNN
 	1    4650 4150
 	1    0    0    -1  
@@ -214,19 +214,19 @@ Vreg
 Text GLabel 5400 2950 0    60   Input ~ 0
 Vreg
 $Comp
-L CAP C?
+L CAP C2
 U 1 1 50C11355
 P 6350 4100
-F 0 "C?" H 6370 4070 50  0000 L TNN
+F 0 "C2" H 6370 4070 50  0000 L TNN
 F 1 "0.01u(25V)" H 6375 4120 30  0000 L BNN
 	1    6350 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR6
 U 1 1 50C11354
 P 6550 4200
-F 0 "#PWR?" H 6550 4200 30  0001 C CNN
+F 0 "#PWR6" H 6550 4200 30  0001 C CNN
 F 1 "GND" H 6550 4130 30  0001 C CNN
 	1    6550 4200
 	1    0    0    -1  
