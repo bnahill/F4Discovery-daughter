@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 28 Dec 2012 12:18:10 AM EST
+EESchema Schematic File Version 2  date 12/30/2012 6:01:05 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 9
+Sheet 3 9
 Title ""
-Date "28 dec 2012"
+Date "30 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Notes Line
+	1750 6200 3300 6200
+Wire Wire Line
+	6200 6150 5600 6150
 Wire Notes Line
 	8850 6200 8850 5900
 Wire Notes Line
@@ -56,11 +60,11 @@ Wire Notes Line
 Wire Wire Line
 	9300 6100 9450 6100
 Wire Wire Line
-	1450 7150 1300 7150
+	1050 7150 900  7150
 Wire Wire Line
-	1450 7350 1300 7350
+	1050 7350 900  7350
 Wire Wire Line
-	1450 7250 1300 7250
+	1050 7250 900  7250
 Wire Wire Line
 	9150 2900 8950 2900
 Wire Wire Line
@@ -70,15 +74,11 @@ Wire Wire Line
 Wire Wire Line
 	5400 3000 5550 3000
 Wire Notes Line
-	1800 5900 1000 5900
+	1400 5900 600  5900
 Wire Notes Line
-	2000 6200 2000 5900
-Wire Notes Line
-	2000 6200 3300 6200
+	1750 6200 1750 5900
 Wire Notes Line
 	3300 6200 3300 5900
-Wire Notes Line
-	3300 5900 2000 5900
 Wire Notes Line
 	7000 6900 7000 5900
 Wire Notes Line
@@ -88,17 +88,17 @@ Wire Notes Line
 Wire Notes Line
 	8700 5900 7000 5900
 Wire Wire Line
-	1450 6850 1300 6850
+	1050 6850 900  6850
 Wire Wire Line
-	1300 6550 1450 6550
+	900  6550 1050 6550
 Wire Wire Line
-	1450 6650 1300 6650
+	1050 6650 900  6650
 Wire Wire Line
-	1300 6750 1450 6750
+	900  6750 1050 6750
 Wire Wire Line
-	1300 6450 1450 6450
+	900  6450 1050 6450
 Wire Wire Line
-	1300 6050 1450 6050
+	900  6050 1050 6050
 Wire Wire Line
 	5300 7050 5500 7050
 Wire Wire Line
@@ -112,15 +112,13 @@ Wire Wire Line
 Wire Wire Line
 	7900 6500 7750 6500
 Wire Wire Line
-	1300 6350 1450 6350
-Wire Wire Line
-	6200 6150 5950 6150
+	900  6350 1050 6350
 Wire Wire Line
 	4100 7000 4250 7000
 Wire Wire Line
 	2700 6050 2550 6050
 Wire Wire Line
-	1450 6250 1300 6250
+	1050 6250 900  6250
 Wire Wire Line
 	2750 7000 2900 7000
 Wire Wire Line
@@ -137,8 +135,6 @@ Wire Wire Line
 	4200 6300 4050 6300
 Wire Wire Line
 	6200 6250 5950 6250
-Wire Wire Line
-	6200 6050 5950 6050
 Wire Wire Line
 	7900 6000 7750 6000
 Wire Wire Line
@@ -460,7 +456,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6150 4200 6150
 Wire Wire Line
-	1300 6150 1450 6150
+	900  6150 1050 6150
 Wire Wire Line
 	5400 2300 5550 2300
 Wire Wire Line
@@ -488,11 +484,29 @@ Wire Wire Line
 Wire Wire Line
 	3300 2700 3150 2700
 Wire Wire Line
-	1450 7050 1300 7050
+	1050 7050 900  7050
 Wire Wire Line
 	7900 6800 7750 6800
 Wire Wire Line
 	9450 6000 9300 6000
+Wire Wire Line
+	6200 6050 5600 6050
+Wire Notes Line
+	3300 5900 1750 5900
+Text Label 2550 6050 2    60   ~ 0
+STM32_ADC_CH15
+Text Label 9050 3500 0    40   ~ 0
+I2C3_SDA
+Text Label 6950 3500 2    40   ~ 0
+I2C3_SCL
+Text HLabel 6200 6050 2    60   BiDi ~ 0
+I2C3_SDA
+Text HLabel 6200 6150 2    60   BiDi ~ 0
+I2C3_SCL
+Text Label 5600 6050 2    60   ~ 0
+I2C3_SDA
+Text Label 5600 6150 2    60   ~ 0
+I2C3_SCL
 Text Label 9300 6100 2    60   ~ 0
 I2C1_SCL
 Text Label 9300 6000 2    60   ~ 0
@@ -507,13 +521,11 @@ Text HLabel 9450 6100 2    60   BiDi ~ 0
 I2C1_SCL
 Text HLabel 9450 6000 2    60   BiDi ~ 0
 I2C1_SDA
-Text Notes 2450 2000 0    40   ~ 0
-ADC12_IN15
 Text Notes 9000 2600 0    50   ~ 0
 SWO
-Text Label 1300 7150 2    60   ~ 0
+Text Label 900  7150 2    60   ~ 0
 EXTI12
-Text HLabel 1450 7150 2    60   Input ~ 0
+Text HLabel 1050 7150 2    60   Input ~ 0
 EXTI12
 Text Label 5550 3000 0    40   ~ 0
 EXTI12
@@ -522,21 +534,21 @@ NoConn ~ 8950 1500
 NoConn ~ 5400 3600
 NoConn ~ 5400 1500
 NoConn ~ 7050 2400
-Text Label 1300 7350 2    60   ~ 0
+Text Label 900  7350 2    60   ~ 0
 EXTI15
-Text HLabel 1450 7350 2    60   Input ~ 0
+Text HLabel 1050 7350 2    60   Input ~ 0
 EXTI15
 Text Label 9150 3200 0    40   ~ 0
 EXTI15
-Text HLabel 1450 7250 2    60   Input ~ 0
+Text HLabel 1050 7250 2    60   Input ~ 0
 EXTI13
-Text Label 1300 7250 2    60   ~ 0
+Text Label 900  7250 2    60   ~ 0
 EXTI13
 Text Label 9150 1900 0    40   ~ 0
 EXTI13
-Text HLabel 1450 7050 2    60   Input ~ 0
+Text HLabel 1050 7050 2    60   Input ~ 0
 EXTI11
-Text Label 1300 7050 2    60   ~ 0
+Text Label 900  7050 2    60   ~ 0
 EXTI11
 Text Label 9150 3100 0    40   ~ 0
 EXTI11
@@ -562,7 +574,7 @@ Text Label 2750 7400 2    60   ~ 0
 SPI_nCS_ACC
 Text Label 2750 7300 2    60   ~ 0
 SPI_nCS_GYR
-Text Notes 1000 5900 0    60   ~ 0
+Text Notes 600  5900 0    60   ~ 0
 External Interrupts
 Text Notes 3500 5900 0    60   ~ 0
 Power Status and Enable
@@ -574,31 +586,31 @@ Text Notes 7050 5900 0    60   ~ 0
 LCD I/O
 Text Label 6800 2600 2    40   ~ 0
 DEN_G
-Text HLabel 1450 6850 2    60   Input ~ 0
+Text HLabel 1050 6850 2    60   Input ~ 0
 EXTI8
-Text Label 1300 6850 2    60   ~ 0
+Text Label 900  6850 2    60   ~ 0
 EXTI8
-Text Label 1300 6650 2    60   ~ 0
+Text Label 900  6650 2    60   ~ 0
 EXTI6
-Text HLabel 1450 6650 2    60   Input ~ 0
+Text HLabel 1050 6650 2    60   Input ~ 0
 EXTI6
-Text Label 1300 6750 2    60   ~ 0
+Text Label 900  6750 2    60   ~ 0
 EXTI7
-Text HLabel 1450 6750 2    60   Input ~ 0
+Text HLabel 1050 6750 2    60   Input ~ 0
 EXTI7
-Text Label 1300 6550 2    60   ~ 0
+Text Label 900  6550 2    60   ~ 0
 EXTI5
-Text HLabel 1450 6550 2    60   Input ~ 0
+Text HLabel 1050 6550 2    60   Input ~ 0
 EXTI5
-Text HLabel 1450 6450 2    60   Input ~ 0
+Text HLabel 1050 6450 2    60   Input ~ 0
 EXTI4
-Text Label 1300 6450 2    60   ~ 0
+Text Label 900  6450 2    60   ~ 0
 EXTI4
-Text Label 1300 6050 2    60   ~ 0
+Text Label 900  6050 2    60   ~ 0
 EXTI0
-Text HLabel 1450 6050 2    60   Input ~ 0
+Text HLabel 1050 6050 2    60   Input ~ 0
 EXTI0
-Text HLabel 1450 6150 2    60   Input ~ 0
+Text HLabel 1050 6150 2    60   Input ~ 0
 EXTI1
 Text HLabel 5500 7050 2    60   Output ~ 0
 DEN_G
@@ -608,7 +620,7 @@ Text Label 5550 2300 0    40   ~ 0
 EXTI0
 Text Label 6800 2000 2    40   ~ 0
 EXTI4
-Text Label 1300 6150 2    60   ~ 0
+Text Label 900  6150 2    60   ~ 0
 EXTI1
 Text Label 3150 2100 2    40   ~ 0
 EXTI1
@@ -618,10 +630,6 @@ Text HLabel 4200 6150 2    60   Input ~ 0
 POW_nCHRG
 Text Notes 9000 2800 0    50   ~ 0
 CS43L22
-Text HLabel 6950 3500 0    60   Output ~ 0
-NXT_SCL
-Text HLabel 9050 3500 2    60   Output ~ 0
-NXT_SDA
 Text HLabel 5550 3100 2    60   Input ~ 0
 SPI2_MISO
 Text HLabel 3150 1800 0    60   Output ~ 0
@@ -924,11 +932,11 @@ Text HLabel 7900 6400 2    60   Output ~ 0
 LCD_nRD
 Text HLabel 7900 6300 2    60   Output ~ 0
 LCD_nRS
-Text HLabel 1450 6350 2    60   Input ~ 0
+Text HLabel 1050 6350 2    60   Input ~ 0
 EXTI3
 Text HLabel 7900 6000 2    60   Output ~ 0
 SPI_nCS_TOUCH
-Text Label 1300 6350 2    60   ~ 0
+Text Label 900  6350 2    60   ~ 0
 EXTI3
 Text Label 7750 6000 2    60   ~ 0
 SPI_nCS_TOUCH
@@ -936,16 +944,8 @@ Text Notes -1600 5400 0    60   ~ 0
 Suggested Interrupt Setup:\nIndependent Vectors:\n   EXTI0: LIS302_INT1\n   EXTI1: LIS302_INT2\n   EXTI2: SPI_IRQ_RF\n   EXTI3: SPI_IRQ_TOUCH\n   EXTI4:\n\nEXTI9_5:\n   EXTI5: S1\n   EXTI6: S2\n   EXTI7: S3\n   EXTI8: S4\n   EXTI9:\n\nEXTI15_10:\n   EXTI10: \n   EXTI11: INT1_A\n   EXTI12: INT1_G\n   EXTI13: INT2_A\n   EXTI14: \n   EXTI15: DRDYg/INT2_G
 Text HLabel 6200 6250 2    60   Input ~ 0
 NXT_ADC
-Text HLabel 6200 6150 2    60   BiDi ~ 0
-NXT_SCL
-Text HLabel 6200 6050 2    60   BiDi ~ 0
-NXT_SDA
 Text Label 5950 6250 2    60   ~ 0
 STM32_ADC_CH11
-Text Label 5950 6150 2    60   ~ 0
-NXT_SCL
-Text Label 5950 6050 2    60   ~ 0
-NXT_SDA
 Text Label 4050 6300 2    60   ~ 0
 EN_POW_9V
 Text HLabel 4200 6300 2    60   Output ~ 0
@@ -967,16 +967,16 @@ AUDIO_IN_R
 Text Label 2550 6150 2    60   ~ 0
 AUDIO_IN_R
 Text Label 3150 2000 2    40   ~ 0
-AUDIO_IN_L
+STM32_ADC_CH15
 Text HLabel 7900 6200 2    60   BiDi ~ 0
 LCD_D[0..15]
-Text HLabel 1450 6250 2    60   Input ~ 0
+Text HLabel 1050 6250 2    60   Input ~ 0
 EXTI2
 Text HLabel 2900 7100 2    60   Output ~ 0
 SPI_nCS_RF
 Text HLabel 2900 7000 2    60   Output ~ 0
 RF_RESET
-Text Label 1300 6250 2    60   ~ 0
+Text Label 900  6250 2    60   ~ 0
 EXTI2
 Text Label 2750 7100 2    60   ~ 0
 SPI_nCS_RF
