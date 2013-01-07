@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 28 Dec 2012 12:18:10 AM EST
+EESchema Schematic File Version 2  date Mon 07 Jan 2013 11:54:23 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "28 dec 2012"
+Date "7 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -201,10 +201,10 @@ F 1 "LSM330DLC" H 5900 4375 60  0000 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR1
 U 1 1 50C11356
 P 4650 4150
-F 0 "#PWR5" H 4650 4150 30  0001 C CNN
+F 0 "#PWR1" H 4650 4150 30  0001 C CNN
 F 1 "GND" H 4650 4080 30  0001 C CNN
 	1    4650 4150
 	1    0    0    -1  
@@ -223,10 +223,10 @@ F 1 "0.01u(25V)" H 6375 4120 30  0000 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR2
 U 1 1 50C11354
 P 6550 4200
-F 0 "#PWR6" H 6550 4200 30  0001 C CNN
+F 0 "#PWR2" H 6550 4200 30  0001 C CNN
 F 1 "GND" H 6550 4130 30  0001 C CNN
 	1    6550 4200
 	1    0    0    -1  

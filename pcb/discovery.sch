@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/3/2013 4:23:52 PM
+EESchema Schematic File Version 2  date Mon 07 Jan 2013 11:54:23 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "3 jan 2013"
+Date "7 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -645,10 +645,10 @@ RF_RESET
 Text HLabel 5550 2100 2    60   Input ~ 0
 SPI1_MISO
 $Comp
-L GND #PWR1
+L GND #PWR3
 U 1 1 50C11AB7
 P 1500 2500
-F 0 "#PWR1" H 1500 2500 30  0001 C CNN
+F 0 "#PWR3" H 1500 2500 30  0001 C CNN
 F 1 "GND" H 1500 2430 30  0001 C CNN
 	1    1500 2500
 	1    0    0    -1  
@@ -772,10 +772,10 @@ F 1 "0.1u" H 1875 3720 30  0000 L BNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR4
 U 1 1 5075B2D5
 P 1850 3950
-F 0 "#PWR2" H 1850 3950 30  0001 C CNN
+F 0 "#PWR4" H 1850 3950 30  0001 C CNN
 F 1 "GND" H 1850 3880 30  0001 C CNN
 	1    1850 3950
 	1    0    0    -1  
@@ -846,19 +846,19 @@ F 1 "FT230X" H 1800 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR5
 U 1 1 500D75A4
 P 4350 4250
-F 0 "#PWR3" H 4350 4250 30  0001 C CNN
+F 0 "#PWR5" H 4350 4250 30  0001 C CNN
 F 1 "GND" H 4350 4180 30  0001 C CNN
 	1    4350 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR6
 U 1 1 500D7599
 P 8000 4300
-F 0 "#PWR4" H 8000 4300 30  0001 C CNN
+F 0 "#PWR6" H 8000 4300 30  0001 C CNN
 F 1 "GND" H 8000 4230 30  0001 C CNN
 	1    8000 4300
 	1    0    0    -1  
