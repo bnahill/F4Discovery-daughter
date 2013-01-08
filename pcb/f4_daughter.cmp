@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/7/2013 1:50:46 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/8/2013 2:22:01 PM
 
 BeginCmp
 TimeStamp = /500B69F1/501184C6;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /500B6AFA/5075B2D6;
 Reference = C1;
 ValeurCmp = 10n;
-IdModule  = SM0805;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -53,28 +53,28 @@ BeginCmp
 TimeStamp = /500DC44C/500DD54F;
 Reference = C7;
 ValeurCmp = 2.2u;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD551;
 Reference = C8;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD552;
 Reference = C9;
 ValeurCmp = 10p;
-IdModule  = ;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD57A;
 Reference = C10;
 ValeurCmp = 10p;
-IdModule  = ;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -102,21 +102,21 @@ BeginCmp
 TimeStamp = /500DC44C/500DD58B;
 Reference = C14;
 ValeurCmp = 2.2u;
-IdModule  = SM0402;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/50748074;
 Reference = C15;
 ValeurCmp = CAP;
-IdModule  = SM0402;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/50748076;
 Reference = C16;
 ValeurCmp = CAP;
-IdModule  = SM0402;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -130,14 +130,14 @@ BeginCmp
 TimeStamp = /500DC44C/500DD700;
 Reference = C18;
 ValeurCmp = 100n;
-IdModule  = SM0402;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD703;
 Reference = C19;
 ValeurCmp = 10n;
-IdModule  = SM0402;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -158,14 +158,14 @@ BeginCmp
 TimeStamp = /500DC44C/500DD930;
 Reference = C22;
 ValeurCmp = 100n;
-IdModule  = SM0402;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B69F1/504E289F;
 Reference = C23;
 ValeurCmp = 4.7u;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -186,7 +186,7 @@ BeginCmp
 TimeStamp = /500B69F1/50116F2D;
 Reference = C26;
 ValeurCmp = 10u;
-IdModule  = SM0402;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -200,7 +200,7 @@ BeginCmp
 TimeStamp = /500B69F1/504E2570;
 Reference = C28;
 ValeurCmp = 10u;
-IdModule  = SM0402;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -214,7 +214,7 @@ BeginCmp
 TimeStamp = /500B69F1/5011763D;
 Reference = C30;
 ValeurCmp = 10u;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -354,7 +354,7 @@ BeginCmp
 TimeStamp = /5010D8BD/50118BBE;
 Reference = J5;
 ValeurCmp = SJ1-3523N;
-IdModule  = ;
+IdModule  = SJ1-352XN;
 EndCmp
 
 BeginCmp
@@ -669,28 +669,28 @@ BeginCmp
 TimeStamp = /500DC44C/500EC307;
 Reference = T1;
 ValeurCmp = TP;
-IdModule  = ;
+IdModule  = TESTPOINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B6AFA/50105FDD;
 Reference = U1;
 ValeurCmp = FT230X;
-IdModule  = F4_DISCOVERY;
+IdModule  = FT230_16SSOP;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B6AFA/500B6B19;
 Reference = U2;
 ValeurCmp = STM32F4-DISCOVERY;
-IdModule  = MCP_QFN16_3X3;
+IdModule  = F4_DISCOVERY;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B6AFA/501821DF;
 Reference = U3;
 ValeurCmp = LSM330DLC;
-IdModule  = STM32W108C8_VFQFPN48;
+IdModule  = LSM330DLC_LGA-28;
 EndCmp
 
 BeginCmp
@@ -704,28 +704,28 @@ BeginCmp
 TimeStamp = /500DC44C/500DC479;
 Reference = U5;
 ValeurCmp = STM32W108C8;
-IdModule  = FT230_16SSOP;
+IdModule  = STM32W_VFQFPN48;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/50196B6B;
 Reference = U6;
 ValeurCmp = SN74LVC1G125;
-IdModule  = USBMICROCONN;
+IdModule  = SN74LVC1G125;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B69F1/50108741;
 Reference = U7;
 ValeurCmp = USBMICROCONN;
-IdModule  = MCP6409-TSSOP;
+IdModule  = USBMICROCONN;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B69F1/504E2240;
 Reference = U8;
 ValeurCmp = LM4510;
-IdModule  = LSM330DLC_LGA-28;
+IdModule  = LM4510_LLP-10;
 EndCmp
 
 BeginCmp
@@ -739,14 +739,14 @@ BeginCmp
 TimeStamp = /500B69F1/504D3229;
 Reference = U10;
 ValeurCmp = TLV61220;
-IdModule  = LM4510_LLP-10;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /5010D8BD/50464816;
 Reference = U11;
 ValeurCmp = MCP6409;
-IdModule  = SOT23_6;
+IdModule  = MCP6409_SOIC;
 EndCmp
 
 BeginCmp
