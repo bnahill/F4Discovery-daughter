@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/8/2013 4:29:11 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/8/2013 5:00:44 PM
+
+BeginCmp
+TimeStamp = /500DC44C/50EC7B2B;
+Reference = 73391-0070;
+ValeurCmp = J2;
+IdModule  = Molex;
+EndCmp
 
 BeginCmp
 TimeStamp = /500B69F1/501184C6;
@@ -376,13 +383,6 @@ TimeStamp = /5073669E/5073673A;
 Reference = J1;
 ValeurCmp = NXT_RJ12;
 IdModule  = PJ-045;
-EndCmp
-
-BeginCmp
-TimeStamp = /500DC44C/50EC7B2B;
-Reference = J2;
-ValeurCmp = 73391-0070;
-IdModule  = Molex 73391-0070;
 EndCmp
 
 BeginCmp
@@ -893,7 +893,7 @@ BeginCmp
 TimeStamp = /50C8AECE/50C8AF08;
 Reference = U14;
 ValeurCmp = XC2C64A-XQFG48;
-IdModule  = ;
+IdModule  = XC2C64A-QFG48;
 EndCmp
 
 BeginCmp

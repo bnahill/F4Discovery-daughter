@@ -1,5 +1,9 @@
-# EESchema Netlist Version 1.1 created  1/8/2013 4:29:11 PM
+# EESchema Netlist Version 1.1 created  1/8/2013 5:00:44 PM
 (
+ ( /500DC44C/50EC7B2B Molex 73391-0070 J2
+  ( 1 N-000124 )
+  ( ~ GND )
+ )
  ( /500B69F1/501184C6 $noname$ BT1 16340
   ( 1 Vbat )
   ( 2 GND )
@@ -219,10 +223,6 @@
   ( 4 Vnxt4.3v )
   ( 5 /discovery/I2C3_SCL )
   ( 6 /discovery/I2C3_SDA )
- )
- ( /500DC44C/50EC7B2B Molex 73391-0070 J2 73391-0070
-  ( 1 N-000124 )
-  ( ~ GND )
  )
  ( /500DC44C/50747698 PIN_ARRAY-6X1 J3 CONN_6
   ( 1 Vreg )
@@ -825,7 +825,7 @@
   ( 2 GND )
   ( 3 Vbat )
  )
- ( /50C8AECE/50C8AF08 $noname$ U14 XC2C64A-XQFG48
+ ( /50C8AECE/50C8AF08 XC2C64A-QFG48 U14 XC2C64A-XQFG48
   ( 1 /cpld/FSMC_NEx )
   ( 2 /cpld/FSMC_NWE )
   ( 3 Vreg )
