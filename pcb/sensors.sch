@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 07 Jan 2013 11:54:23 AM EST
+EESchema Schematic File Version 2  date 1/8/2013 5:13:17 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "7 jan 2013"
+Date "8 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -67,17 +67,13 @@ Wire Wire Line
 Wire Wire Line
 	6550 4100 6550 4200
 Wire Wire Line
-	5450 3250 5450 2950
-Wire Wire Line
-	5450 2950 5450 2900
+	5450 3250 5450 2900
 Wire Wire Line
 	5450 2900 5850 2900
 Wire Wire Line
 	5850 2900 5850 3250
 Wire Wire Line
-	5250 4450 5250 4500
-Wire Wire Line
-	5250 4500 5250 4600
+	5250 4450 5250 4600
 Wire Wire Line
 	5250 4600 5150 4600
 Connection ~ 4750 4000
@@ -85,17 +81,9 @@ Connection ~ 4750 3800
 Wire Wire Line
 	4750 3800 4800 3800
 Wire Wire Line
-	4800 3600 4750 3600
+	4750 3600 4800 3600
 Wire Wire Line
-	4750 3600 4750 3700
-Wire Wire Line
-	4750 3700 4750 3800
-Wire Wire Line
-	4750 3800 4750 3900
-Wire Wire Line
-	4750 3900 4750 4000
-Wire Wire Line
-	4750 4000 4750 4100
+	4750 3600 4750 4100
 Wire Wire Line
 	4750 4100 4800 4100
 Connection ~ 5250 4500
@@ -110,22 +98,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 4500 5450 4450
 Wire Wire Line
-	5850 4450 5850 4500
+	5850 4500 5850 4450
 Connection ~ 5650 4500
 Wire Wire Line
-	5850 4500 5750 4500
-Wire Wire Line
-	5750 4500 5650 4500
-Wire Wire Line
-	5650 4500 5550 4500
-Wire Wire Line
-	5550 4500 5450 4500
-Wire Wire Line
-	5450 4500 5350 4500
-Wire Wire Line
-	5350 4500 5250 4500
-Wire Wire Line
-	5250 4500 5150 4500
+	5850 4500 5150 4500
 Wire Wire Line
 	5150 4500 5150 4450
 Connection ~ 5450 4500
@@ -139,17 +115,13 @@ Wire Wire Line
 	4750 3900 4800 3900
 Connection ~ 4750 3900
 Wire Wire Line
-	4650 4150 4650 4000
+	4650 4000 4650 4150
 Wire Wire Line
-	4650 4000 4750 4000
+	4800 4000 4650 4000
 Wire Wire Line
-	4750 4000 4800 4000
+	5250 3200 5250 3250
 Wire Wire Line
-	5250 3250 5250 3200
-Wire Wire Line
-	5250 3200 5300 3200
-Wire Wire Line
-	5300 3200 5350 3200
+	5250 3200 5350 3200
 Wire Wire Line
 	5350 3200 5350 3250
 Wire Wire Line
@@ -201,10 +173,10 @@ F 1 "LSM330DLC" H 5900 4375 60  0000 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 50C11356
 P 4650 4150
-F 0 "#PWR1" H 4650 4150 30  0001 C CNN
+F 0 "#PWR01" H 4650 4150 30  0001 C CNN
 F 1 "GND" H 4650 4080 30  0001 C CNN
 	1    4650 4150
 	1    0    0    -1  
@@ -223,10 +195,10 @@ F 1 "0.01u(25V)" H 6375 4120 30  0000 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR02
 U 1 1 50C11354
 P 6550 4200
-F 0 "#PWR2" H 6550 4200 30  0001 C CNN
+F 0 "#PWR02" H 6550 4200 30  0001 C CNN
 F 1 "GND" H 6550 4130 30  0001 C CNN
 	1    6550 4200
 	1    0    0    -1  
