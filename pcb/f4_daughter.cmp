@@ -1,16 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/8/2013 5:00:44 PM
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 09 Jan 2013 04:36:43 PM EST
 
 BeginCmp
-TimeStamp = /500DC44C/50EC7B2B;
-Reference = 73391-0070;
-ValeurCmp = J2;
-IdModule  = Molex;
-EndCmp
-
-BeginCmp
-TimeStamp = /500B69F1/501184C6;
+TimeStamp = /500B69F1/50EDD965;
 Reference = BT1;
-ValeurCmp = 16340;
+ValeurCmp = BATTERY;
 IdModule  = ;
 EndCmp
 
@@ -32,21 +25,21 @@ BeginCmp
 TimeStamp = /500DC44C/500DD573;
 Reference = C3;
 ValeurCmp = CAP;
-IdModule  = SM0603;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD572;
 Reference = C4;
 ValeurCmp = CAP;
-IdModule  = SM1206;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD56A;
 Reference = C5;
 ValeurCmp = CAP;
-IdModule  = SM1206;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -116,14 +109,14 @@ BeginCmp
 TimeStamp = /500DC44C/50748074;
 Reference = C15;
 ValeurCmp = CAP;
-IdModule  = SM0603;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/50748076;
 Reference = C16;
 ValeurCmp = CAP;
-IdModule  = SM0603;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -186,7 +179,7 @@ BeginCmp
 TimeStamp = /500B69F1/504E2470;
 Reference = C25;
 ValeurCmp = 2.2n;
-IdModule  = SM0603;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -379,10 +372,24 @@ IdModule  = AH104F;
 EndCmp
 
 BeginCmp
+TimeStamp = /500DC44C/50EDDFAE;
+Reference = E2;
+ValeurCmp = COAX;
+IdModule  = Molex_73391-0070;
+EndCmp
+
+BeginCmp
 TimeStamp = /5073669E/5073673A;
 Reference = J1;
 ValeurCmp = NXT_RJ12;
 IdModule  = PJ-045;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C8AECE/50EAFAC5;
+Reference = J2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
@@ -407,10 +414,24 @@ IdModule  = SJ1-352XN;
 EndCmp
 
 BeginCmp
+TimeStamp = /500B69F1/50108741;
+Reference = J6;
+ValeurCmp = USBMICROCONN;
+IdModule  = USBMICROCONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B69F1/50EDD9D9;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
 TimeStamp = /500DC44C/500DCA52;
 Reference = L1;
 ValeurCmp = 7n5;
-IdModule  = CVH252009;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -446,13 +467,6 @@ TimeStamp = /500B69F1/50C0C836;
 Reference = L6;
 ValeurCmp = CVH252009-4R7MCT-ND;
 IdModule  = CVH252009;
-EndCmp
-
-BeginCmp
-TimeStamp = /50C8AECE/50EAFAC5;
-Reference = P1;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
@@ -838,13 +852,6 @@ TimeStamp = /500DC44C/50196B6B;
 Reference = U6;
 ValeurCmp = SN74LVC1G125;
 IdModule  = SN74LVC1G125;
-EndCmp
-
-BeginCmp
-TimeStamp = /500B69F1/50108741;
-Reference = U7;
-ValeurCmp = USBMICROCONN;
-IdModule  = USBMICROCONN;
 EndCmp
 
 BeginCmp
