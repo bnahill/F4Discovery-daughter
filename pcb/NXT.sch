@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 09 Jan 2013 04:33:42 PM EST
+EESchema Schematic File Version 2  date 1/9/2013 5:22:51 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -164,10 +164,10 @@ F 1 "NXT_RJ12" H 7100 4400 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR035
+L GND #PWR036
 U 1 1 50736739
 P 7200 3300
-F 0 "#PWR035" H 7200 3300 30  0001 C CNN
+F 0 "#PWR036" H 7200 3300 30  0001 C CNN
 F 1 "GND" H 7200 3230 30  0001 C CNN
 	1    7200 3300
 	1    0    0    1   
@@ -232,10 +232,10 @@ Analog_POW
 Text GLabel 4700 3050 2    40   Input ~ 0
 Vnxt9v
 $Comp
-L GND #PWR036
+L GND #PWR037
 U 1 1 50736733
 P 4550 4250
-F 0 "#PWR036" H 4550 4250 30  0001 C CNN
+F 0 "#PWR037" H 4550 4250 30  0001 C CNN
 F 1 "GND" H 4550 4180 30  0001 C CNN
 	1    4550 4250
 	-1   0    0    -1  

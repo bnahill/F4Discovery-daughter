@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 09 Jan 2013 04:33:42 PM EST
+EESchema Schematic File Version 2  date 1/9/2013 5:22:51 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -297,10 +297,10 @@ $EndComp
 Text GLabel 7400 5150 0    40   Input ~ 0
 Vreg
 $Comp
-L GND #PWR033
+L GND #PWR034
 U 1 1 50DD2720
 P 9100 6300
-F 0 "#PWR033" H 9100 6300 30  0001 C CNN
+F 0 "#PWR034" H 9100 6300 30  0001 C CNN
 F 1 "GND" H 9100 6230 30  0001 C CNN
 	1    9100 6300
 	1    0    0    -1  
@@ -402,10 +402,10 @@ Entry Wire Line
 Entry Wire Line
 	4950 2900 5050 3000
 $Comp
-L GND #PWR034
+L GND #PWR035
 U 1 1 50188B84
 P 3850 3500
-F 0 "#PWR034" H 3850 3500 30  0001 C CNN
+F 0 "#PWR035" H 3850 3500 30  0001 C CNN
 F 1 "GND" H 3850 3430 30  0001 C CNN
 	1    3850 3500
 	1    0    0    -1  

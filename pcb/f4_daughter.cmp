@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/9/2013 4:59:18 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/9/2013 5:20:41 PM
 
 BeginCmp
 TimeStamp = /500B69F1/50EDD965;
@@ -382,7 +382,7 @@ BeginCmp
 TimeStamp = /5073669E/5073673A;
 Reference = J1;
 ValeurCmp = NXT_RJ12;
-IdModule  = PJ-045;
+IdModule  = nxt_conn;
 EndCmp
 
 BeginCmp
@@ -473,7 +473,7 @@ BeginCmp
 TimeStamp = /5073669E/50736738;
 Reference = Q1;
 ValeurCmp = 2N7002P;
-IdModule  = SOT23;
+IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
@@ -865,14 +865,14 @@ BeginCmp
 TimeStamp = /500B69F1/50116CFF;
 Reference = U9;
 ValeurCmp = LTC3559;
-IdModule  = SN74LVC1G125;
+IdModule  = LTC3559;
 EndCmp
 
 BeginCmp
 TimeStamp = /500B69F1/504D3229;
 Reference = U10;
 ValeurCmp = TLV61220;
-IdModule  = SOT23;
+IdModule  = SOT23_6;
 EndCmp
 
 BeginCmp
