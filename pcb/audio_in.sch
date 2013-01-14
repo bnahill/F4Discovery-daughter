@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/9/2013 5:22:51 PM
+EESchema Schematic File Version 2  date Mon 14 Jan 2013 05:07:42 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "9 jan 2013"
+Date "14 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4400 4300 4350 4300
 Connection ~ 7700 5350
 Wire Wire Line
 	7950 5250 7950 5350
@@ -130,17 +132,13 @@ Wire Wire Line
 Wire Wire Line
 	4350 4550 4350 4300
 Wire Wire Line
-	4350 4300 4450 4300
-Wire Wire Line
 	7700 5400 7700 5300
 Connection ~ 3550 4100
 Wire Wire Line
 	3600 4100 3450 4100
 Connection ~ 4100 4100
 Wire Wire Line
-	4100 4250 4100 4100
-Wire Wire Line
-	4450 4100 3900 4100
+	4100 4100 4100 4250
 Wire Wire Line
 	5150 3800 4350 3800
 Wire Wire Line
@@ -180,9 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6100 6750 6250
 Wire Wire Line
-	6750 5550 6750 5450
-Wire Wire Line
-	6750 5450 7000 5450
+	6750 5450 6750 5550
 Wire Wire Line
 	1250 3250 1400 3250
 Wire Wire Line
@@ -206,6 +202,10 @@ Wire Wire Line
 Wire Wire Line
 	7950 5050 7950 4900
 Connection ~ 7950 4900
+Wire Wire Line
+	7000 5450 6700 5450
+Wire Wire Line
+	3900 4100 4400 4100
 $Comp
 L CAP C43
 U 1 1 504649FC
