@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 14 Jan 2013 05:07:42 PM EST
+EESchema Schematic File Version 2  date Tue 15 Jan 2013 03:28:33 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:f4_daughter
-LIBS:f4_daughter-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "14 jan 2013"
+Date "15 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +44,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 3550 2300 0    60   ~ 0
+Sallen-Key Topology. 2nd order low-pass.
+Text Notes 1250 2200 0    60   ~ 0
+Unity Gain buffer to remove the output \nimpedence effect of the audio jack
 Wire Wire Line
 	4400 4300 4350 4300
 Connection ~ 7700 5350
