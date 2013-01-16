@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 14 Jan 2013 05:07:54 PM EST
+# EESchema Netlist Version 1.1 created  Wed 16 Jan 2013 04:52:13 PM EST
 (
  ( /50C1133E/50C11357 $noname  U3 LSM330DLC {Lib=LSM330DLC}
   (    1 GND )
@@ -22,7 +22,7 @@
   (   19 /cpld/INT2_ACC )
   (   20 /cpld/INT1_ACC )
   (   21 Vreg )
-  (   22 /sensors/SPI_nCS_GYR )
+  (   22 /discovery/SPI_nCS_GYR )
   (   23 ? )
   (   24 /discovery/SPI1_CLK )
   (   25 Vreg )
@@ -52,7 +52,7 @@
   (   16 ? )
   (   17 /discovery/SPI1_MOSI )
   (   18 /discovery/SPI1_MISO )
-  (   19 /discovery/AUDIO_IN_L )
+  (   19 /audio_in/AUDIO_IN_L )
   (   20 /rf/RESET )
   (   21 /audio_in/AUDIO_IN_R )
   (   22 ? )
@@ -60,13 +60,13 @@
   (   24 /cpld/EXTI2 )
   (   25 /discovery/LCD_D4 )
   (   26 /discovery/LCD_D5 )
-  (   27 /lcd/LCD_D6 )
-  (   28 /lcd/LCD_D7 )
+  (   27 /discovery/LCD_D6 )
+  (   28 /discovery/LCD_D7 )
   (   29 /discovery/LCD_D8 )
   (   30 /discovery/LCD_D9 )
-  (   31 /lcd/LCD_D10 )
+  (   31 /discovery/LCD_D10 )
   (   32 /discovery/LCD_D11 )
-  (   33 /lcd/LCD_D12 )
+  (   33 /discovery/LCD_D12 )
   (   34 ? )
   (   35 /lcd/SD_nCS )
   (   36 /cpld/EXTI12 )
@@ -74,7 +74,7 @@
   (   38 /discovery/SPI2_MISO )
   (   39 /discovery/SPI2_MOSI )
   (   40 /discovery/LCD_D13 )
-  (   41 /lcd/LCD_D14 )
+  (   41 /discovery/LCD_D14 )
   (   42 /discovery/LCD_D15 )
   (   43 /cpld/FSMC_A16 )
   (   44 ? )
@@ -96,41 +96,41 @@
   (   60 ? )
   (   61 /discovery/SPI_nCS_TOUCH )
   (   62 /cpld/EXTI13 )
-  (   63 /discovery/EXTI4 )
-  (   64 /discovery/EXTI5 )
+  (   63 /cpld/EXTI4 )
+  (   64 /cpld/EXTI5 )
   (   65 ? )
   (   66 /cpld/EXTI3 )
   (   67 ? )
   (   68 ? )
-  (   69 /nxt/EN_POW_9V )
+  (   69 /discovery/EN_POW_9V )
   (   70 /lcd/BKLT_SDA )
   (   71 ? )
   (   72 Vreg )
   (   73 /lcd/BKLT_SCL )
-  (   74 /discovery/EXTI7 )
+  (   74 /cpld/EXTI7 )
   (   75 /discovery/DEN_G )
   (   76 /discovery/POW_nCHRG )
   (   77 /cpld/FSMC_NEx )
   (   78 ? )
   (   79 /cpld/FSMC_NWE )
-  (   80 /sensors/SPI_nCS_GYR )
-  (   81 /lcd/LCD_nRESET )
+  (   80 /discovery/SPI_nCS_GYR )
+  (   81 /discovery/LCD_nRESET )
   (   82 ? )
   (   83 /discovery/LCD_D3 )
   (   84 /cpld/SPI_NCS )
   (   85 ? )
-  (   86 /lcd/LCD_D2 )
+  (   86 /discovery/LCD_D2 )
   (   87 ? )
-  (   88 /discovery/EXTI11 )
+  (   88 /cpld/EXTI11 )
   (   89 ? )
-  (   90 /discovery/EXTI15 )
+  (   90 /cpld/EXTI15 )
   (   91 ? )
   (   92 ? )
   (   93 /discovery/I2C3_SCL )
   (   94 ? )
-  (   95 /discovery/EXTI8 )
+  (   95 /cpld/EXTI8 )
   (   96 /discovery/I2C3_SDA )
-  (   97 /discovery/EXTI6 )
+  (   97 /cpld/EXTI6 )
   (   98 ? )
   (   99 GND )
   (  100 GND )
@@ -155,7 +155,7 @@
   (    5 GND )
   (    6 ? )
   (    7 ? )
-  (    8 /power/USB_D+ )
+  (    8 /discovery/USB_D+ )
   (    9 /discovery/USB_D- )
   (   10 ? )
   (   11 ? )
@@ -214,59 +214,59 @@
   (   B' ? )
  )
  ( /50C8AECE/50C8AF08 $noname  U14 XC2C64A-XQFG48 {Lib=XC2C64A-XQFG48}
-  (    1 /cpld/FSMC_NEx )
-  (    2 /cpld/FSMC_NWE )
+  (    1 /cpld/S3 )
+  (    2 /cpld/EXTI13 )
   (    3 Vreg )
-  (    4 /lcd/LCD_nWR )
-  (    5 /lcd/LCD_nRS )
-  (    6 /discovery/EXTI11 )
-  (    7 /cpld/EXTI13 )
-  (    8 /discovery/SPI1_MISO )
-  (    9 /cpld/SPI_NCS )
-  (   10 /discovery/SPI1_MOSI )
-  (   11 /discovery/SPI1_CLK )
-  (   12 /cpld/S4 )
-  (   13 /power/POW_MODE )
-  (   14 /power/POW_HPWR )
-  (   15 /power/EN_POW_NXT )
+  (    4 /cpld/EXTI6 )
+  (    5 /cpld/S2 )
+  (    6 /cpld/EXTI8 )
+  (    7 /cpld/INT1_ACC )
+  (    8 /cpld/EXTI15 )
+  (    9 /cpld/EXTI11 )
+  (   10 /cpld/FSMC_NWE )
+  (   11 /cpld/FSMC_NEx )
+  (   12 /cpld/EXTI7 )
+  (   13 /cpld/EXTI5 )
+  (   14 /cpld/EXTI4 )
+  (   15 /cpld/EXTI3 )
   (   16 GND )
-  (   17 /cpld/S1 )
-  (   18 /cpld/S2 )
+  (   17 /cpld/INT1_GYR )
+  (   18 /cpld/INT2_GYR/DRDY )
   (   19 Vreg )
-  (   20 /cpld/S3 )
+  (   20 /cpld/RF_IRQ )
   (   21 /cpld/JTDI )
   (   22 /cpld/JTMS )
   (   23 /cpld/JTCK )
-  (   24 /cpld/RF_IRQ )
-  (   25 /lcd/TOUCH_IRQ )
-  (   26 /cpld/INT2_GYR/DRDY )
-  (   27 /cpld/INT1_GYR )
-  (   28 /cpld/INT2_ACC )
+  (   24 /cpld/LED2 )
+  (   25 /cpld/S4 )
+  (   26 /cpld/S1 )
+  (   27 /cpld/LED1 )
+  (   28 /cpld/POW_HPWR )
   (   29 Vreg )
-  (   30 /cpld/INT1_ACC )
+  (   30 /power/EN_POW_NXT )
   (   31 GND )
-  (   32 /discovery/EXTI15 )
-  (   33 /cpld/EXTI12 )
-  (   34 /discovery/EXTI8 )
-  (   35 /discovery/EXTI7 )
-  (   36 /discovery/EXTI6 )
-  (   37 /discovery/EXTI5 )
-  (   38 /discovery/EXTI4 )
-  (   39 /cpld/EXTI3 )
+  (   32 /discovery/SPI1_MISO )
+  (   33 /cpld/SPI_NCS )
+  (   34 /discovery/SPI1_MOSI )
+  (   35 /discovery/SPI1_CLK )
+  (   36 /cpld/INT2_ACC )
+  (   37 /cpld/POW_MODE )
+  (   38 /lcd/LCD_nCS )
+  (   39 /cpld/TOUCH_IRQ )
   (   40 /cpld/JTDO )
   (   41 GND )
   (   42 Vreg )
   (   43 /cpld/EXTI2 )
-  (   44 /cpld/LED2 )
-  (   45 /cpld/LED1 )
-  (   46 /lcd/LCD_nCS )
-  (   47 /lcd/LCD_nRD )
-  (   48 /cpld/FSMC_A16 )
+  (   44 /cpld/EXTI12 )
+  (   45 /lcd/LCD_nRD )
+  (   46 /lcd/LCD_nWR )
+  (   47 /cpld/FSMC_A16 )
+  (   48 /lcd/LCD_nRS )
  )
  ( /500DC44C/50EDED7A $noname  U4 SE2432L {Lib=SE2432L}
   (    1 N-000130 )
   (    2 GND )
-  (    3 N-000162 )
+  (    3 N-000160 )
   (    4 /rf/PB5 )
   (    5 ? )
   (    6 GND )
@@ -274,15 +274,15 @@
   (    8 /rf/PB6 )
   (    9 /rf/PB7 )
   (   10 Vreg )
-  (   11 N-000155 )
+  (   11 N-000163 )
   (   12 /rf/PC5 )
   (   13 GND )
-  (   14 N-000153 )
-  (   15 N-000133 )
-  (   16 N-000159 )
+  (   14 N-000152 )
+  (   15 N-000132 )
+  (   16 N-000158 )
   (   17 ? )
-  (   18 N-000132 )
-  (   19 N-000160 )
+  (   18 N-000131 )
+  (   19 N-000162 )
   (   20 /rf/1V8 )
   (   21 GND )
   (   22 GND )
@@ -299,7 +299,7 @@
   (    2 GND )
  )
  ( /500DC44C/50748076 $noname  C16 CAP {Lib=CAP}
-  (    1 N-000163 )
+  (    1 N-000161 )
   (    2 GND )
  )
  ( /500DC44C/50748074 $noname  C15 CAP {Lib=CAP}
@@ -308,7 +308,7 @@
  )
  ( /500DC44C/50748066 $noname  X1 XTAL {Lib=XTAL}
   (    1 N-000124 )
-  (    2 N-000163 )
+  (    2 N-000161 )
  )
  ( /500DC44C/50747698 $noname  J3 CONN_6 {Lib=CONN_6}
   (    1 Vreg )
@@ -324,7 +324,7 @@
  )
  ( /500DC44C/50196B6B $noname  U6 SN74LVC1G125 {Lib=SN74LVC1G125}
   (    1 /rf/SPI_nCS )
-  (    2 N-000128 )
+  (    2 N-000127 )
   (    3 GND )
   (    4 /discovery/SPI1_MISO )
   (    5 Vreg )
@@ -351,7 +351,7 @@
  )
  ( /500DC44C/500DD74C $noname  C17 0.1u {Lib=CAP}
   (    1 GND )
-  (    2 N-000151 )
+  (    2 N-000149 )
  )
  ( /500DC44C/500DD703 $noname  C19 0.01u {Lib=CAP}
   (    1 GND )
@@ -379,30 +379,30 @@
  )
  ( /500DC44C/500DD573 $noname  C3 CAP {Lib=CAP}
   (    1 GND )
-  (    2 N-000157 )
+  (    2 N-000156 )
  )
  ( /500DC44C/500DD572 $noname  C4 CAP {Lib=CAP}
   (    1 GND )
-  (    2 N-000156 )
+  (    2 N-000155 )
  )
  ( /500DC44C/500DD56A $noname  C5 CAP {Lib=CAP}
-  (    1 N-000156 )
-  (    2 N-000162 )
+  (    1 N-000155 )
+  (    2 N-000160 )
  )
  ( /500DC44C/500DD552 $noname  C9 10p {Lib=CAP}
-  (    1 N-000155 )
+  (    1 N-000163 )
   (    2 Vreg )
  )
  ( /500DC44C/500DD551 $noname  C8 0.1u {Lib=CAP}
-  (    1 N-000155 )
+  (    1 N-000163 )
   (    2 Vreg )
  )
  ( /500DC44C/500DD54F $noname  C7 2.2u {Lib=CAP}
-  (    1 N-000155 )
+  (    1 N-000163 )
   (    2 Vreg )
  )
  ( /500DC44C/500DD54D $noname  C6 0.1u {Lib=CAP}
-  (    1 N-000155 )
+  (    1 N-000163 )
   (    2 Vreg )
  )
  ( /500DC44C/500DD1E1 $noname  R11 1R {Lib=RES}
@@ -411,47 +411,47 @@
  )
  ( /500DC44C/500DD199 $noname  R10 180k {Lib=RES}
   (    1 GND )
-  (    2 N-000134 )
- )
- ( /500DC44C/500DD186 $noname  R9 1k2(1%) {Lib=RES}
-  (    1 N-000155 )
   (    2 N-000153 )
  )
+ ( /500DC44C/500DD186 $noname  R9 1k2(1%) {Lib=RES}
+  (    1 N-000163 )
+  (    2 N-000152 )
+ )
  ( /500DC44C/500DD174 $noname  R8 1k8(1%) {Lib=RES}
-  (    1 N-000155 )
+  (    1 N-000163 )
   (    2 GND )
  )
  ( /500DC44C/500DCA52 $noname  L1 7n5 {Lib=INDUCTOR}
-  (    1 N-000157 )
-  (    2 N-000156 )
+  (    1 N-000156 )
+  (    2 N-000155 )
  )
  ( /500DC44C/500DCA1A $noname  E1 AH104F {Lib=AH104F}
-  (    1 N-000157 )
+  (    1 N-000156 )
   (  GND GND )
  )
  ( /500DC44C/500DC479 $noname  U5 STM32W108C8 {Lib=STM32W108C8}
   (    1 /rf/1V8 )
   (    2 /rf/1V8 )
-  (    3 N-000160 )
-  (    4 N-000132 )
+  (    3 N-000162 )
+  (    4 N-000131 )
   (    5 /rf/1V8 )
-  (    6 N-000159 )
-  (    7 N-000133 )
+  (    6 N-000158 )
+  (    7 N-000132 )
   (    8 /rf/1V8 )
-  (    9 N-000134 )
+  (    9 N-000153 )
   (   10 ? )
   (   11 /rf/PC5 )
   (   12 /rf/RESET )
   (   13 ? )
   (   14 ? )
   (   15 /rf/1V8 )
-  (   16 N-000151 )
+  (   16 N-000149 )
   (   17 /rf/1V2 )
   (   18 ? )
   (   19 /discovery/SPI1_CLK )
   (   20 /rf/SPI_nCS )
   (   21 /discovery/SPI1_MOSI )
-  (   22 N-000128 )
+  (   22 N-000127 )
   (   23 Vreg )
   (   24 ? )
   (   25 /cpld/RF_IRQ )
@@ -476,7 +476,7 @@
   (   44 /rf/1V2 )
   (   45 /rf/1V8 )
   (   46 /rf/1V8 )
-  (   47 N-000163 )
+  (   47 N-000161 )
   (   48 N-000124 )
   (   49 GND )
  )
@@ -489,28 +489,28 @@
  )
  ( /50188B6E/50DD27EA $noname  C44 10u {Lib=CAP}
   (    1 GND )
-  (    2 N-000190 )
+  (    2 N-000189 )
  )
  ( /50188B6E/50DD2787 $noname  C45 10u {Lib=CAP}
   (    1 GND )
-  (    2 N-000179 )
+  (    2 N-000178 )
  )
  ( /50188B6E/50DD2734 $noname  R37 0R {Lib=RES}
-  (    1 N-000190 )
+  (    1 N-000189 )
   (    2 Vreg )
  )
  ( /50188B6E/50DD272C $noname  R38 0R {Lib=RES}
-  (    1 N-000190 )
+  (    1 N-000189 )
   (    2 Vbat )
  )
  ( /50188B6E/50DD2710 $noname  U15 LM3561 {Lib=LM3561}
   (   A1 GND )
-  (   A2 N-000190 )
+  (   A2 N-000189 )
   (   A3 /discovery/BKLT_EN )
-  (   B1 N-000178 )
+  (   B1 N-000179 )
   (   B2 ? )
   (   B3 /lcd/BKLT_SCL )
-  (   C1 N-000179 )
+  (   C1 N-000178 )
   (   C2 ? )
   (   C3 /lcd/BKLT_SDA )
   (   D1 /lcd/BACKLIGHT )
@@ -518,8 +518,8 @@
   (   D3 ? )
  )
  ( /50188B6E/50DD2708 $noname  L5 CVH252009-1R0M {Lib=INDUCTOR}
-  (    1 N-000190 )
-  (    2 N-000178 )
+  (    1 N-000189 )
+  (    2 N-000179 )
  )
  ( /50188B6E/50188B83 $noname  J4 ITDB_TFT {Lib=ITDB_TFT}
   (    1 GND )
@@ -527,7 +527,7 @@
   (    3 Vreg )
   (    4 /discovery/LCD_D1 )
   (    5 ? )
-  (    6 /lcd/LCD_D2 )
+  (    6 /discovery/LCD_D2 )
   (    7 /lcd/LCD_nRS )
   (    8 /discovery/LCD_D3 )
   (    9 /lcd/LCD_nWR )
@@ -535,26 +535,26 @@
   (   11 /lcd/LCD_nRD )
   (   12 /discovery/LCD_D5 )
   (   13 /discovery/LCD_D8 )
-  (   14 /lcd/LCD_D6 )
+  (   14 /discovery/LCD_D6 )
   (   15 /discovery/LCD_D9 )
-  (   16 /lcd/LCD_D7 )
-  (   17 /lcd/LCD_D10 )
+  (   16 /discovery/LCD_D7 )
+  (   17 /discovery/LCD_D10 )
   (   18 /discovery/SPI2_CLK )
   (   19 /discovery/LCD_D11 )
   (   20 /discovery/SPI_nCS_TOUCH )
-  (   21 /lcd/LCD_D12 )
+  (   21 /discovery/LCD_D12 )
   (   22 /discovery/SPI2_MOSI )
   (   23 /discovery/LCD_D13 )
   (   24 ? )
-  (   25 /lcd/LCD_D14 )
+  (   25 /discovery/LCD_D14 )
   (   26 /discovery/SPI2_MISO )
   (   27 /discovery/LCD_D15 )
-  (   28 /lcd/TOUCH_IRQ )
+  (   28 /cpld/TOUCH_IRQ )
   (   29 /lcd/LCD_nCS )
   (   30 /discovery/SPI2_MISO )
   (   31 ? )
   (   32 /discovery/SPI2_CLK )
-  (   33 /lcd/LCD_nRESET )
+  (   33 /discovery/LCD_nRESET )
   (   34 /discovery/SPI2_MOSI )
   (   35 ? )
   (   36 /lcd/SD_nCS )
@@ -581,12 +581,12 @@
  )
  ( /5073669E/50736738 $noname  Q1 2N7002P {Lib=MOS_N}
   (    D /nxt/STM32_ADC )
-  (    G /nxt/EN_POW_9V )
+  (    G /discovery/EN_POW_9V )
   (    S GND )
  )
  ( /5073669E/50736737 $noname  R3 100k {Lib=RES}
   (    1 GND )
-  (    2 /nxt/EN_POW_9V )
+  (    2 /discovery/EN_POW_9V )
  )
  ( /5073669E/50736736 $noname  R5 5k {Lib=RES}
   (    1 GND )
@@ -651,7 +651,7 @@
  )
  ( /500B69F1/504E265B $noname  R14 110k {Lib=RES}
   (    1 GND )
-  (    2 /nxt/EN_POW_9V )
+  (    2 /discovery/EN_POW_9V )
  )
  ( /500B69F1/504E25C0 $noname  L2 CVH252009-4R7MCT-ND {Lib=INDUCTOR}
   (    1 Vbat )
@@ -689,7 +689,7 @@
   (    1 N-000062 )
   (    2 GND )
   (    3 Vbat )
-  (    4 /nxt/EN_POW_9V )
+  (    4 /discovery/EN_POW_9V )
   (    5 N-000061 )
   (    6 GND )
   (    7 N-000058 )
@@ -739,7 +739,7 @@
  )
  ( /500B69F1/501174F2 $noname  R18 220k {Lib=RES}
   (    1 GND )
-  (    2 /power/POW_MODE )
+  (    2 /cpld/POW_MODE )
  )
  ( /500B69F1/5011722B $noname  R21 1R {Lib=RES}
   (    1 GND )
@@ -776,7 +776,7 @@
  ( /500B69F1/50116CFF $noname  U9 LTC3559 {Lib=LTC3559}
   (    1 GND )
   (    2 Vbat )
-  (    3 /power/POW_MODE )
+  (    3 /cpld/POW_MODE )
   (    4 /power/Vfb )
   (    5 /power/REG_EN )
   (    6 N-000066 )
@@ -785,7 +785,7 @@
   (    9 /power/CPLD_PWR_EN )
   (   10 N-000075 )
   (   11 GND )
-  (   12 /power/POW_HPWR )
+  (   12 /cpld/POW_HPWR )
   (   13 GND )
   (   14 N-000068 )
   (   15 /discovery/POW_nCHRG )
@@ -795,7 +795,7 @@
  ( /500B69F1/50108741 $noname  J6 USBMICROCONN {Lib=USBMICROCONN}
   (    1 Vbus )
   (    2 /discovery/USB_D- )
-  (    3 /power/USB_D+ )
+  (    3 /discovery/USB_D+ )
   (    4 ? )
   (    5 GND )
  )
@@ -805,26 +805,26 @@
  )
  ( /5010D8BD/504649FC $noname  C43 0.1u {Lib=CAP}
   (    1 GND )
-  (    2 N-000177 )
+  (    2 N-000176 )
  )
  ( /5010D8BD/504649E3 $noname  U12 MCP6241 {Lib=OPAMP}
-  (    1 N-000177 )
+  (    1 N-000176 )
   (    2 /audio_in/VGND )
   (    3 Vreg )
   (    4 GND )
   (    5 /audio_in/VGND )
  )
  ( /5010D8BD/50464816 $noname  U11 MCP6409 {Lib=MCP6409}
-  (    1 N-000172 )
-  (    2 N-000172 )
+  (    1 N-000173 )
+  (    2 N-000173 )
   (    3 N-000165 )
   (    4 Vreg )
   (    5 N-000166 )
-  (    6 N-000173 )
-  (    7 N-000173 )
-  (    8 /discovery/AUDIO_IN_L )
-  (    9 /discovery/AUDIO_IN_L )
-  (   10 N-000176 )
+  (    6 N-000172 )
+  (    7 N-000172 )
+  (    8 /audio_in/AUDIO_IN_L )
+  (    9 /audio_in/AUDIO_IN_L )
+  (   10 N-000177 )
   (   11 GND )
   (   12 N-000171 )
   (   13 /audio_in/AUDIO_IN_R )
@@ -833,24 +833,24 @@
  ( /5010D8BD/504632BD $noname  R27 100k {Lib=TRIM_R}
   (    1 /audio_in/VGND )
   (    2 N-000166 )
-  (    3 N-000167 )
+  (    3 N-000168 )
  )
  ( /5010D8BD/5046327E $noname  R26 100k {Lib=TRIM_R}
   (    1 /audio_in/VGND )
   (    2 N-000165 )
-  (    3 N-000169 )
+  (    3 N-000170 )
  )
  ( /5010D8BD/50118BBE $noname  J5 SJ1-3523N {Lib=TRS_CONN}
   (    1 GND )
   (    2 N-000174 )
-  (    3 N-000170 )
+  (    3 N-000167 )
  )
  ( /5010D8BD/50118878 $noname  C42 0.1u {Lib=CAP}
   (    1 GND )
   (    2 Vreg )
  )
  ( /5010D8BD/5010D91F $noname  R29 2.8k(1%) {Lib=RES}
-  (    1 N-000172 )
+  (    1 N-000173 )
   (    2 N-000175 )
  )
  ( /5010D8BD/5010D92C $noname  R30 2.8k(1%) {Lib=RES}
@@ -866,35 +866,35 @@
   (    2 N-000175 )
  )
  ( /5010D8BD/5010D9FD $noname  R31 2.8k(1%) {Lib=RES}
-  (    1 N-000168 )
-  (    2 N-000176 )
+  (    1 N-000169 )
+  (    2 N-000177 )
  )
  ( /5010D8BD/5010DA03 $noname  R32 100k(1%) {Lib=RES}
-  (    1 N-000177 )
+  (    1 N-000176 )
   (    2 Vreg )
  )
  ( /5010D8BD/5010DA09 $noname  R33 100k(1%) {Lib=RES}
   (    1 GND )
-  (    2 N-000177 )
+  (    2 N-000176 )
  )
  ( /5010D8BD/5010DA0F $noname  C39 2.4n(5%) {Lib=CAP}
   (    1 /audio_in/VGND )
-  (    2 N-000176 )
+  (    2 N-000177 )
  )
  ( /5010D8BD/5010DA15 $noname  C41 4.7n(5%) {Lib=CAP}
-  (    1 /discovery/AUDIO_IN_L )
-  (    2 N-000168 )
+  (    1 /audio_in/AUDIO_IN_L )
+  (    2 N-000169 )
  )
  ( /5010D8BD/5010DC47 $noname  R28 2.8k(1%) {Lib=RES}
-  (    1 N-000173 )
-  (    2 N-000168 )
+  (    1 N-000172 )
+  (    2 N-000169 )
  )
  ( /5010D8BD/5010E008 $noname  C37 0.47u {Lib=CAP}
-  (    1 N-000169 )
-  (    2 N-000170 )
+  (    1 N-000170 )
+  (    2 N-000167 )
  )
  ( /5010D8BD/5010E015 $noname  C36 0.47u {Lib=CAP}
-  (    1 N-000167 )
+  (    1 N-000168 )
   (    2 N-000174 )
  )
 )
@@ -927,188 +927,188 @@ $endfootprintlist
 { Pin List by Nets
 Net 1 "/cpld/INT1_ACC" "INT1_ACC"
  U3 20
- U14 30
-Net 3 "/sensors/SPI_nCS_GYR" "SPI_nCS_GYR"
+ U14 7
+Net 3 "/discovery/SPI_nCS_GYR" "SPI_nCS_GYR"
  U2 80
  U3 22
 Net 4 "/cpld/INT1_GYR" "INT1_GYR"
- U14 27
  U3 18
-Net 5 "/discovery/EXTI8" "EXTI8"
+ U14 17
+Net 5 "/cpld/EXTI8" "EXTI8"
+ U14 6
  U2 95
- U14 34
 Net 6 "/lcd/LCD_nCS" "LCD_nCS"
+ U14 38
  J4 29
- U14 46
-Net 8 "/power/POW_HPWR" "POW_HPWR"
+Net 8 "/cpld/POW_HPWR" "POW_HPWR"
  U9 12
- U14 14
-Net 10 "/discovery/EXTI6" "EXTI6"
- U14 36
- U2 97
-Net 11 "/cpld/INT2_ACC" "INT2_ACC"
  U14 28
+Net 10 "/cpld/EXTI6" "EXTI6"
+ U2 97
+ U14 4
+Net 11 "/cpld/INT2_ACC" "INT2_ACC"
  U3 19
+ U14 36
 Net 12 "/power/EN_POW_NXT" "EN_POW_NXT"
- R23 2
  U10 3
- U14 15
+ R23 2
+ U14 30
 Net 13 "/cpld/EXTI2" "EXTI2"
  U2 24
  U14 43
 Net 14 "/cpld/SPI_NCS" "SPI_NCS"
- U14 9
+ U14 33
  U2 84
 Net 15 "/cpld/FSMC_NWE" "FSMC_NWE"
- U14 2
  U2 79
+ U14 10
 Net 16 "/cpld/EXTI13" "EXTI13"
  U2 62
- U14 7
+ U14 2
 Net 17 "/rf/RESET" "RESET"
  J3 5
- R13 1
- R13 2
+ U2 20
  U5 12
  R34 1
- U2 20
+ R13 2
+ R13 1
 Net 18 "/cpld/FSMC_A16" "FSMC_A16"
- U14 48
  U2 43
-Net 19 "/discovery/EXTI4" "EXTI4"
- U14 38
+ U14 47
+Net 19 "/cpld/EXTI4" "EXTI4"
+ U14 14
  U2 63
 Net 20 "/discovery/POW_nCHRG" "POW_nCHRG"
  U2 76
  U9 15
 Net 21 "/cpld/FSMC_NEx" "FSMC_NEx"
  U2 77
- U14 1
-Net 22 "/discovery/EXTI11" "EXTI11"
- U14 6
+ U14 11
+Net 22 "/cpld/EXTI11" "EXTI11"
+ U14 9
  U2 88
 Net 23 "/cpld/EXTI3" "EXTI3"
+ U14 15
  U2 66
- U14 39
-Net 24 "/discovery/EXTI15" "EXTI15"
+Net 24 "/cpld/EXTI15" "EXTI15"
  U2 90
- U14 32
+ U14 8
 Net 25 "/discovery/BKLT_EN" "BKLT_EN"
  R36 2
  U15 A3
-Net 26 "/power/USB_D+" "USB_D+"
- J6 3
+Net 26 "/discovery/USB_D+" "USB_D+"
  U1 8
+ J6 3
 Net 27 "/lcd/BKLT_SCL" "BKLT_SCL"
  U2 73
  U15 B3
-Net 28 "/power/POW_MODE" "POW_MODE"
- U14 13
+Net 28 "/cpld/POW_MODE" "POW_MODE"
+ U14 37
  R18 2
  U9 3
 Net 31 "/discovery/I2C3_SCL" "I2C3_SCL"
- J1 5
  U2 93
+ J1 5
  R7 1
-Net 32 "/discovery/AUDIO_IN_L" "AUDIO_IN_L"
- C41 1
- U11 8
+Net 32 "/audio_in/AUDIO_IN_L" "AUDIO_IN_L"
  U11 9
+ U11 8
+ C41 1
  U2 19
 Net 33 "/audio_in/AUDIO_IN_R" "AUDIO_IN_R"
+ U11 14
  U2 21
  U11 13
- U11 14
  C40 1
 Net 34 "/discovery/I2C3_SDA" "I2C3_SDA"
- U2 96
- J1 6
  R6 1
+ J1 6
+ U2 96
 Net 35 "/cpld/EXTI12" "EXTI12"
+ U14 44
  U2 36
- U14 33
 Net 36 "/discovery/SPI1_MOSI" "SPI1_MOSI"
+ U2 17
+ U14 34
  U3 28
  U5 21
- U14 10
- U2 17
 Net 37 "/lcd/SD_nCS" "SD_nCS"
- U2 35
  J4 36
+ U2 35
 Net 38 "/discovery/SPI2_CLK" "SPI2_CLK"
- U2 37
- J4 32
  J4 18
+ J4 32
+ U2 37
 Net 39 "/discovery/SPI1_MISO" "SPI1_MISO"
- U14 8
  U3 27
- U3 26
- U6 4
  U2 18
+ U14 32
+ U6 4
+ U3 26
 Net 40 "/discovery/SPI1_CLK" "SPI1_CLK"
- U14 11
- U5 19
+ U14 35
  U3 24
+ U5 19
  U2 15
 Net 41 "/rf/SPI_nCS" "SPI_nCS"
  U5 20
  U6 1
-Net 42 "/lcd/TOUCH_IRQ" "TOUCH_IRQ"
- U14 25
+Net 42 "/cpld/TOUCH_IRQ" "TOUCH_IRQ"
  J4 28
+ U14 39
 Net 43 "/cpld/RF_IRQ" "RF_IRQ"
+ U14 20
  U5 25
- U14 24
 Net 44 "/discovery/SPI2_MISO" "SPI2_MISO"
+ U2 38
  J4 26
  J4 30
- U2 38
 Net 45 "/discovery/SPI2_MOSI" "SPI2_MOSI"
- J4 34
  U2 39
+ J4 34
  J4 22
 Net 46 "/discovery/SPI_nCS_TOUCH" "SPI_nCS_TOUCH"
- J4 20
  U2 61
+ J4 20
 Net 47 "/lcd/LCD_nWR" "LCD_nWR"
- U14 4
+ U14 46
  J4 9
-Net 48 "/discovery/EXTI5" "EXTI5"
+Net 48 "/cpld/EXTI5" "EXTI5"
  U2 64
- U14 37
+ U14 13
 Net 49 "/lcd/LCD_nRS" "LCD_nRS"
- U14 5
+ U14 48
  J4 7
-Net 50 "/lcd/LCD_nRESET" "LCD_nRESET"
+Net 50 "/discovery/LCD_nRESET" "LCD_nRESET"
  U2 81
  J4 33
 Net 51 "/lcd/BKLT_SDA" "BKLT_SDA"
- U2 70
  U15 C3
+ U2 70
 Net 52 "/lcd/LCD_nRD" "LCD_nRD"
- U14 47
+ U14 45
  J4 11
-Net 53 "/discovery/EXTI7" "EXTI7"
- U14 35
+Net 53 "/cpld/EXTI7" "EXTI7"
+ U14 12
  U2 74
-Net 54 "/nxt/EN_POW_9V" "EN_POW_9V"
+Net 54 "/discovery/EN_POW_9V" "EN_POW_9V"
  R3 2
  Q1 G
+ R14 2
  U2 69
  U8 4
- R14 2
 Net 55 "/discovery/DEN_G" "DEN_G"
- U2 75
  U3 16
+ U2 75
 Net 56 "/discovery/USB_D-" "USB_D-"
- J6 2
  U1 9
+ J6 2
 Net 57 "/cpld/INT2_GYR/DRDY" "INT2_GYR/DRDY"
- U14 26
  U3 17
+ U14 18
 Net 58 "" ""
- C27 2
  U8 7
+ C27 2
  R15 2
 Net 59 "" ""
  R15 1
@@ -1123,35 +1123,35 @@ Net 63 "" ""
  JP1 2
  BT1 1
 Net 64 "Vbat" "Vbat"
- C23 2
- R35 2
- R1 2
- U13 3
- L4 1
- U9 7
  C34 1
- U9 2
- U10 6
- R38 2
- JP1 1
- L2 1
  U8 3
- C33 2
  C32 2
+ JP1 1
+ L4 1
+ R38 2
+ U10 6
+ U9 7
+ R1 2
+ R35 2
+ U13 3
+ L2 1
+ C33 2
+ U9 2
+ C23 2
 Net 65 "/power/REG_EN" "REG_EN"
- R35 1
  U13 1
+ R35 1
  U9 5
 Net 66 "" ""
- L3 2
  U9 6
+ L3 2
 Net 67 "Vbus" "Vbus"
+ C26 2
  U9 16
  J6 1
- C26 2
 Net 68 "" ""
- U9 14
  R22 2
+ U9 14
 Net 69 "/power/CPLD_PWR_EN" "CPLD_PWR_EN"
  R41 2
  U9 9
@@ -1165,344 +1165,344 @@ Net 72 "" ""
  C32 1
  R21 2
 Net 73 "GND" "GND"
- C35 1
- C4 1
- C3 1
- C10 1
- R41 1
- BT1 2
- R21 1
- C26 1
+ U4 22
+ U4 13
+ U4 2
+ U4 GND
+ U4 6
+ U4 21
  E1 GND
- E2 1
- C21 1
- C22 2
- R8 2
- R10 1
- C31 1
  U5 49
  C17 1
  C19 1
  C18 1
- C11 1
- C47 1
+ E2 1
+ C22 2
+ C4 1
+ C3 1
+ U8 6
+ U4 24
+ C21 1
  C20 1
- U8 2
  C14 1
  C12 1
+ C10 1
+ C11 1
  C13 1
- U9 1
- J4 1
- U11 11
- C45 1
- C44 1
- R36 1
- U10 2
- J5 1
- R3 1
- C42 1
- Q1 S
- R40 1
- C43 1
- U12 4
- C46 1
- R33 1
- U9 11
- U9 13
- U9 17
- J6 5
- C34 2
- R20 1
- R22 1
- U15 A1
- C2 2
- U4 GND
- R25 1
- U4 21
- U4 24
  U4 23
- U4 13
- U4 22
- U4 6
- U4 2
- J1 3
- J1 2
- R5 1
- C23 1
- U13 2
- U3 6
- U3 1
- U3 2
+ R8 2
+ R10 1
  U3 4
- U3 3
- U3 5
- R23 1
- S1 A'
- U6 3
- R34 2
- R17 1
+ U3 2
+ U3 1
+ U3 6
+ C2 2
+ U14 41
+ R43 2
+ R42 2
+ S4 A
+ S4 A'
+ J2 6
+ U14 31
+ U14 16
  S1 A
  S3 A
  S3 A'
- R2 1
  S2 A
  S2 A'
- C1 1
- U2 23
- U2 1
- U2 2
- R14 1
+ U3 3
+ S1 A'
  C24 1
+ U11 11
+ R14 1
  C28 1
  C27 1
- U2 50
- U2 5
- U2 51
- J2 6
- R18 1
- U8 6
- U1 5
- C33 1
- C30 1
- U2 49
+ C42 1
+ R23 1
+ J5 1
+ C43 1
+ U12 4
+ R33 1
+ Q1 S
+ R3 1
+ R5 1
+ J1 2
+ J1 3
+ U3 5
+ C25 1
+ R17 1
+ U15 A1
+ R36 1
+ C44 1
+ C45 1
+ J4 1
+ BT1 2
+ R21 1
+ R25 1
+ U6 3
+ U10 2
+ C34 2
+ U9 11
+ R41 1
+ U9 13
+ J6 5
+ U9 17
+ R22 1
+ R34 2
  C15 2
- C16 2
  U2 100
  U2 99
- C25 1
- U1 13
- U14 16
- S4 A'
- S4 A
- R42 2
+ C16 2
  J3 3
- R43 2
+ C23 1
+ C33 1
+ R18 1
+ C35 1
+ C26 1
+ C31 1
+ U2 49
+ U9 1
+ U2 50
+ C46 1
+ R2 1
+ C1 1
+ U2 23
+ U2 5
+ R40 1
+ U13 2
+ U2 2
+ U2 1
+ C30 1
+ R20 1
+ C47 1
+ U8 2
+ U2 51
+ U1 5
  U2 52
- U14 41
- U14 31
+ U1 13
 Net 74 "" ""
- R16 1
  U8 8
  R17 2
+ R16 1
 Net 75 "" ""
  R39 1
  C48 2
- R40 2
  U9 10
+ R40 2
 Net 76 "V1.8" "V1.8"
+ C46 2
  R39 2
  C47 2
  C48 1
  L6 2
- C46 2
 Net 77 "" ""
- R24 1
- R25 2
  U10 4
+ R25 2
+ R24 1
 Net 78 "/power/Vfb" "Vfb"
+ R19 1
  U9 4
  R20 2
- R19 1
  C29 2
 Net 79 "Vnxt4.3v" "Vnxt4.3v"
  J1 4
+ U10 5
  R24 2
  R6 2
- U10 5
- R7 2
  C35 2
+ R7 2
 Net 109 "" ""
  U1 4
  U2 14
 Net 118 "/discovery/STM32_ADC_CH12" "STM32_ADC_CH12"
- R1 1
  R2 2
  C1 2
  U2 10
+ R1 1
 Net 119 "" ""
- U2 13
  U1 1
+ U2 13
 Net 122 "/rf/PB6" "PB6"
  U4 8
  U5 42
 Net 123 "/rf/PC5" "PC5"
- U4 12
- U5 11
  T1 1
+ U5 11
+ U4 12
 Net 124 "" ""
+ U5 48
  X1 1
  C15 1
- U5 48
-Net 125 "/rf/SWCLK" "SWCLK"
- J3 2
- U5 32
-Net 126 "/rf/SWDIO" "SWDIO"
- J3 4
+Net 125 "/rf/SWDIO" "SWDIO"
  U5 35
-Net 127 "/rf/PB5" "PB5"
+ J3 4
+Net 126 "/rf/PB5" "PB5"
  U4 4
  U5 43
-Net 128 "" ""
+Net 127 "" ""
  U5 22
  U6 2
+Net 128 "/rf/SWCLK" "SWCLK"
+ U5 32
+ J3 2
 Net 129 "" ""
  R12 2
  U5 39
 Net 130 "" ""
  E2 2
  U4 1
-Net 132 "" ""
+Net 131 "" ""
  U4 18
  U5 4
-Net 133 "" ""
- U5 7
+Net 132 "" ""
  U4 15
-Net 134 "" ""
- R10 2
- U5 9
-Net 138 "/rf/PB7" "PB7"
+ U5 7
+Net 137 "/rf/PB7" "PB7"
  U5 41
  U4 9
-Net 145 "/rf/1V8" "1V8"
- U5 1
- U5 8
- U5 5
- U5 2
- U5 46
- R12 1
- C10 2
- R11 2
- U4 20
- U5 45
- C13 2
- C12 2
- U5 15
- C11 2
-Net 149 "/rf/SWO" "SWO"
- U5 33
+Net 147 "/rf/SWO" "SWO"
  J3 6
-Net 151 "" ""
- U5 16
+ U5 33
+Net 149 "" ""
  C17 2
-Net 152 "/rf/1V2" "1V2"
+ U5 16
+Net 150 "/rf/1V2" "1V2"
  U5 44
- U5 17
  C19 2
  C18 2
-Net 153 "" ""
+ U5 17
+Net 151 "/rf/1V8" "1V8"
+ U5 15
+ C11 2
+ U5 5
+ C12 2
+ C13 2
+ U5 1
+ R12 1
+ U5 45
+ U5 8
+ U5 2
+ R11 2
+ C10 2
+ U4 20
+ U5 46
+Net 152 "" ""
  U4 14
  R9 2
+Net 153 "" ""
+ U5 9
+ R10 2
 Net 154 "" ""
  C14 2
  R11 1
 Net 155 "" ""
- R9 1
- C8 1
- R8 1
- C7 1
- C6 1
- U4 11
- C9 1
-Net 156 "" ""
  L1 2
  C4 2
  C5 1
-Net 157 "" ""
+Net 156 "" ""
  L1 1
- E1 1
  C3 2
-Net 159 "" ""
+ E1 1
+Net 158 "" ""
  U5 6
  U4 16
 Net 160 "" ""
- U4 19
- U5 3
-Net 162 "" ""
- C5 2
  U4 3
-Net 163 "" ""
+ C5 2
+Net 161 "" ""
  C16 1
  X1 2
  U5 47
+Net 162 "" ""
+ U4 19
+ U5 3
+Net 163 "" ""
+ U4 11
+ R9 1
+ C9 1
+ C8 1
+ C7 1
+ R8 1
+ C6 1
 Net 164 "/audio_in/VGND" "VGND"
- R27 1
- C38 1
  C39 1
  U12 5
- U12 2
+ C38 1
  R26 1
+ R27 1
+ U12 2
 Net 165 "" ""
  U11 3
  R26 2
 Net 166 "" ""
- R27 2
  U11 5
+ R27 2
 Net 167 "" ""
- C36 1
- R27 3
-Net 168 "" ""
- R31 1
- C41 2
- R28 2
-Net 169 "" ""
- R26 3
- C37 1
-Net 170 "" ""
  C37 2
  J5 3
+Net 168 "" ""
+ C36 1
+ R27 3
+Net 169 "" ""
+ R28 2
+ R31 1
+ C41 2
+Net 170 "" ""
+ C37 1
+ R26 3
 Net 171 "" ""
- R30 2
  C38 2
  U11 12
+ R30 2
 Net 172 "" ""
- R29 1
+ R28 1
+ U11 6
+ U11 7
+Net 173 "" ""
  U11 2
  U11 1
-Net 173 "" ""
- U11 7
- U11 6
- R28 1
+ R29 1
 Net 174 "" ""
  C36 2
  J5 2
 Net 175 "" ""
  R29 2
- C40 2
  R30 1
+ C40 2
 Net 176 "" ""
- U11 10
- C39 2
- R31 2
-Net 177 "" ""
- C43 2
  U12 1
  R32 1
  R33 2
+ C43 2
+Net 177 "" ""
+ C39 2
+ R31 2
+ U11 10
 Net 178 "" ""
+ C45 2
+ U15 C1
+Net 179 "" ""
  L5 2
  U15 B1
-Net 179 "" ""
- U15 C1
- C45 2
-Net 186 "/lcd/BACKLIGHT" "BACKLIGHT"
- U15 D1
+Net 184 "/lcd/BACKLIGHT" "BACKLIGHT"
  J4 37
-Net 190 "" ""
- R38 1
+ U15 D1
+Net 189 "" ""
  L5 1
  R37 1
- C44 2
+ R38 1
  U15 A2
+ C44 2
 Net 193 "Vnxt9v" "Vnxt9v"
- R4 2
- R16 2
  U8 10
  J1 1
+ R16 2
  C28 2
+ R4 2
 Net 194 "/nxt/STM32_ADC" "STM32_ADC"
+ R4 1
  Q1 D
  R5 2
- R4 1
  D1 1
 Net 195 "" ""
  U3 15
@@ -1511,123 +1511,123 @@ Net 196 "" ""
  D2 2
  R42 1
 Net 197 "/cpld/LED1" "LED1"
+ U14 27
  D2 1
- U14 45
-Net 198 "/cpld/JTCK" "JTCK"
+Net 198 "/cpld/S3" "S3"
+ U14 1
+ S3 B
+Net 199 "/cpld/S1" "S1"
+ U14 26
+ S1 B
+Net 200 "/cpld/JTCK" "JTCK"
  J2 2
  U14 23
-Net 199 "/cpld/JTDO" "JTDO"
- U14 40
+Net 201 "/cpld/S4" "S4"
+ U14 25
+ S4 B
+Net 202 "/cpld/S2" "S2"
+ S2 B
+ U14 5
+Net 203 "/cpld/JTDO" "JTDO"
  J2 3
-Net 200 "Vreg" "Vreg"
+ U14 40
+Net 204 "Vreg" "Vreg"
+ C7 2
+ C22 1
+ U3 13
  C8 2
  C9 2
- C29 1
- J3 1
- U14 3
- U14 19
- U14 29
- U14 42
+ U3 12
+ L3 1
+ U3 21
+ U6 5
  U2 55
- J2 5
- U2 56
- U1 3
- U1 12
+ U14 3
  U2 72
- U5 28
- U5 37
- C31 2
  U5 23
- C20 2
+ U5 37
+ U5 28
+ U2 56
+ J2 5
+ U14 42
+ C29 1
+ C31 2
+ C30 2
  C21 2
  C6 2
- C22 1
- U6 5
- U2 3
- U2 4
- C7 2
- C30 2
- J4 3
+ C20 2
+ U14 29
+ U14 19
+ U1 12
+ U1 3
+ J3 1
  D1 2
- C42 2
- U12 3
- R32 2
  U11 4
- R37 2
- U3 21
- R19 2
- L3 1
- U3 12
- U3 13
- U3 14
+ R32 2
+ U12 3
+ C42 2
+ J4 3
  U4 10
- U3 25
+ R19 2
  U4 7
+ R37 2
+ U2 4
  U3 11
- U3 10
+ U3 25
+ U3 14
  U3 9
- U3 8
+ U2 3
+ U3 10
  U3 7
-Net 201 "/cpld/S1" "S1"
- S1 B
- U14 17
-Net 202 "/cpld/S3" "S3"
- U14 20
- S3 B
-Net 203 "/cpld/JTMS" "JTMS"
+ U3 8
+Net 205 "/cpld/JTMS" "JTMS"
  U14 22
  J2 1
-Net 207 "/cpld/JTDI" "JTDI"
+Net 209 "/cpld/JTDI" "JTDI"
  U14 21
  J2 4
-Net 208 "/cpld/S2" "S2"
- U14 18
- S2 B
-Net 209 "/cpld/S4" "S4"
- S4 B
- U14 12
 Net 210 "/cpld/LED2" "LED2"
+ U14 24
  D3 1
- U14 44
 Net 211 "" ""
  R43 1
  D3 2
 Net 213 "/discovery/LCD_D0" "LCD_D0"
- U2 46
  J4 2
+ U2 46
 Net 214 "/discovery/LCD_D4" "LCD_D4"
  J4 10
  U2 25
-Net 215 "/lcd/LCD_D12" "LCD_D12"
+Net 215 "/discovery/LCD_D12" "LCD_D12"
  J4 21
  U2 33
-Net 216 "/lcd/LCD_D14" "LCD_D14"
+Net 216 "/discovery/LCD_D14" "LCD_D14"
  U2 41
  J4 25
-Net 217 "/lcd/LCD_D6" "LCD_D6"
+Net 217 "/discovery/LCD_D6" "LCD_D6"
  J4 14
  U2 27
-Net 218 "/lcd/LCD_D10" "LCD_D10"
- J4 17
+Net 218 "/discovery/LCD_D10" "LCD_D10"
  U2 31
-Net 219 "/lcd/LCD_D2" "LCD_D2"
- U2 86
+ J4 17
+Net 219 "/discovery/LCD_D2" "LCD_D2"
  J4 6
+ U2 86
 Net 220 "/discovery/LCD_D15" "LCD_D15"
- J4 27
  U2 42
+ J4 27
 Net 221 "/discovery/LCD_D13" "LCD_D13"
- J4 23
  U2 40
+ J4 23
 Net 222 "/discovery/LCD_D11" "LCD_D11"
- U2 32
  J4 19
-Net 223 "/lcd/LCD_D7" "LCD_D7"
- J4 16
+ U2 32
+Net 223 "/discovery/LCD_D7" "LCD_D7"
  U2 28
+ J4 16
 Net 224 "/discovery/LCD_D9" "LCD_D9"
- U2 30
  J4 15
+ U2 30
 Net 225 "/discovery/LCD_D5" "LCD_D5"
  U2 26
  J4 12
@@ -1638,7 +1638,7 @@ Net 227 "/discovery/LCD_D1" "LCD_D1"
  J4 4
  U2 47
 Net 228 "/discovery/LCD_D8" "LCD_D8"
- J4 13
  U2 29
+ J4 13
 }
 #End
