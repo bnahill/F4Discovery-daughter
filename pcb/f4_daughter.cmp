@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/9/2013 5:20:41 PM
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Thu 17 Jan 2013 04:04:45 PM EST
 
 BeginCmp
 TimeStamp = /500B69F1/50EDD965;
@@ -87,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /500DC44C/500DD585;
 Reference = C12;
-ValeurCmp = 0.01u;
+ValeurCmp = 10n;
 IdModule  = SM0603;
 EndCmp
 
@@ -344,6 +344,34 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /500B6AFA/50F84990;
+Reference = C49;
+ValeurCmp = 47p;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B6AFA/50F84981;
+Reference = C50;
+ValeurCmp = 47p;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B6AFA/50F8492C;
+Reference = C51;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /500DC44C/50F8671D;
+Reference = C52;
+ValeurCmp = 10n;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /5073669E/50736735;
 Reference = D1;
 ValeurCmp = RB520S30CT-ND;
@@ -376,6 +404,13 @@ TimeStamp = /500DC44C/50EDDFAE;
 Reference = E2;
 ValeurCmp = COAX;
 IdModule  = Molex_73391-0070;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B6AFA/50F84AB6;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -778,6 +813,20 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /500B6AFA/50F8496A;
+Reference = R44;
+ValeurCmp = 27R;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /500B6AFA/50F84962;
+Reference = R45;
+ValeurCmp = 27R;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /50C8AECE/50D2228E;
 Reference = S1;
 ValeurCmp = EVQ-Q2S03W;
@@ -809,7 +858,7 @@ BeginCmp
 TimeStamp = /500DC44C/500EC307;
 Reference = T1;
 ValeurCmp = TP;
-IdModule  = TESTPOINT;
+IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
@@ -834,7 +883,7 @@ IdModule  = LSM330DLC_LGA-28;
 EndCmp
 
 BeginCmp
-TimeStamp = /500DC44C/500DCA0F;
+TimeStamp = /500DC44C/50EDED7A;
 Reference = U4;
 ValeurCmp = SE2432L;
 IdModule  = SE2432L;
