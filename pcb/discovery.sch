@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/8/2013 5:13:17 PM
+EESchema Schematic File Version 2  date 1/17/2013 10:39:32 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "8 jan 2013"
+Date "17 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,8 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 9150 2500 0    40   ~ 0
-POW_nCHRG
 Wire Wire Line
 	4200 6100 4050 6100
 Wire Notes Line
@@ -495,6 +493,12 @@ Wire Wire Line
 	6200 6150 5600 6150
 Wire Notes Line
 	1750 6200 3300 6200
+Text Label 5550 2300 0    40   ~ 0
+SPI_nCS_ACC
+Text Label 9150 2500 0    40   ~ 0
+SPI_nCS_RF
+Text Label 3150 1600 2    40   ~ 0
+STM32_ADC_CH1
 Text Label 4050 6100 2    60   ~ 0
 POW_nCHRG
 Text HLabel 4200 6100 2    60   Input ~ 0
@@ -504,7 +508,7 @@ STM32_ADC_CH9
 Text Label 3150 2100 2    40   ~ 0
 STM32_ADC_CH9
 Text Label 2550 6050 2    60   ~ 0
-STM32_ADC_CH15
+STM32_ADC_CH1
 Text Label 9050 3500 0    40   ~ 0
 I2C3_SDA
 Text Label 6950 3500 2    40   ~ 0
@@ -963,7 +967,7 @@ AUDIO_IN_L
 Text HLabel 2700 6150 2    60   Input ~ 0
 AUDIO_IN_R
 Text Label 3150 2000 2    40   ~ 0
-STM32_ADC_CH15
+POW_nCHRG
 Text HLabel 7900 6200 2    60   BiDi ~ 0
 LCD_D[0..15]
 Text HLabel 1050 6250 2    60   Input ~ 0
