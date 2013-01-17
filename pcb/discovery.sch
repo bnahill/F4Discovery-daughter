@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 1/17/2013 10:39:32 AM
+EESchema Schematic File Version 2  date Thu 17 Jan 2013 02:12:00 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 3 9
+Sheet 4 9
 Title ""
 Date "17 jan 2013"
 Rev ""
@@ -46,7 +46,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4200 6100 4050 6100
+	1400 950  1450 950 
+Wire Wire Line
+	1450 950  1450 1200
+Wire Wire Line
+	600  1350 600  1250
+Wire Wire Line
+	600  1250 700  1250
+Wire Wire Line
+	600  1650 600  1700
+Wire Wire Line
+	600  1700 1050 1700
+Wire Wire Line
+	600  2150 600  2450
+Wire Wire Line
+	600  2450 700  2450
+Connection ~ 1450 2450
+Wire Wire Line
+	950  2450 950  2250
+Wire Wire Line
+	5500 7350 5350 7350
 Wire Notes Line
 	3300 5900 1750 5900
 Wire Wire Line
@@ -100,7 +119,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 1700 3300 1700
 Wire Wire Line
-	1450 2400 1450 2450
+	1450 2450 1450 2400
 Wire Wire Line
 	6800 2900 7050 2900
 Wire Wire Line
@@ -148,8 +167,6 @@ Wire Wire Line
 	4650 900  4550 900 
 Wire Wire Line
 	4550 900  4550 950 
-Wire Wire Line
-	1550 950  1500 950 
 Wire Wire Line
 	2200 1450 2000 1450
 Wire Wire Line
@@ -277,33 +294,23 @@ Wire Wire Line
 Wire Wire Line
 	5650 3500 5400 3500
 Wire Wire Line
-	1050 1700 900  1700
-Wire Wire Line
-	900  1800 1050 1800
-Wire Wire Line
 	5400 1900 6100 1900
 Wire Wire Line
-	9100 1600 9100 950 
+	9100 950  9100 1600
 Wire Wire Line
 	9100 1600 8950 1600
 Connection ~ 8150 950 
 Wire Wire Line
 	7050 1600 6900 1600
 Wire Wire Line
-	6900 1600 6900 950 
+	6900 950  6900 1600
 Wire Wire Line
-	6900 950  9100 950 
+	9100 950  6900 950 
 Wire Wire Line
-	1450 1200 1450 1100
-Wire Wire Line
-	1450 1100 1550 1100
-Wire Wire Line
-	1550 1100 1550 1200
-Wire Wire Line
-	1550 2400 1550 2450
+	1550 2450 1550 2400
 Connection ~ 8000 4250
 Wire Wire Line
-	4500 1000 4500 950 
+	4500 950  4500 1000
 Connection ~ 8050 4250
 Wire Wire Line
 	8050 4250 8050 4200
@@ -314,7 +321,7 @@ Connection ~ 4400 4200
 Wire Wire Line
 	4400 4200 4400 4100
 Wire Wire Line
-	4600 4100 4600 4200
+	4600 4200 4600 4100
 Wire Wire Line
 	4600 4200 4100 4200
 Wire Wire Line
@@ -328,7 +335,7 @@ Wire Wire Line
 	4300 4200 4300 4100
 Connection ~ 4300 4200
 Wire Wire Line
-	7850 4200 7850 4250
+	7850 4250 7850 4200
 Wire Wire Line
 	7850 4250 8150 4250
 Wire Wire Line
@@ -337,17 +344,12 @@ Wire Wire Line
 	7950 4250 7950 4200
 Connection ~ 7950 4250
 Wire Wire Line
-	4600 1000 4600 950 
+	4600 950  4600 1000
 Wire Wire Line
-	4600 950  4500 950 
+	4500 950  4600 950 
 Wire Wire Line
 	4350 4200 4350 4250
 Connection ~ 4350 4200
-Wire Wire Line
-	1500 950  1500 1100
-Connection ~ 1500 1100
-Wire Wire Line
-	1550 2450 1450 2450
 Wire Wire Line
 	7050 3700 6800 3700
 Wire Wire Line
@@ -493,16 +495,104 @@ Wire Wire Line
 	6200 6150 5600 6150
 Wire Notes Line
 	1750 6200 3300 6200
+Wire Wire Line
+	950  2050 950  1900
+Wire Wire Line
+	950  1900 1050 1900
+Wire Wire Line
+	900  2450 1550 2450
+Connection ~ 950  2450
+Wire Wire Line
+	600  1850 600  1800
+Wire Wire Line
+	600  1800 1050 1800
+Wire Wire Line
+	900  1250 1000 1250
+Wire Wire Line
+	1000 1250 1000 1350
+Wire Wire Line
+	1550 1200 1550 950 
+Wire Wire Line
+	1550 950  1650 950 
+Wire Wire Line
+	650  800  650  950 
+Wire Wire Line
+	650  950  700  950 
+$Comp
+L FILTER FB1
+U 1 1 50F84AB6
+P 1050 950
+F 0 "FB1" H 1050 1100 60  0000 C CNN
+F 1 "FILTER" H 1050 850 60  0000 C CNN
+	1    1050 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 650  800  1    60   Input ~ 0
+Vbus
+$Comp
+L GND #PWR03
+U 1 1 50F849AD
+P 1000 1350
+F 0 "#PWR03" H 1000 1350 30  0001 C CNN
+F 1 "GND" H 1000 1280 30  0001 C CNN
+	1    1000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C49
+U 1 1 50F84990
+P 800 1250
+F 0 "C49" H 820 1220 50  0000 L TNN
+F 1 "47p" H 825 1270 30  0000 L BNN
+	1    800  1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAP C50
+U 1 1 50F84981
+P 800 2450
+F 0 "C50" H 820 2420 50  0000 L TNN
+F 1 "47p" H 825 2470 30  0000 L BNN
+	1    800  2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L RES R44
+U 1 1 50F8496A
+P 600 1500
+F 0 "R44" H 670 1465 50  0000 L TNN
+F 1 "27R" H 600 1555 30  0000 C BNN
+	1    600  1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES R45
+U 1 1 50F84962
+P 600 2000
+F 0 "R45" H 670 1965 50  0000 L TNN
+F 1 "27R" H 600 2055 30  0000 C BNN
+	1    600  2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAP C51
+U 1 1 50F8492C
+P 950 2150
+F 0 "C51" H 970 2120 50  0000 L TNN
+F 1 "100n" H 975 2170 30  0000 L BNN
+	1    950  2150
+	0    -1   -1   0   
+$EndComp
 Text Label 5550 2300 0    40   ~ 0
 SPI_nCS_ACC
 Text Label 9150 2500 0    40   ~ 0
 SPI_nCS_RF
 Text Label 3150 1600 2    40   ~ 0
 STM32_ADC_CH1
-Text Label 4050 6100 2    60   ~ 0
-POW_nCHRG
-Text HLabel 4200 6100 2    60   Input ~ 0
-POW_nCHRG
+Text Label 5350 7350 2    60   ~ 0
+CPLD_EN
+Text HLabel 5500 7350 2    60   Output ~ 0
+CPLD_EN
 Text Label 2550 6150 2    60   ~ 0
 STM32_ADC_CH9
 Text Label 3150 2100 2    40   ~ 0
@@ -649,10 +739,10 @@ RF_RESET
 Text HLabel 5550 2100 2    60   Input ~ 0
 SPI1_MISO
 $Comp
-L GND #PWR03
+L GND #PWR04
 U 1 1 50C11AB7
 P 1500 2500
-F 0 "#PWR03" H 1500 2500 30  0001 C CNN
+F 0 "#PWR04" H 1500 2500 30  0001 C CNN
 F 1 "GND" H 1500 2430 30  0001 C CNN
 	1    1500 2500
 	1    0    0    -1  
@@ -776,10 +866,10 @@ F 1 "0.1u" H 1875 3720 30  0000 L BNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR05
 U 1 1 5075B2D5
 P 1850 3950
-F 0 "#PWR04" H 1850 3950 30  0001 C CNN
+F 0 "#PWR05" H 1850 3950 30  0001 C CNN
 F 1 "GND" H 1850 3880 30  0001 C CNN
 	1    1850 3950
 	1    0    0    -1  
@@ -798,13 +888,13 @@ Text Label 6800 3600 2    40   ~ 0
 EXTI8
 Text Label 5550 2400 0    40   ~ 0
 EXTI2
-Text Label 900  1800 2    40   ~ 0
+Text Label 600  2450 3    40   ~ 0
 USB_D+
-Text Label 900  1700 2    40   ~ 0
+Text Label 600  1250 1    40   ~ 0
 USB_D-
 Text GLabel 4650 900  2    60   Input ~ 0
 Vreg
-Text GLabel 1550 950  2    60   Input ~ 0
+Text GLabel 1650 950  2    60   Input ~ 0
 Vreg
 Text Label 4600 4850 0    60   ~ 0
 LCD_D[0..15]
@@ -850,19 +940,19 @@ F 1 "FT230X" H 1800 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR06
 U 1 1 500D75A4
 P 4350 4250
-F 0 "#PWR05" H 4350 4250 30  0001 C CNN
+F 0 "#PWR06" H 4350 4250 30  0001 C CNN
 F 1 "GND" H 4350 4180 30  0001 C CNN
 	1    4350 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR07
 U 1 1 500D7599
 P 8000 4300
-F 0 "#PWR06" H 8000 4300 30  0001 C CNN
+F 0 "#PWR07" H 8000 4300 30  0001 C CNN
 F 1 "GND" H 8000 4230 30  0001 C CNN
 	1    8000 4300
 	1    0    0    -1  
@@ -967,7 +1057,7 @@ AUDIO_IN_L
 Text HLabel 2700 6150 2    60   Input ~ 0
 AUDIO_IN_R
 Text Label 3150 2000 2    40   ~ 0
-POW_nCHRG
+CPLD_EN
 Text HLabel 7900 6200 2    60   BiDi ~ 0
 LCD_D[0..15]
 Text HLabel 1050 6250 2    60   Input ~ 0

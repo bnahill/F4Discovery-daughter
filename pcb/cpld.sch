@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 Jan 2013 06:45:33 PM EST
+EESchema Schematic File Version 2  date Thu 17 Jan 2013 02:12:00 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 4 9
+Sheet 5 9
 Title ""
-Date "16 jan 2013"
+Date "17 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 9350 5300 2    60   ~ 0
+POW_nCHRG
+Text HLabel 9650 5300 2    60   Input ~ 0
+POW_nCHRG
+Wire Wire Line
+	9650 5300 9350 5300
+Text Label 4400 3000 2    60   ~ 0
+POW_nCHRG
+Text HLabel 9600 4300 2    60   Output ~ 0
+BKLT_EN
+Text Label 9300 4300 2    60   ~ 0
+BKLT_EN
+Wire Wire Line
+	9600 4300 9300 4300
+Text Label 4400 3100 2    60   ~ 0
+BKLT_EN
 Wire Wire Line
 	6950 2450 6950 2500
 Wire Wire Line
@@ -86,8 +102,6 @@ Wire Wire Line
 	4400 2500 4550 2500
 Wire Wire Line
 	4550 3000 4400 3000
-Wire Wire Line
-	1900 5050 2150 5050
 Wire Wire Line
 	1900 4750 2150 4750
 Wire Wire Line
@@ -140,8 +154,6 @@ Wire Wire Line
 	9600 4600 9300 4600
 Wire Wire Line
 	6250 3700 6250 3850
-Wire Wire Line
-	9600 4300 9300 4300
 Wire Wire Line
 	9600 4100 9300 4100
 Wire Wire Line
@@ -305,10 +317,10 @@ Wire Wire Line
 Wire Wire Line
 	5750 1250 5700 1250
 $Comp
-L GND #PWR07
+L GND #PWR08
 U 1 1 50EAFAE0
 P 4750 7000
-F 0 "#PWR07" H 4750 7000 30  0001 C CNN
+F 0 "#PWR08" H 4750 7000 30  0001 C CNN
 F 1 "GND" H 4750 6930 30  0001 C CNN
 	1    4750 7000
 	1    0    0    -1  
@@ -323,10 +335,10 @@ F 1 "CONN_6" V 5250 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR09
 U 1 1 50E5F5D9
 P 7750 6250
-F 0 "#PWR08" H 7750 6250 30  0001 C CNN
+F 0 "#PWR09" H 7750 6250 30  0001 C CNN
 F 1 "GND" H 7750 6180 30  0001 C CNN
 	1    7750 6250
 	0    -1   1    0   
@@ -381,10 +393,10 @@ F 1 "EVQ-Q2S03W" H 7075 5525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND #PWR010
 U 1 1 50E5F4E2
 P 7400 5425
-F 0 "#PWR09" H 7400 5425 30  0001 C CNN
+F 0 "#PWR010" H 7400 5425 30  0001 C CNN
 F 1 "GND" H 7400 5355 30  0001 C CNN
 	1    7400 5425
 	0    -1   1    0   
@@ -434,28 +446,28 @@ S2
 Text Label 3950 5225 2    60   ~ 0
 S1
 $Comp
-L GND #PWR010
+L GND #PWR011
 U 1 1 50D22294
 P 5500 5425
-F 0 "#PWR010" H 5500 5425 30  0001 C CNN
+F 0 "#PWR011" H 5500 5425 30  0001 C CNN
 F 1 "GND" H 5500 5355 30  0001 C CNN
 	1    5500 5425
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR012
 U 1 1 50D22293
 P 6500 5425
-F 0 "#PWR011" H 6500 5425 30  0001 C CNN
+F 0 "#PWR012" H 6500 5425 30  0001 C CNN
 F 1 "GND" H 6500 5355 30  0001 C CNN
 	1    6500 5425
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR012
+L GND #PWR013
 U 1 1 50D22292
 P 4550 5425
-F 0 "#PWR012" H 4550 5425 30  0001 C CNN
+F 0 "#PWR013" H 4550 5425 30  0001 C CNN
 F 1 "GND" H 4550 5355 30  0001 C CNN
 	1    4550 5425
 	0    -1   1    0   
@@ -494,7 +506,7 @@ Daughter Board I/O
 Text Notes 4250 6150 0    60   ~ 0
 JTAG Header
 Text GLabel 5850 1250 1    60   Input ~ 0
-Vreg
+V1.8
 Text Label 4400 2300 2    60   ~ 0
 JTDO
 Text Label 6950 2300 0    60   ~ 0
@@ -518,10 +530,10 @@ JTDO
 Text GLabel 4550 6950 3    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR013
+L GND #PWR014
 U 1 1 50C8FC57
 P 6950 2800
-F 0 "#PWR013" H 6950 2800 30  0001 C CNN
+F 0 "#PWR014" H 6950 2800 30  0001 C CNN
 F 1 "GND" H 6950 2730 30  0001 C CNN
 	1    6950 2800
 	0    -1   -1   0   
@@ -558,44 +570,36 @@ Text Label 5150 3850 3    60   ~ 0
 EXTI13
 Text Label 6950 2700 0    60   ~ 0
 S3
-Text Label 2150 5050 0    60   ~ 0
-FSMC_A16
 Text Label 2150 4900 0    60   ~ 0
 FSMC_NWE
 Text Label 2150 4750 0    60   ~ 0
 FSMC_NEx
-Text HLabel 1900 5050 0    60   Input ~ 0
-FSMC_A16
 Text HLabel 1900 4900 0    60   Input ~ 0
 FSMC_NWE
 Text HLabel 1900 4750 0    60   Input ~ 0
 FSMC_NEx
 $Comp
-L GND #PWR014
+L GND #PWR015
 U 1 1 50C8F5AA
 P 5650 1350
-F 0 "#PWR014" H 5650 1350 30  0001 C CNN
+F 0 "#PWR015" H 5650 1350 30  0001 C CNN
 F 1 "GND" H 5650 1280 30  0001 C CNN
 	1    5650 1350
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR016
 U 1 1 50C8F5A0
 P 4400 2400
-F 0 "#PWR015" H 4400 2400 30  0001 C CNN
+F 0 "#PWR016" H 4400 2400 30  0001 C CNN
 F 1 "GND" H 4400 2330 30  0001 C CNN
 	1    4400 2400
 	0    1    1    0   
 $EndComp
 Text Label 4400 2700 2    60   ~ 0
 EXTI12
-Text Label 4400 3000 2    60   ~ 0
-FSMC_A16
 Text Label 4400 2900 2    60   ~ 0
 nWR
-Text Label 4400 3100 2    60   ~ 0
-RS
 Text Label 5550 3850 3    60   ~ 0
 EXTI6
 Text Label 5650 3850 3    60   ~ 0
@@ -668,8 +672,6 @@ Text HLabel 9600 4600 2    60   Input ~ 0
 SPI_MOSI
 Text HLabel 9600 4500 2    60   Input ~ 0
 SPI_SCK
-Text Label 9300 4300 2    60   ~ 0
-RS
 Text Label 9300 4200 2    60   ~ 0
 nWR
 Text Label 9300 4100 2    60   ~ 0
@@ -688,8 +690,6 @@ Text Label 9300 3300 2    60   ~ 0
 INT2_ACC
 Text Label 9300 3200 2    60   ~ 0
 INT1_ACC
-Text HLabel 9600 4300 2    60   Output ~ 0
-RS
 Text HLabel 9600 4200 2    60   Output ~ 0
 nWR
 Text HLabel 9600 4100 2    60   Output ~ 0
