@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Thu 17 Jan 2013 04:04:45 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/20/2013 1:48:33 PM
 
 BeginCmp
 TimeStamp = /500B69F1/50EDD965;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = ;
+IdModule  = Battery;
 EndCmp
 
 BeginCmp
