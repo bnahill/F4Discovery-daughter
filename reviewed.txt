@@ -1,0 +1,39 @@
+CPLD:
+EVQ-Q2S03W
+XC2C64A-XQFG48
+
+JTAG-Header:
+J2_Conn6
+
+Sensors:
+LSM330DLC:
+
+Power:
+LM4510
+LTC3559
+TLV61220
+
+Sensors:
+LSM330DLC
+
+RF:
+STM32W108C8
+RF SWD Header
+SN74LVC1G125
+SE2432L
+AH104F
+COAX
+
+NXT: 
+Transistor + SHottky network
+RJ12
+
+Audio:
+
+LCD:
+LM3561
+ITDB_TFT
+
+Discovery:
+FT230X
+STM32F4 pins
