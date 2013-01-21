@@ -1,9 +1,11 @@
 CPLD:
-EVQ-Q2S03W
-XC2C64A-XQFG48
+EVQ-Q2S03W: Reviewed
+XC2C64A-XQFG48: Reviewed
 
-JTAG-Header:
+CONN:
 J2_Conn6
+PJ-045 Barrel Connector
+SB receptacle
 
 Sensors:
 LSM330DLC:
@@ -12,9 +14,10 @@ Power:
 LM4510
 LTC3559
 TLV61220
+Battery
 
 Sensors:
-LSM330DLC
+LSM330DLC: Reviewed
 
 RF:
 STM32W108C8
