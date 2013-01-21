@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 21 Jan 2013 04:13:24 PM EST
+EESchema Schematic File Version 2  date Mon 21 Jan 2013 04:46:11 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR016
+U 1 1 50FDB46B
+P 5450 4950
+F 0 "#PWR016" H 5450 4950 30  0001 C CNN
+F 1 "GND" H 5450 4880 30  0001 C CNN
+	1    5450 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 4900
+Wire Wire Line
+	5450 4900 5450 4950
+Wire Wire Line
+	5550 4650 5550 4450
 Wire Wire Line
 	6600 4000 6200 4000
 Wire Wire Line
@@ -90,8 +104,6 @@ Connection ~ 5250 4500
 Wire Wire Line
 	5650 4500 5650 4450
 Connection ~ 5550 4500
-Wire Wire Line
-	5550 4500 5550 4450
 Connection ~ 5750 4500
 Wire Wire Line
 	5750 4450 5750 4500
@@ -105,8 +117,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 4500 5150 4450
 Connection ~ 5450 4500
-Wire Wire Line
-	5350 4500 5350 4450
 Connection ~ 5350 4500
 Wire Wire Line
 	4750 3700 4800 3700
@@ -143,6 +153,32 @@ Wire Wire Line
 	6600 3700 6200 3700
 Wire Wire Line
 	6600 3900 6200 3900
+Wire Wire Line
+	5350 4650 5350 4450
+Wire Wire Line
+	5550 4850 5550 4900
+Wire Wire Line
+	5550 4900 5350 4900
+Wire Wire Line
+	5350 4900 5350 4850
+$Comp
+L CAP C55
+U 1 1 50FDB43C
+P 5550 4750
+F 0 "C55" H 5570 4720 50  0000 L TNN
+F 1 "10u" H 5575 4770 30  0000 L BNN
+	1    5550 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP C54
+U 1 1 50FDB421
+P 5350 4750
+F 0 "C54" H 5370 4720 50  0000 L TNN
+F 1 "100n" H 5375 4770 30  0000 L BNN
+	1    5350 4750
+	0    1    1    0   
+$EndComp
 Text HLabel 6600 4000 2    60   Input ~ 0
 DEN_GYR
 Text HLabel 6600 3900 2    60   Output ~ 0
@@ -173,10 +209,10 @@ F 1 "LSM330DLC" H 5900 4375 60  0000 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR017
 U 1 1 50C11356
 P 4650 4150
-F 0 "#PWR016" H 4650 4150 30  0001 C CNN
+F 0 "#PWR017" H 4650 4150 30  0001 C CNN
 F 1 "GND" H 4650 4080 30  0001 C CNN
 	1    4650 4150
 	1    0    0    -1  
@@ -195,10 +231,10 @@ F 1 "0.01u(25V)" H 6375 4120 30  0000 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR018
 U 1 1 50C11354
 P 6550 4200
-F 0 "#PWR017" H 6550 4200 30  0001 C CNN
+F 0 "#PWR018" H 6550 4200 30  0001 C CNN
 F 1 "GND" H 6550 4130 30  0001 C CNN
 	1    6550 4200
 	1    0    0    -1  
