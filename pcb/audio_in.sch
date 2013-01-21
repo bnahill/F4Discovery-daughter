@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Jan 2013 04:04:21 PM EST
+EESchema Schematic File Version 2  date Mon 21 Jan 2013 12:51:07 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "17 jan 2013"
+Date "21 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,10 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3550 2300 0    60   ~ 0
-Sallen-Key Topology. 2nd order low-pass.
-Text Notes 1250 2200 0    60   ~ 0
-Unity Gain buffer to remove the output \nimpedence effect of the audio jack
+Wire Wire Line
+	9100 5350 9100 5250
 Wire Wire Line
 	4400 4300 4350 4300
 Connection ~ 7700 5350
@@ -210,6 +208,31 @@ Wire Wire Line
 	7000 5450 6700 5450
 Wire Wire Line
 	3900 4100 4400 4100
+Wire Wire Line
+	9100 5050 9100 5000
+Connection ~ 9100 5000
+$Comp
+L GND #PWR056
+U 1 1 50FD74D3
+P 9100 5350
+F 0 "#PWR056" H 9100 5350 30  0001 C CNN
+F 1 "GND" H 9100 5280 30  0001 C CNN
+	1    9100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C53
+U 1 1 50FD74C4
+P 9100 5150
+F 0 "C53" H 9120 5120 50  0000 L TNN
+F 1 "0.1u" H 9125 5170 30  0000 L BNN
+	1    9100 5150
+	0    -1   -1   0   
+$EndComp
+Text Notes 3550 2300 0    60   ~ 0
+Sallen-Key Topology. 2nd order low-pass.
+Text Notes 1250 2200 0    60   ~ 0
+Unity Gain buffer to remove the output \nimpedence effect of the audio jack
 $Comp
 L CAP C43
 U 1 1 504649FC
@@ -220,10 +243,10 @@ F 1 "0.1u" H 7975 5170 30  0000 L BNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR056
+L GND #PWR057
 U 1 1 504649EC
 P 8550 5250
-F 0 "#PWR056" H 8550 5250 30  0001 C CNN
+F 0 "#PWR057" H 8550 5250 30  0001 C CNN
 F 1 "GND" H 8550 5180 30  0001 C CNN
 	1    8550 5250
 	1    0    0    -1  
@@ -274,10 +297,10 @@ VGND
 Text Label 1900 3000 3    60   ~ 0
 VGND
 $Comp
-L GND #PWR057
+L GND #PWR058
 U 1 1 50118BD6
 P 1050 3000
-F 0 "#PWR057" H 1050 3000 30  0001 C CNN
+F 0 "#PWR058" H 1050 3000 30  0001 C CNN
 F 1 "GND" H 1050 2930 30  0001 C CNN
 	1    1050 3000
 	1    0    0    -1  
@@ -339,10 +362,10 @@ $EndComp
 Text GLabel 6700 5450 0    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR058
+L GND #PWR059
 U 1 1 5010D90D
 P 6750 6250
-F 0 "#PWR058" H 6750 6250 30  0001 C CNN
+F 0 "#PWR059" H 6750 6250 30  0001 C CNN
 F 1 "GND" H 6750 6180 30  0001 C CNN
 	1    6750 6250
 	1    0    0    -1  
@@ -431,10 +454,10 @@ $EndComp
 Text GLabel 7700 4400 1    60   Input ~ 0
 Vreg
 $Comp
-L GND #PWR059
+L GND #PWR060
 U 1 1 5010DA28
 P 7700 5400
-F 0 "#PWR059" H 7700 5400 30  0001 C CNN
+F 0 "#PWR060" H 7700 5400 30  0001 C CNN
 F 1 "GND" H 7700 5330 30  0001 C CNN
 	1    7700 5400
 	1    0    0    -1  
