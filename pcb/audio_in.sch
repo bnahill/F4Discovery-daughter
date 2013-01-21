@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 21 Jan 2013 12:51:07 PM EST
+EESchema Schematic File Version 2  date Mon 21 Jan 2013 04:13:24 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7450 4000 0    60   ~ 0
+VGND Node production so that it is at Vreg/2.\nThe rails go from GND to Vreg.
 Wire Wire Line
 	9100 5350 9100 5250
 Wire Wire Line
