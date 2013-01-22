@@ -8,11 +8,11 @@ PJ-045 Barrel Connector
 SB receptacle
 
 Sensors:
-LSM330DLC:
+LSM330DLC: Reviewed
 
 Power:
-LM4510
-LTC3559
+LM4510 : Reviewed
+LTC3559 : Reviewed
 TLV61220
 Battery
 
@@ -38,5 +38,5 @@ LM3561
 ITDB_TFT
 
 Discovery:
-FT230X
+FT230X : Reviewed
 STM32F4 pins
