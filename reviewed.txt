@@ -13,7 +13,7 @@ LSM330DLC: Reviewed
 Power:
 LM4510 : Reviewed
 LTC3559 : Reviewed
-TLV61220
+TLV61220 : Reviewed
 Battery
 
 Sensors:
