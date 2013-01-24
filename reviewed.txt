@@ -34,7 +34,7 @@ RJ12
 Audio:
 
 LCD:
-LM3561
+LM3561: Reviewed
 ITDB_TFT
 
 Discovery:
