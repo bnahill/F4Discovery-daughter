@@ -3,8 +3,8 @@ EVQ-Q2S03W: Reviewed
 XC2C64A-XQFG48: Reviewed
 
 CONN:
-J2_z6
-PJ-045 Barrel Connector
+J2_z6: Reviewed
+PJ-045 Barrel Connector: Reviews
 SB receptacle
 
 Sensors:
@@ -14,7 +14,7 @@ Power:
 LM4510 : Reviewed
 LTC3559 : Reviewed
 TLV61220 : Reviewed
-Battery 
+Battery : Reviewed
 
 Sensors:
 LSM330DLC: Reviewed
@@ -32,6 +32,7 @@ Transistor + Schottky network: *Need to confirm design for switching on/off the 
 RJ12: Reviewed
 
 Audio:
+SJ1-3512N: Reviewed
 
 LCD:
 LM3561: Reviewed
@@ -39,4 +40,3 @@ ITDB_TFT: Reviewed
 
 Discovery:
 FT230X : Reviewed
-STM32F4 pins
