@@ -29,7 +29,7 @@ COAX
 
 NXT: 
 Transistor + SHottky network
-RJ12
+RJ12: Reviewed
 
 Audio:
 
