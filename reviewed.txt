@@ -3,7 +3,7 @@ EVQ-Q2S03W: Reviewed
 XC2C64A-XQFG48: Reviewed
 
 CONN:
-J2_Conn6
+J2_z6
 PJ-045 Barrel Connector
 SB receptacle
 
@@ -14,7 +14,7 @@ Power:
 LM4510 : Reviewed
 LTC3559 : Reviewed
 TLV61220 : Reviewed
-Battery
+Battery 
 
 Sensors:
 LSM330DLC: Reviewed
@@ -28,14 +28,14 @@ AH104F
 COAX
 
 NXT: 
-Transistor + SHottky network
+Transistor + Schottky network: *Need to confirm design for switching on/off the 9v supply.*
 RJ12: Reviewed
 
 Audio:
 
 LCD:
 LM3561: Reviewed
-ITDB_TFT
+ITDB_TFT: Reviewed
 
 Discovery:
 FT230X : Reviewed
