@@ -1,4 +1,4 @@
-update=Mon 21 Jan 2013 02:07:27 PM EST
+update=Wed 30 Jan 2013 02:39:07 PM EST
 version=1
 last_client=pcbnew
 [eeschema]
@@ -102,3 +102,4 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=f4_daughter
 LibName12=OPENHARDWARE
+LibName13=motsai
