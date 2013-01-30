@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 25 Jan 2013 03:26:55 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 30 Jan 2013 02:31:42 PM EST
 
 BeginCmp
 TimeStamp = /500B69F1/50EDD965;
@@ -45,7 +45,7 @@ EndCmp
 BeginCmp
 TimeStamp = /500DC44C/500DD54D;
 Reference = C6;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
 IdModule  = SM0603;
 EndCmp
 
@@ -59,7 +59,7 @@ EndCmp
 BeginCmp
 TimeStamp = /500DC44C/500DD551;
 Reference = C8;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
 IdModule  = SM0603;
 EndCmp
 
@@ -80,7 +80,7 @@ EndCmp
 BeginCmp
 TimeStamp = /500DC44C/500DD7BB;
 Reference = C11;
-ValeurCmp = 1000p;
+ValeurCmp = 1n;
 IdModule  = SM0603;
 EndCmp
 
@@ -94,7 +94,7 @@ EndCmp
 BeginCmp
 TimeStamp = /500DC44C/500DD7BD;
 Reference = C13;
-ValeurCmp = 0.01u;
+ValeurCmp = 10n;
 IdModule  = SM0603;
 EndCmp
 
@@ -122,42 +122,42 @@ EndCmp
 BeginCmp
 TimeStamp = /500DC44C/500DD74C;
 Reference = C17;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD700;
 Reference = C18;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD703;
 Reference = C19;
-ValeurCmp = 0.01u;
+ValeurCmp = 10n;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD6E3;
 Reference = C20;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD879;
 Reference = C21;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /500DC44C/500DD930;
 Reference = C22;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
 IdModule  = SM0603;
 EndCmp
 
@@ -395,7 +395,14 @@ EndCmp
 BeginCmp
 TimeStamp = /500DC44C/50FD7FB0;
 Reference = C56;
-ValeurCmp = 0.1u;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /500DC44C/51096E29;
+Reference = C57;
+ValeurCmp = 470n;
 IdModule  = SM0603;
 EndCmp
 
@@ -530,6 +537,20 @@ TimeStamp = /500B69F1/50C0C836;
 Reference = L6;
 ValeurCmp = CVH252009-4R7MCT-ND;
 IdModule  = CVH252009;
+EndCmp
+
+BeginCmp
+TimeStamp = /500DC44C/51096B79;
+Reference = L7;
+ValeurCmp = 3n9;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /500DC44C/51096B88;
+Reference = L8;
+ValeurCmp = 4n7;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -851,6 +872,20 @@ BeginCmp
 TimeStamp = /500B6AFA/50F84962;
 Reference = R45;
 ValeurCmp = 27R;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /500DC44C/510974E5;
+Reference = R46;
+ValeurCmp = 470k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /500DC44C/510974E0;
+Reference = R47;
+ValeurCmp = 470k;
 IdModule  = SM0402;
 EndCmp
 
