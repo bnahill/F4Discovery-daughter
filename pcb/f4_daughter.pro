@@ -1,6 +1,6 @@
-update=Wed 30 Jan 2013 02:39:07 PM EST
+update=Mon 04 Feb 2013 03:44:42 PM EST
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -69,8 +69,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=0
@@ -103,3 +101,7 @@ LibName10=dip_sockets
 LibName11=f4_daughter
 LibName12=OPENHARDWARE
 LibName13=motsai
+LibName14=GPLLogo
+LibName15=GPLLOGORear
+[general]
+version=1
