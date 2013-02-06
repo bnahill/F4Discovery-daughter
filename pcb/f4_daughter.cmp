@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 30 Jan 2013 02:31:42 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 06 Feb 2013 06:17:55 PM EST
 
 BeginCmp
 TimeStamp = /500B69F1/50EDD965;
@@ -498,6 +498,20 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
+TimeStamp = /50188B6E/5112E126;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50188B6E/5112DBB1;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
 TimeStamp = /500DC44C/500DCA52;
 Reference = L1;
 ValeurCmp = 7n5;
@@ -556,6 +570,20 @@ EndCmp
 BeginCmp
 TimeStamp = /5073669E/50736738;
 Reference = Q1;
+ValeurCmp = 2N7002P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /50188B6E/5112DD36;
+Reference = Q2;
+ValeurCmp = NTE4151P;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50188B6E/5112DFD8;
+Reference = Q3;
 ValeurCmp = 2N7002P;
 IdModule  = SOT23GDS;
 EndCmp
@@ -886,6 +914,20 @@ BeginCmp
 TimeStamp = /500DC44C/510974E0;
 Reference = R47;
 ValeurCmp = 470k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /50188B6E/5112DF61;
+Reference = R48;
+ValeurCmp = 100;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /50188B6E/5112DD78;
+Reference = R49;
+ValeurCmp = 220k;
 IdModule  = SM0402;
 EndCmp
 
