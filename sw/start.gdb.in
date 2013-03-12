@@ -1,0 +1,22 @@
+define r
+	mon reset halt
+end
+
+define l
+	r
+	load
+	r
+	set language c
+end
+
+set remotetimeout 2
+file @OUTFILE@
+
+target remote :3333
+monitor reset init
+
+l
+r
+b main
+
+

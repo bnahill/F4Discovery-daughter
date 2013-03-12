@@ -52,7 +52,7 @@ set(F4_DAUGHTER_DIR ${CMAKE_CURRENT_SOURCE_DIR}/F4Discovery_daughter)
 # Path to CMSIS
 set(CMSIS_DIR CMSIS)
 set(DSP_SRC ${CMSIS_DIR}/DSP_Lib/Source)
-set(OS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/os)
+set(OS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ChibiOS)
 
 
 
@@ -190,10 +190,10 @@ set(OS_SOURCES
 
 set(APP_SOURCES
 	src/main.cpp
+	src/platform/board.c
+	src/platform/platform.cpp
 #	src/acquisition.cpp
 #	src/power_management.cpp
-#	src/platform/board.c
-#	src/platform/platform.cpp
 #	src/ui/ui.cpp
 #	src/ui/menu.cpp
 #	src/ui/mainmenu.cpp
@@ -204,20 +204,21 @@ set(APP_SOURCES
 )
 
 
-set(IMU_SOURCES
-#	${IMU_DIR}/ltc3559.cpp
-#	${IMU_DIR}/mma8452q.cpp
-#	${IMU_DIR}/mag3110.cpp
-#	${IMU_DIR}/i2c.cpp
-#	${IMU_DIR}/ssd1306.cpp
-#	${IMU_DIR}/imu.cpp
-#	${IMU_DIR}/cc1101.cpp
-#	${IMU_DIR}/guardian_spec.cpp
+set(F4_DAUGHTER_SOURCES
+	${F4_DAUGHTER_DIR}/f4_daughter.cpp
+	${F4_DAUGHTER_DIR}/ltc3559.cpp
+#	${F4_DAUGHTER_DIR}/mma8452q.cpp
+#	${F4_DAUGHTER_DIR}/mag3110.cpp
+#	${F4_DAUGHTER_DIR}/i2c.cpp
+#	${F4_DAUGHTER_DIR}/ssd1306.cpp
+#	${F4_DAUGHTER_DIR}/imu.cpp
+#	${F4_DAUGHTER_DIR}/cc1101.cpp
+#	${F4_DAUGHTER_DIR}/guardian_spec.cpp
 	
-#	${IMU_DIR}/graphics/smallfont.cpp
-#	${IMU_DIR}/graphics/mediumfont.cpp
-#	${IMU_DIR}/graphics/comicsans4.cpp
-#	${IMU_DIR}/graphics/courier3.cpp
+#	${F4_DAUGHTER_DIR}/graphics/smallfont.cpp
+#	${F4_DAUGHTER_DIR}/graphics/mediumfont.cpp
+#	${F4_DAUGHTER_DIR}/graphics/comicsans4.cpp
+#	${F4_DAUGHTER_DIR}/graphics/courier3.cpp
 )
 
 # Add required CMSIS-DSP sources as needed
@@ -231,7 +232,7 @@ set(DSP_SOURCES
 
 #add_library(chibios STATIC ${OS_SOURCES})
 add_library(dsp_lib STATIC ${DSP_SOURCES})
-add_library(f4daughter_lib STATIC ${IMU_SOURCES})
+add_library(f4daughter_lib STATIC ${F4_DAUGHTER_SOURCES})
 add_executable(${OUTFILE} ${APP_SOURCES} ${OS_SOURCES})
 target_link_libraries(${OUTFILE} f4daughter_lib dsp_lib gcc c)
 
