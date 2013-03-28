@@ -15,4 +15,10 @@ int main(void) {
 	Platform::early_init();
 	
 	chThdSleep(TIME_INFINITE);
+	
+	while(1)
+	{
+		chThdSleep(1);
+		
+	}
 }
