@@ -207,18 +207,7 @@ set(APP_SOURCES
 set(F4_DAUGHTER_SOURCES
 	${F4_DAUGHTER_DIR}/f4_daughter.cpp
 	${F4_DAUGHTER_DIR}/ltc3559.cpp
-#	${F4_DAUGHTER_DIR}/mma8452q.cpp
-#	${F4_DAUGHTER_DIR}/mag3110.cpp
 #	${F4_DAUGHTER_DIR}/i2c.cpp
-#	${F4_DAUGHTER_DIR}/ssd1306.cpp
-#	${F4_DAUGHTER_DIR}/imu.cpp
-#	${F4_DAUGHTER_DIR}/cc1101.cpp
-#	${F4_DAUGHTER_DIR}/guardian_spec.cpp
-	
-#	${F4_DAUGHTER_DIR}/graphics/smallfont.cpp
-#	${F4_DAUGHTER_DIR}/graphics/mediumfont.cpp
-#	${F4_DAUGHTER_DIR}/graphics/comicsans4.cpp
-#	${F4_DAUGHTER_DIR}/graphics/courier3.cpp
 )
 
 # Add required CMSIS-DSP sources as needed
@@ -246,14 +235,35 @@ set_target_properties(${OUTFILE} PROPERTIES COMPILE_FLAGS "-W ${OPTIMIZATION}")
 #set_target_properties(cmsis_dsp PROPERTIES COMPILE_FLAGS "-w -O2")
 
 ##############################################################
+# Configuration for OpenOCD
+##############################################################
+
+set(OPENOCD openocd)
+set(OPENOCD_SCRIPTS board/stm32f4discovery.cfg)
+
+set(OPENOCD_ARGS "")
+foreach(s ${OPENOCD_SCRIPTS})
+	set(OPENOCD_ARGS "${OPENOCD_ARGS} -f ${s}")
+endforeach(s)
+
+add_custom_target(openocd COMMAND ${OPENOCD} ${OPENOCD_ARGS} -c "stm32f4x.cpu configure -rtos auto"
+	COMMENT "Launching OpenOCD..."
+)
+
+add_custom_target(openocd_no_os COMMAND ${OPENOCD} ${OPENOCD_ARGS}
+	COMMENT "Launching OpenOCD..."
+)
+
+configure_file(${CMAKE_SOURCE_DIR}/start.gdb.in ${CMAKE_CURRENT_BINARY_DIR}/start.gdb)
+set(GDB_ARGS -x start.gdb)
+
+##############################################################
 # Configuration for GDB
 ##############################################################
 
 set(GDB    ${TC_PREFIX}gdb)
 set(GDBTUI ${TC_PREFIX}gdbtui)
 
-configure_file(${CMAKE_SOURCE_DIR}/start.gdb.in ${CMAKE_CURRENT_BINARY_DIR}/start.gdb)
-set(GDB_ARGS -x start.gdb)
 if(${DETECTED_HOST} STREQUAL "Windows")
 endif(${DETECTED_HOST} STREQUAL "Windows")
 
@@ -271,6 +281,13 @@ add_dependencies(gdb gdb_script)
 add_dependencies(gdbtui gdb_script)
 add_dependencies(ddd gdb_script)
 
+add_custom_command(
+	OUTPUT ${TARGET}_size DEPENDS ${OUTFILE}
+	COMMAND arm-none-eabi-size --format=berkeley ${OUTFILE}
+)
+add_custom_target(
+	${TARGET}_outputs ALL DEPENDS ${TARGET}_size #${name}.map ${name}.bin ${name}.ihx ${name}.dump ${name}.rom
+)
 
 ##############################################################
 # Assembly output
@@ -280,25 +297,6 @@ add_custom_command(OUTPUT ${TARGET}.lst COMMAND ${CMAKE_OBJDUMP} -S --disassembl
 add_custom_target(assembly_output ALL DEPENDS ${TARGET}.lst)
 
 
-##############################################################
-# Configuration for OpenOCD
-##############################################################
-
-set(OPENOCD openocd)
-set(OPENOCD_SCRIPTS
-	board/stm32f4discovery.cfg
-)
-foreach(s ${OPENOCD_SCRIPTS})
-	set(OPENOCD_ARGS ${OPENOCD_ARGS} -f ${s})
-endforeach(s)
-
-add_custom_target(openocd COMMAND ${OPENOCD} ${OPENOCD_ARGS} -c "stm32f4x.cpu configure -rtos auto"
-	COMMENT "Launching OpenOCD..."
-)
-
-add_custom_target(openocd_no_os COMMAND ${OPENOCD} ${OPENOCD_ARGS}
-	COMMENT "Launching OpenOCD..."
-)
 
 #############################################################
 # HEX file generation
