@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/6/2013 10:17:30 PM
+EESchema Schematic File Version 2  date 7/22/2013 10:56:01 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "7 feb 2013"
+Date "23 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 9550 1550 800  1050
+U 51CCE444
+F0 "cc3000" 60
+F1 "cc3000.sch" 60
+F2 "CC3000_EN" I L 9550 1850 60 
+F3 "SPI_IRQ" O L 9550 1650 60 
+F4 "SPI_CLK" I L 9550 1950 60 
+F5 "SPI_DIN" I L 9550 2050 60 
+F6 "SPI_DOUT" O L 9550 2150 60 
+F7 "SPI_nCS" I L 9550 1750 60 
+$EndSheet
 Wire Wire Line
 	8200 6500 8600 6500
 Wire Wire Line
@@ -488,21 +500,9 @@ SPI2_MOSI
 Text Notes 8350 800  0    60   ~ 0
 SPI2: SD Card, touch screen and CPLD
 Text Notes 8350 700  0    60   ~ 0
-SPI1: LSM330 and STM32W
+SPI1: LSM330, CC3000 and STM32W
 Text Label 2700 800  0    60   ~ 0
 SPI2_SCLK
-$Sheet
-S 9550 1500 600  800 
-U 500DC44C
-F0 "rf" 60
-F1 "rf.sch" 60
-F2 "RESET" I L 9550 1850 60 
-F3 "SPI_IRQ" O L 9550 1650 60 
-F4 "SPI_MOSI" I L 9550 2050 60 
-F5 "SPI_MISO" O L 9550 2150 60 
-F6 "SPI_CLK" I L 9550 1950 60 
-F7 "SPI_nCS" I L 9550 1750 60 
-$EndSheet
 $Sheet
 S 1350 650  900  1950
 U 50188B6E

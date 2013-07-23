@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/6/2013 10:17:30 PM
+EESchema Schematic File Version 2  date 7/22/2013 10:56:01 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "7 feb 2013"
+Date "23 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -279,10 +279,10 @@ F 1 "JUMPER3" H 4050 5600 40  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR054
+L GND #PWR47
 U 1 1 511312A0
 P 4500 7150
-F 0 "#PWR054" H 4500 7150 30  0001 C CNN
+F 0 "#PWR47" H 4500 7150 30  0001 C CNN
 F 1 "GND" H 4500 7080 30  0001 C CNN
 	1    4500 7150
 	1    0    0    -1  
@@ -294,10 +294,10 @@ BACKLIGHT_Trans
 Text HLabel 5800 6850 2    60   Input ~ 0
 BKLT_EN
 $Comp
-L GND #PWR055
+L GND #PWR48
 U 1 1 5112E008
 P 5300 7150
-F 0 "#PWR055" H 5300 7150 30  0001 C CNN
+F 0 "#PWR48" H 5300 7150 30  0001 C CNN
 F 1 "GND" H 5300 7080 30  0001 C CNN
 	1    5300 7150
 	1    0    0    -1  
@@ -402,10 +402,10 @@ $EndComp
 Text GLabel 7400 5150 0    40   Input ~ 0
 Vreg
 $Comp
-L GND #PWR056
+L GND #PWR49
 U 1 1 50DD2720
 P 9100 6300
-F 0 "#PWR056" H 9100 6300 30  0001 C CNN
+F 0 "#PWR49" H 9100 6300 30  0001 C CNN
 F 1 "GND" H 9100 6230 30  0001 C CNN
 	1    9100 6300
 	1    0    0    -1  
@@ -507,10 +507,10 @@ Entry Wire Line
 Entry Wire Line
 	4950 2900 5050 3000
 $Comp
-L GND #PWR057
+L GND #PWR46
 U 1 1 50188B84
 P 3850 3500
-F 0 "#PWR057" H 3850 3500 30  0001 C CNN
+F 0 "#PWR46" H 3850 3500 30  0001 C CNN
 F 1 "GND" H 3850 3430 30  0001 C CNN
 	1    3850 3500
 	1    0    0    -1  
