@@ -1,0 +1,16 @@
+The F4Discovery-Daughter board files were sent to the fab this week and we should receive the PCBs momentarily. This 8-month (to date) project is finally going to enter the hardware debugging stage once we have the first batch of PCBs. Hopefully it will not take too long to get all the features up and running.
+
+The peripherals are as follows:
+- F4-Discovery pin headers
+- 3.2" touch screen
+- SD card reader
+- Accelerometer/Gyroscope
+- Radio-Frequency Communication module
+- NXT port
+- FTDI chip for USB-to-UART
+- CPLD
+- Audio input jack
+- Battery power management
+- 4 push-buttons
+
+The repo can be accessed here: https://github.com/bnahill/F4Discovery-daughter
