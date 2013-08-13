@@ -1,0 +1,21 @@
+define r
+	mon reset halt
+end
+
+define l
+	r
+	load
+	r
+	set language c
+end
+
+set remotetimeout 2
+file @OUTFILE@
+
+shell killall openocd
+target remote | openocd -c "gdb_port pipe; log_output openocd.log" @OPENOCD_ARGS@
+monitor reset init
+
+l
+r
+b main
