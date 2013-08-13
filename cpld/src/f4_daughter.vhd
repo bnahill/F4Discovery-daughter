@@ -51,6 +51,7 @@ port(
 	POW_MODE	: out std_logic;
 	POW_HPWR	: out std_logic;
 	POW_NXT		: out std_logic;
+	POW_nCHRG	: out std_logic;
 	
 	-- Touch Screen 
 	FSMC_NEx	: in std_logic;
@@ -65,30 +66,41 @@ port(
 end entity;
 
 architecture RTL of f4_daughter is
-
+signal nWR_s : std_logic;
 begin
 
-	LED1 <= S1 and S2;
-	LED2 <= S3 and S4;
+	LED1 <= S1 and S3;
+	LED2 <= S2 and S4;
 	
 	-- Accelerometer interrupt
-	EXTI11 <= INT1_ACC;
-	EXTI15 <= INT1_GYRO;
-	EXTI13 <= INT2_ACC;
-	EXTI12 <= INT2_GYRO;
+	--EXTI11 <= INT1_ACC;
+	--EXTI15 <= INT1_GYRO;
+	--EXTI13 <= INT2_ACC;
+	--EXTI12 <= INT2_GYRO;
+	--EXTI6 <= INT1_GYRO;
 	
 	-- Individual interrupts
-	EXTI3 <= RF_IRQ;
-	EXTI2 <= TOUCH_IRQ;
+	--EXTI3 <= RF_IRQ;
+	--EXTI2 <= TOUCH_IRQ;
 	
 	-- Button Interrupts
-	EXTI5 <= S1;
-	EXTI6 <= S2;
-	EXTI7 <= S3;
-	EXTI8 <= S4;
+	--EXTI5 <= S1;
+	--EXTI6 <= S2;
+	--EXTI7 <= S3;
+	--EXTI8 <= S4;
 	
-	nRD <= not FSMC_NWE;
-	nWR <= FSMC_NWE; 
-	nCS <= FSMC_NEx;
+	-- Screen logic
+	BKLT_EN <= '1';
+	--nWR <= (not FSMC_NEx) nand (not FSMC_NWE);
+	nWR_s <= (not FSMC_NEx) nand (not FSMC_NWE);
+	nWR <= nWR_s;
+	nRD <= '1';
+	--nRD <= (not FSMC_NEx) nand FSMC_NWE;
+	--nCS <= FSMC_NWE;
+	nCS <= nWR_s;
+
+	
+	POW_NXT <= '1';
+	--POW_nCHRG <= '1';
 	
 end RTL;
