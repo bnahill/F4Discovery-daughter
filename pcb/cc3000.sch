@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 7/22/2013 10:56:01 PM
+EESchema Schematic File Version 2  date 10/27/2013 8:54:36 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -324,7 +324,7 @@ F 1 "0R" H 7700 3355 30  0000 C BNN
 	1    0    0    -1  
 $EndComp
 Text Label 5800 4650 3    60   ~ 0
-
+SPI_DIN
 Text Label 6000 4650 3    60   ~ 0
 SPI_CLK
 Text Label 2350 3000 0    60   ~ 0
